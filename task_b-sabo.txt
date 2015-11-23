@@ -1,0 +1,11 @@
+DELETE	533		0	False	False
+DELETE	852		0	False	False
+DELETE	590		0	False	False
+ADD	773	0\$tSabin Americana, 1500-1926 (online collection). Ebooks	100	
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-$nPerpetual access	100
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	(?<start>^=510  )\\(?<finish>\\.*\$c)	${start}4${finish}	2
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		Sabin Americana, 1500-1926	101|0

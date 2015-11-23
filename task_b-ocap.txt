@@ -1,0 +1,4 @@
+DELETE	008		0	False	False
+ADD	530	\\$aAlso available via the World Wide Web.	100	
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0

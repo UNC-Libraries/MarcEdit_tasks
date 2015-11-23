@@ -1,0 +1,25 @@
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	949	\1$g1$lebnb$t11$rn$h0$nPerpetual access	100	
+ADD	773	0\$tColloquium digital library of life sciences (online collection). Collection !!NUMBER!!	100	
+DELETE	506		0	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	830	Colloquium digital library of life sciences.	0	False	False	False
+DELETE	500	Series from website	0	False	False
+DELETE	500	Part of:	0	False	False
+DELETE	510		0	False	False
+DELETE	530		0	False	False
+DELETE	533		0	False	False
+DELETE	538		0	False	False
+DELETE	583		0	False	False
+DELETE	653		0	False	False
+DELETE	690		0	False	False
+REPLACE	^(?<a>=300.*) : (?<b>.*)\) :\$bdigital file\.	${a}) :$$b${b}.	2
+REPLACE	^(?<a>=300.*\)) :\$bdigital file\.	${a}	2
+REPLACE	^(?<a>=300.*), digital file\.	${a}.	2
+REPLACE	^(?<a>=300.*)\.\.$	${a}.	2
+REPLACE	^=856  ..	=856  40	2
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_REMOVE	856	3	[^$]*(?![vV]ol)	|2
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	=337  \\$aelectronic$2isbdmedia	=337  \\$acomputer$bc$2rdamedia	0

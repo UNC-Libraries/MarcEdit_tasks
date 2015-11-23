@@ -1,0 +1,130 @@
+﻿'********************************************************************************************
+' Template Script Header Information:
+' MarcEdit Specific Functions -- Accessed via objEditor.
+'   meEditor.Text (gets current text from the Editor Screen)
+'   meEditor.Loaded_File (get current loaded filename)
+'   LoadFile(string sfilename, bool showstatus, bool setFilename);
+'   SaveFile(string sfilename, bool showstatus, bool setFileName);
+'   string GetTempFile();
+'   DeleteFile(string sfilename);
+'   System.IO.StreamReader ReadFile(string sfilename);
+'   System.IO.StreamReader ReadFile(string sfilename, string encoding);
+'   System.IO.StreamWriter WriteFile(string sfilename);
+'   System.IO.StreamWriter WriteFile(string sfilename, string encoding);
+'   void WriteLine(System.IO.StreamWriter writer, string s);
+'   string ReadLine(System.IO.StreamReader reader);
+'   void CloseFile(System.IO.StreamWriter writer);
+'   void CloseFile(System.IO.StreamReader reader);
+'**********************************************************************************************
+'=======================================================
+' These are the base imports.  Mostly IO imports.
+'=======================================================
+Imports System.IO
+Imports System.IO.File
+Imports System.IO.Path
+Imports System.Convert
+Imports System.Text
+Imports System.DateTime
+Imports Microsoft.VisualBasic
+
+
+Public Class Script
+
+        Implements Interfaces.IScript
+	CONST CONST_UTF8  as string = "utf8"
+	CONST CONST_ANSI as string = "ansi"
+	
+        '****************************************************************************************
+        ' Global Variables -- To help make this easier for folks, I've added global 
+        ' variables for the StreamReader and StreamWriter classes.
+        '****************************************************************************************
+        Dim objEditor As Interfaces.IHost
+        Dim reader as StreamReader
+        Dim writer as StreamWriter
+	
+        Public Sub Initialize(objEditor As Interfaces.IHost) Implements Interfaces.IScript.Initialize
+        Me.objEditor = objEditor
+    End Sub
+
+    '**************************************************************************************
+    ' Main Sub -- do not remove or macro will not function 
+    '**************************************************************************************    
+    Public Sub main() Implements Interfaces.IScript.main
+      Dim spath as string
+      Dim tmppath as string
+      Dim str_Data as string
+      Dim sline as string
+      Dim tmp as string
+      Dim tmp_lines() as string
+      Dim tmp_date as string
+      Dim tmp_008 as string
+      Dim x as integer
+      spath = objEditor.Loaded_File
+      tmppath = objEditor.GetTempFile()
+      
+      reader = objEditor.ReadFile(spath, CONST_UTF8)
+      writer = objEditor.WriteFile(tmppath, CONST_UTF8)
+      do 
+	sline = objEditor.ReadLine(reader)
+        if len(trim$(sline))=0 then
+           if tmp_date<>"" and tmp_008<>"" then
+		Mid(tmp_008,14,4) = tmp_date
+		str_Data = Replace(str_Data, "{my008}", tmp_008)
+	   else
+		str_Data = Replace(str_Data, "{my008}", tmp_008)
+	   end if
+	   
+           objEditor.WriteLine(writer, str_Data)
+           str_Data = ""
+	   tmp_008 = ""
+	   tmp_date = ""
+        else
+
+	  if left(sline, 4)="=008" then
+	     tmp_008 = sline
+             sline = "{my008}"
+          end if
+
+  	  if left(sline, 4)="=260" then
+		tmp_lines=Split(sline, "$")
+		for x=0 to Ubound(tmp_lines)
+		    if left(tmp_lines(x),1)="c" then
+			tmp_date = Mid(tmp_lines(x), 2)
+			exit for
+		    end if
+		next
+	   end if
+
+	   if len(trim$(sline))<>0 then
+	      str_Data = str_Data + sline + vbcrlf
+           end if
+
+	   
+        end if
+      loop until EOF(reader)=true
+
+      objEditor.CloseFile(reader)
+      objEditor.CloseFile(writer)
+      objEditor.LoadFile(tmppath, false, false)
+      msgbox ("finished")
+    End Sub	
+
+    '========================================================
+    ' Helper Functions
+    ' These have been provided primarily to help folks that are more familiar with 
+    ' traditional Visual Basic syntax -- since this is a bit different.
+    '========================================================
+
+
+    '========================================================
+    ' Emulates a traditional End Of File function using the Stream Reader
+    '========================================================
+    Public Function EOF(preader as StreamReader)  as Boolean
+        if (preader.Peek() > -1) then
+           EOF = false
+        else 
+           EOF = true
+        End if
+    End Function
+
+End Class

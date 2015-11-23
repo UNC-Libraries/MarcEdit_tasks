@@ -1,0 +1,4 @@
+#
+DELETE	008		0	False	False
+REPLACE	=856  41$u	=856  41$3Internet Archive, UNC Chapel Hill copy$u	0
+EDITFIELD	001	.00	0		

@@ -1,0 +1,2 @@
+SUBFIELD_REMOVE	020	c		|0
+REPLACE	^(?<a>=020.*) *:.*$	${a}	2

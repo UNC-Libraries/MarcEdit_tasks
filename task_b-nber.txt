@@ -1,0 +1,16 @@
+#
+REPLACE	=856  \\$uurn	=956  \\$uurn	0
+REPLACE	^=856(  .*dx\.doi\.org)	=956$1	2
+ADD	300	\\$a1 online resource.	100
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	949	\1$g1$lebnb$t11$rn$h0$u	100	
+ADD	773	0\$tNational Bureau of Economic Research (NBER) working papers (online collection)	100	
+DELETE	530	Hardcopy	0	False	False
+DELETE	538	(System requirements|World Wide Web)	2	False	False
+REPLACE	^=001  	=001  NBER	2
+SUBFIELD_EDIT	008	23		o	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		NBER electronic working paper	101|0
+REPLACE	^=856  ..	=856  40	2
+REPLACE	 &bull; 	 -- 	0

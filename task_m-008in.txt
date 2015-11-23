@@ -1,0 +1,2 @@
+#Update 008/31 based on 500 and 504 notes
+REPLACE	(?<b>=008  ...............................)[^1]	${b}1	2	=50[04].*[Ii]ncludes.*index	2

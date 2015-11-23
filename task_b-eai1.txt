@@ -1,0 +1,10 @@
+SUBFIELD_EDIT	008	23		o	0|0
+ADD	006	m\\\\|\\\d\|\\\\\\	100
+ADD	588	\\$aDescription based on microform record.	100
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: Readex.	100
+ADD	949	\1$g1$lebnb$h0$rn$q2$t11$u- $nPerpetual access	100
+DELETE	530		0	False	False
+DELETE	533		0	False	False
+REPLACE	=830  \0$aEarly American imprints.$nSecond series ;$v	=773  0\$tEarly American imprints, series 2: Shaw-Shoemaker (online collection) ;$o	0
+REPLACE	=856  41$u	=856  40$yFull text available via the UNC-Chapel Hill Libraries$uhttp://libproxy.lib.unc.edu/login?url=	0

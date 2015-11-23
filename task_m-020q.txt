@@ -1,0 +1,5 @@
+#
+REPLACE	^(?<a>=020.*) \( *(?<b>.*) *\) *	${a}$$q${b}	2
+REPLACE	^(=020.*) \$q	$1$$q	2
+EDITFIELD	020	\$q\(	2	$$q	
+EDITFIELD	020	(?<a>\$q.*)\)	2	${a}	

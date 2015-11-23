@@ -1,0 +1,15 @@
+REPLACE	=001  	=001  JPRS	0
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	=260  \\$a[Arlington Va.] :$c	=260  \\$a[Arlington Va.] :$bJoint Publications Research Service,$c	0
+ADD	590	\\$aVendor-supplied catalog record.	100	
+DELETE	533		0	False	False	False
+DELETE	540		0	False	False	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	773	0\$tJoint Publications Research Service reports (online collection)	100	
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		Joint Publications Research Service Reports	101|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+ADD	949	\1$g1$lebnb$t11$rn$h0$u-	100	
+ADD	949	\\$a*b3=x	100	
+ADD	915	\\$9NOTAUTHO	100	

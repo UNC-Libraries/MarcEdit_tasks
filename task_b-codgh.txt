@@ -1,0 +1,24 @@
+#
+REPLACE	^(=650  \\4\$aAction *)$	$1.\n=655  \7$$aAction and adventure films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aAdventure *)$	$1.\n=655  \7$$aAction and adventure films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aAnimated *)$	$1.\n=655  \7$$aAnimated films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aBiography *)$	$1.\n=655  \7$$aBiographical films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aChildren *)$	$1.\n=655  \7$$aChildren's films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aComedy *)$	$1.\n=655  \7$$aComedy films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aCrime *)$	$1.\n=655  \7$$aCrime films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aBlack Comedy *)$	$1.\n=655  \7$$aDark comedy films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aMystery *)$	$1.\n=655  \7$$aDetective and mystery films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aDocumentary *)$	$1.\n=655  \7$$aDocumentary films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aFantasy *)$	$1.\n=655  \7$$aFantasy films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aDrama *)$	$1.\n=655  \7$$aFiction films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aHistory *)$	$1.\n=655  \7$$aHistorical films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aHorror *)$	$1.\n=655  \7$$aHorror films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aMusical *)$	$1.\n=655  \7$$aMusical films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aRomance *)$	$1.\n=655  \7$$aRomance films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aScience Fiction *)$	$1.\n=655  \7$$aScience fiction films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aSports *)$	$1.\n=655  \7$$aSports films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aCult *)$	$1.\n=655  \7$$aSubculture films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aSuspense *)$	$1.\n=655  \7$$aThrillers (Motion pictures).$$2lcgft	2
+REPLACE	^(=650  \\4\$aThriller *)$	$1.\n=655  \7$$aThrillers (Motion pictures).$$2lcgft	2
+REPLACE	^(=650  \\4\$aWar *)$	$1.\n=655  \7$$aWar films.$$2lcgft	2
+REPLACE	^(=650  \\4\$aWestern *)$	$1.\n=655  \7$$aWestern films.$$2lcgft	2

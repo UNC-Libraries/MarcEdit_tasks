@@ -1,0 +1,4 @@
+REPLACE	^(?<a>=300.*) : (?<b>.*)\) :\$bdigital file\.	${a}) :$$b${b}.	2
+REPLACE	^(?<a>=300.*\)) :\$bdigital file\.	${a}	2
+REPLACE	^(?<a>=300.*), digital file\.	${a}.	2
+REPLACE	^(?<a>=300.*)\.\.$	${a}.	2

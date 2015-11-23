@@ -1,0 +1,8 @@
+#
+REPLACE	^=505  (?<a>.)0\$.	=505  ${a}\$$a	2
+EDITFIELD	505	 /$r	0	 / 	
+EDITFIELD	505	 --$t	0	 -- 	
+EDITFIELD	505	$g	0	 	
+EDITFIELD	505	$r	1	 	
+EDITFIELD	505	$t	1	 	
+EDITFIELD	505	  	0	 	

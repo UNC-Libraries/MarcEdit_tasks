@@ -1,0 +1,27 @@
+#
+SUBFIELD_EDIT	008	23		o	0|0
+ADD	506	1\$aAccess restricted to UNC-CH authorized users. 	100
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	773	0\$tOxford reference online premium (online collection)	100
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	530		0	False	False
+DELETE	533		0	False	False
+DELETE	538		0	False	False
+DELETE	583		0	False	False
+DELETE	730	$aOxford reference online premium.	0	False	False
+DELETE	830	$aOxford quick reference	0	False	False
+DELETE	490	$aOxford quick reference	0	False	False
+REPLACE	=500  \\$aTitle from	=588  \\$aTitle from	0
+REPLACE	=710  2\$aOxford University Press	=590  \\$aProvider: Oxford University Press	0
+INDICATOR	856			40
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_REMOVE	856	x		|0
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_REMOVE	856	3	Oxford reference	|0
+SUBFIELD_EDIT	856	x		Oxford reference online premium	101|0
+REPLACE	^=035  \\\\\$a\(OCoLC\)oc[mn]	=035  \\$$a(OCoLC)	2
+REPLACE	^=001  (?<a>\d)	=001  OXO${a}	2
+TASK_LIST	m-020dc Delete cost data	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020dc.txt

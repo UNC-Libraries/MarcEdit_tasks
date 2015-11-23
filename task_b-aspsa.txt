@@ -1,0 +1,41 @@
+#
+DELETE	035	OCoLC	0	False	True	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	533		0	False	False
+DELETE	945		0	False	False
+DELETE	710	Alexander Street Press	0	False	False
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: Alexander Street Press.	100
+SUBFIELD_EDIT	008	23		o	0|0
+SUBFIELD_EDIT	008	32		\	0|0
+SUBFIELD_EDIT	008	34		\	0|0
+REPLACE	^=500(?<a>  \\\\\$a.*from original container.*$)	=588${a}	2
+REPLACE	=490  0\$aAmerican song	=773  0\$tAmerican song (online collection)	0
+REPLACE	=490  0\$aAmerican song online	=773  0\$tAmerican song online (online collection)	0
+REPLACE	=490  0\$aClassical music library	=773  0\$tClassical music library (online collection)	0
+REPLACE	=490  0\$aContemporary world music	=773  0\$tContemporary world music (online collection)	0
+REPLACE	=490  0\$aJazz music library	=773  0\$tJazz music library (online collection)	0
+REPLACE	=490  0\$aSmithsonian global sound for libraries	=773  0\$tSmithsonian global sound for libraries (online collection)	0
+REPLACE	=830  \0$aAmerican song.	=773  0\$tAmerican song (online collection)	0
+REPLACE	=830  \0$aAmerican song online.	=773  0\$tAmerican song online (online collection)	0
+REPLACE	=830  \0$aClassical music library.	=773  0\$tClassical music library (online collection)	0
+REPLACE	=830  \0$aContemporary world music.	=773  0\$tContemporary world music (online collection)	0
+REPLACE	=830  \0$aJazz music library.	=773  0\$tJazz music library (online collection)	0
+REPLACE	=830  \0$aSmithsonian global sound for libraries.	=773  0\$tSmithsonian global sound for libraries (online collection)	0
+SUBFIELD_REMOVE	856	z		|0
+REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?AMSO.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xAmerican Song	2
+REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?CLMU.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xClassical music library	2
+REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?WOMU.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xContemporary world music	2
+REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?JAZZ.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xJazz music library	2
+REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?GLMU.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xSmithsonian global sound for libraries	2
+SUBFIELD_EDIT	856	y		Streaming audio available via the UNC-Chapel Hill Libraries	101|0
+REPLACE	=505  00$t	=505  0\$a	0
+REPLACE	=505  00$g	=505  0\$a	0
+REPLACE	(\$g| )?--\$t	 -- 	2
+REPLACE	 --$g	 -- 	0
+REPLACE	(?<a>[^ ])\$g\(	${a} (	2
+REPLACE	^(?<a>=505.*)\$t	${a} 	2
+ADD	949	\1$g1$lestr$h0$rn$q0$t50$u- $nPerpetual access	100
+INDICATOR	740	.1		.2
+REPLACE	=300  \\$aStreaming audio	=300  \\$a1 online resource	0

@@ -1,0 +1,4 @@
+#
+DELETE	856	\$uhttp://(?!(dx\.doi\.org|.*springerlink\.com))	2	False	False
+REPLACE	^=001  (on|oc[nm])	=001  	2
+SUBFIELD_EDIT	001		^e	spr	0|0

@@ -1,0 +1,20 @@
+#
+ADD	006	m\\\\\o\\d\\\\\\\\	101	
+ADD	007	cr\|n\|||||||a	101	
+SUBFIELD_EDIT	008	23		o	0|0
+DELETE	035	(Sirsi)	0	False	False	False
+DELETE	037		0	False	False
+DELETE	530		0	False	False
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tRAND electronic books (online collection)	100	
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
+SUBFIELD_EDIT	245	[a,p,n,^c,b]	=:/.	$h[electronic resource] 	101|0
+REPLACE	 $h[electronic resource]	$h[electronic resource]	0
+SUBFIELD_REMOVE	856	y	Online Access	107|0
+SUBFIELD_REMOVE	856	z		107|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	x		RAND electronic book	101|0
+REPLACE	=856  41	=856  40	0
+INDICATOR	050			\4
+EDITFIELD	001	^(rnd(cb|)|RAND)	2	RAND	
+EDITFIELD	001	^([0-9])	2	RAND$1	

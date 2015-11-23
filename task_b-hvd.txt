@@ -1,0 +1,22 @@
+#
+TASK_LIST	a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt
+TASK_LIST	a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt
+REPLACE	^=003  De\\Gruyter	=003  DE-B1597	2
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	^(?<a>=245  ..\$a.*):\$a	${a}:$$b	2
+DELETE	250	^=250  ..\$a *[\d]{4}\.? *$	2	False	False
+TASK_LIST	m-020p7 Get print ISBN from 776	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020p7.txt
+REPLACE	^=776  0\\\$c[Pp]rint	=776  18$$iPrint version:	2
+INDICATOR	856	4\		40
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
+SUBFIELD_EDIT	856	x		Harvard University Press	102|0
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	\\$aProvider: DeGruyter.	100	
+ADD	949	\1$g1$lebnb$t11$rn$h0$u-	100	
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+REPLACE	^=024  \\\\\$a(?<a>10.*)	=024  7\$$a${a}$$2doi	2
+EDITFIELD	520	$a[Description]	0	$a	
+DELETE	538		0	False	False	False
+REPLACE	1 online resource(	1 online resource (	0

@@ -1,0 +1,5 @@
+REPLACE	=001  ocn	=001  	0
+SUBFIELD_EDIT	856	y		Available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		EHRAF world cultures	101|0
+ADD	949	\1$g1$lerri$t11$rn$h0$u	100	

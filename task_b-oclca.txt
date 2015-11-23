@@ -1,0 +1,2 @@
+#If record has a low Elvl, add fields to keep it from being sent to authority vendor
+REPLACE	^(=949.*$)	$1\n=915  \\$9NOTAUTHO\n=949  \\$a*b3=x	2	^=LDR  .................[234578KLMJ]	2

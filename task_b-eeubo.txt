@@ -1,0 +1,14 @@
+REPLACE	^(?<a>=001  )(ocn|ocm|on)(?<b>\d.*)\\$	${a}EEuBO${b}	2
+ADD	949	\1$g1$lebnb$t11$rn$h0$u-	100	
+ADD	773	0\$tEarly European books online (online collection)	100	
+DELETE	994		0	False	False
+INDICATOR	856	4\		40
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+DELETE	830	Early European books	0	False	False
+DELETE	533		0	False	False
+DELETE	037		0	False	False
+DELETE	007	^=007  h	2	False	False
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	\\$aProvider: Proquest.	100	
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0

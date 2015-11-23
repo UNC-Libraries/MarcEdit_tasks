@@ -1,0 +1,3 @@
+REPLACE	^(?<st>=6.*\$)x(?<end>(Music(al settings|)|Sound [Rr]ecordings|Excerpts|Readings|Poetry|Songs and music|Instrumental settings).*)	${st}v${end}	2
+DELETE	650	..\$a([Cc]ompact disc|[Ss]ound recording)	2	False	False
+REPLACE	^(?<a>=6.*?)\$[^a][Cc]ompact disc.*$	${a}.	2

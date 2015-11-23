@@ -1,0 +1,25 @@
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_REMOVE	856	3	SpringerLink	|1
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+DELETE	256		0	False	False
+DELETE	072		0	False	False
+DELETE	516		0	False	False
+DELETE	533		0	False	False
+DELETE	550	Books24x7	0	False	False
+DELETE	538		0	False	False
+DELETE	583		0	False	False
+DELETE	710	Books24x7	0	False	False
+DELETE	773	Springer eBooks	0	False	False
+ADD	773	0\$tSpringer e-books (online collection)	100	
+REPLACE	=710  2\$aSpringerLink (Online service)	=590  \\$aProvider: SpringerLink (Online service)	0
+DELETE	938		0	False	False
+DELETE	994		0	False	False
+SUBFIELD_EDIT	008	23		o	0|0
+DELETE	949		0	False	False
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-$nPerpetual access 	100	
+DELETE	538		0	False	False
+DELETE	856		0	True	False
+DELETE	037		0	False	False
+DELETE	029		0	False	False
+DELETE	653		0	False	False

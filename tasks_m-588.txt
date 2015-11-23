@@ -1,0 +1,2 @@
+#Updates 588 coding to use Indicator 1 to specify Description based on note.
+REPLACE	^=588  \\\\\$aDescription based on (.)	=588  0\$$aucase($1)	2		1

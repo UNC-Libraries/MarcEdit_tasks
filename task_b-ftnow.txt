@@ -1,0 +1,14 @@
+SUBFIELD_EDIT	001		^b	ftnow	0|0
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	=506  \\$aRestricted to subscribers or individual document purchasers.	=506  \\$aFull text access for authenticated users only.	0
+DELETE	510		0	False	False
+DELETE	530		0	False	False
+DELETE	538		0	False	False
+SUBFIELD_REMOVE	856	3		|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		Foundations and Trends in Business and Economics	101|0
+ADD	773	0\$tFoundations and trends in business and economics (online collection). 	100	
+ADD	590	\\$aVendor-supplied catalog record. 	100	
+REPLACE	=856  42	=856  40	0
+ADD	949	\1$g1$lebnb$t11$rn$h0$u 	100	

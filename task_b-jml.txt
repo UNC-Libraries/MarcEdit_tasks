@@ -1,0 +1,14 @@
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	773	0\$tJazz music library.$d[Alexandria, VA] : Alexander Street Press	100
+ADD	949	\1$aINTERNET: Streaming Audio: Jazz Music Library$z099 9$g1$lestr$h0$rn$q2$t50$u-$nPerpetual access	100
+DELETE	533		0	False	False
+DELETE	830	Jazz music library	0	False	False
+DELETE	006		0	False	False
+ADD	006	m\\\\go\\h\\||||||	100
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	=300  \\$aStreaming audio	=300  \\$a1 online resource	0
+INDICATOR	740	.1		.2
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_EDIT	856	y		Streaming audio available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		Jazz music library	101|0

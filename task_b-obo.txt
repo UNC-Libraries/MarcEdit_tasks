@@ -1,0 +1,24 @@
+#
+SUBFIELD_EDIT	008	21		w	0|0
+SUBFIELD_EDIT	008	23		o	0|0
+SUBFIELD_EDIT	008	24		b	0|0
+SUBFIELD_EDIT	008	25		b	0|0
+SUBFIELD_EDIT	008	26		a	0|0
+DELETE	020	module	0	False	False	False
+DELETE	490		0	False	False
+REPLACE	500  \\$aTitle from	588  \\$aTitle from	0
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+REPLACE	^=856  ..	=856  40	2
+DELETE	856	dx.doi.org	0	False	True	False
+SUBFIELD_REMOVE	856	3	Oxford bibliographies	107|0
+SUBFIELD_REMOVE	956	3	Oxford bibliographies	107|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	956	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	956	y		Available via the UNC-Chapel Hill Libraries	101|0
+REPLACE	=830  \0$aOxford bibliographies online. 	=773  0\$tOxford bibliographies online (online collection). 	0
+REPLACE	=830  \0$aOxford bibliographies. 	=773  0\$tOxford bibliographies online (online collection). 	0
+REPLACE	(?<all>=773.*)\. ?$	${all}	2
+ADD	949	\1$g1$lerri$t11$rn$h0$u	100	
+ADD	590	\\$aVendor-supplied catalog record.	100	

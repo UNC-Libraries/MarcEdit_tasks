@@ -1,0 +1,10 @@
+REPLACE	655  \0$aDocumentary.	655  \0$aDocumentary films.	0
+REPLACE	655  \0$aEducational.	655  \0$aEducational films.	0
+REPLACE	655  \0$aNonfiction.	655  \0$aNonfiction films.	0
+REPLACE	655  \0$aInterview.	655  \0$aFilmed interviews.	0
+REPLACE	655  \0$aLectures.	655  \0$aFilmed lectures.	0
+REPLACE	655  \0$aPerformance.	655  \0$aFilmed performances.	0
+REPLACE	655  \0$aAnimation.	655  \0$aAnimated films.	0
+DELETE	655	Internet videos	0	False	False
+DELETE	655	Videorecording.$2local	0	False	False
+DELETE	655	Video recording.$2local	0	False	False

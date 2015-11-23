@@ -1,0 +1,19 @@
+DELETE	6xx	  ....(Electronic (books?|reference sources?)|e-?book|(Downloadable|)[Aa]udio ?books?|Drama\.)	2	False	False	False
+DELETE	655	.*\$2(gtt|swd)	2	False	False
+REPLACE	^(=6.*\$)x([Bb]ibliography)	$1v$2	2
+REPLACE	^(=6.*\$)x([Bb]iography)	$1v$2	2
+REPLACE	^(=6.*\$)x([Cc]ase studies)	$1v$2	2
+REPLACE	^(=6.*\$)x([Cc]atalogs)	$1v$2	2
+REPLACE	^(=6.*\$)x([Cc]orrespondence)	$1v$2	2
+REPLACE	^(=6.*\$)x([Ee]ncyclopedias)	$1v$2	2
+REPLACE	^(=6.*\$)x([Ff]iction)	$1v$2	2
+REPLACE	^(=6.*\$)x([Ff]olklore)	$1v$2	2
+REPLACE	^(=6.*\$)x([Ii]nterviews)	$1v$2	2
+REPLACE	^(=6.*\$)x([Jj]uvenile fiction)	$1v$2	2
+REPLACE	^(=6.*\$)x([Ll]iterary collections)	$1v$2	2
+REPLACE	^(=6.*\$)x([Pp]ersonal narratives[^$]*)	$1v$2	2
+REPLACE	^(=6.*\$)x([Pp]oetry)	$1v$2	2
+REPLACE	^(=6.*\$)x([Pp]ortraits)	$1v$2	2
+REPLACE	^(=6.*\$)x([Ss]ources)	$1v$2	2
+REPLACE	^(=6.*\$)x([Tt]ranslations into[^$]*)	$1v$2	2
+REPLACE	^(=6.*\$)x([Tt]reaties)	$1v$2	2

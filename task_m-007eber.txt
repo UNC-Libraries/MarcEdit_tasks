@@ -1,0 +1,11 @@
+REPLACE	^(?<a>=007  c)[^r]	${a}r	2
+REPLACE	^(?<a>=007  cr)[^\\]	${a}\	2
+REPLACE	^(?<a>=007  cr.)\\	${a}|	2
+REPLACE	^(?<a>=007  cr..)[^n]	${a}n	2
+REPLACE	^(?<a>=007  cr...)[^\\|au]	${a}|	2
+REPLACE	^(?<a>=007  cr....)(?!\d\d\d|mmm|nnn|\|\|\|)...	${a}|||	2
+REPLACE	^(?<a>=007  cr.......)[^amu|]	${a}|	2
+REPLACE	^(?<a>=007  cr........)[^anpu|]	${a}|	2
+REPLACE	^(?<a>=007  cr.........)[^abcdmnu|]	${a}|	2
+REPLACE	^(?<a>=007  cr..........)[^abdmu|]	${a}|	2
+REPLACE	^(?<a>=007  cr...........)[^anpru]	${a}a	2

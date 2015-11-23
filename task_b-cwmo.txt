@@ -1,0 +1,17 @@
+DELETE	533		0	False	False
+DELETE	500	(Brief record|Production level cataloging)\.	2	False	False
+DELETE	830	Contemporary world music	0	False	False
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	773	0\$tContemporary world music (online collection). $d[Alexandria, VA] : Alexander Street Press	100
+ADD	949	\1$aINTERNET: Streaming Audio: Contemporary World Music$z099 9$g1$lestr$h0$rn$q2$t50$u-$nPerpetual access	100
+REPLACE	=006  m||||||||h||||||||	=006  m\\\\go\\h\\\\\\\\	0
+REPLACE	=007  cr||na---||a|a	=007  cr\\nna---||a|a	0
+REPLACE	=007  sz|z|nnnnnzne|	=007  sz\z|nnnnnzne|	0
+SUBFIELD_EDIT	008	23		o	0|0
+REPLACE	=500  \\$aTitle from	=588  \\$aTitle from	0
+REPLACE	^(?<a>=740  .)1	${a}2	2
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_EDIT	856	y		Streaming audio available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	x		Contemporary world music	101|0
+ADD	590	\\$aProvider: Alexander Street Press	100

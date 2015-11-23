@@ -1,0 +1,5 @@
+#
+REPLACE	^=001	=SSS	2
+REPLACE	^=[0-9]{3}  	=999  	2
+DELETE	999		0	False	False	False
+REPLACE	^=SSS	=001	2

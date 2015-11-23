@@ -1,0 +1,15 @@
+REPLACE	^(=[17].*\$e)([A-Z])	$1lcase($2)	2
+REPLACE	^(=[17].*\$e)binders(\W|$)	$1binder	2
+REPLACE	^(=[17].*\$e)booksellers?(\W|$)	$1seller	2
+REPLACE	^(=[17].*\$e)comp(\W|$)	$1compiler	2
+REPLACE	^(=[17].*\$e)ed(\W|$)	$1editor	2
+REPLACE	^(=[17].*\$e)engravers(\W|$)	$1engraver	2
+REPLACE	^(=[17].*\$e)ill(\W|$)	$1illustrator	2
+REPLACE	^(=[17].*\$e)lithographers(\W|$)	$1lithographer	2
+REPLACE	^(=[17].*\$e)painter(\W|$)	$1illustrator	2
+REPLACE	^(=[17].*\$e)printers(\W|$)	$1printer	2
+REPLACE	^(=[17].*\$e)supposed author(\W|$)	$1dubious author	2
+REPLACE	^(=[17].*\$e)tr(\W|$)	$1translator	2
+REPLACE	^(=[17].*\$e)wood-engraver(\W|$)	$1wood engraver	2
+REPLACE	^(=[17].*[^\-,])(\$e)	$1,$2	2
+REPLACE	^(=[17].*\$e.*[^.])$	$1.	2

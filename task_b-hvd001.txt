@@ -1,0 +1,4 @@
+DELETE	024		0	False	False
+COPY	001	024	false	
+REPLACE	^=024  (?<a>10.*)	=024  7\$$a${a}$$2doi	2
+REPLACE	^=001  10\.4159\/harvard\.	=001  HVD	2

@@ -1,0 +1,8 @@
+#
+REPLACE	^=907	=ZZZ	2
+REPLACE	^=9\d\d	=999	2
+DELETE	999		0	False	False	False
+REPLACE	^=ZZZ	=907	2
+DELETE	907	$b	0	False	False	False
+DELETE	856		0	False	False	False
+DELETE	530		0	False	False	False

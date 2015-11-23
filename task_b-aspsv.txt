@@ -1,0 +1,42 @@
+#
+DELETE	035	OCoLC	0	False	True	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	533		0	False	False
+DELETE	710	Alexander Street Press	0	False	False
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: Alexander Street Press.	100
+ADD	919	\\$afilmfinder	100
+ADD	949	\1$g1$lestr$h0$rn$q0$t76$u- $nPerpetual access	100	
+SUBFIELD_EDIT	008	29		o	0|0
+REPLACE	=300  \\$a1 online resource	=300  \\$a1 streaming video	0
+REPLACE	(?<start>=300.*)video file(?<end>[^s].*)	${start}video${end}	2
+REPLACE	(?<start>=300.*)video files(?<end>.*)	${start}videos${end}	2
+REPLACE	=490  0\\\$aCounseling and therapy in video[^,]	=773  0\$$tCounseling and therapy in video (online collection). v. 1	2
+REPLACE	=830  \0$aCounseling and therapy in video.	=773  0\$tCounseling and therapy in video (online collection). v. 1	0
+REPLACE	=490  0\$aCounseling and therapy in video, 2d. edition	=773  0\$tCounseling and therapy in video (online collection). v. 2	0
+REPLACE	=490  0\$aCounseling and therapy in video, volume 2	=773  0\$tCounseling and therapy in video (online collection). v. 2	0
+REPLACE	=490  0\$aCounseling and therapy in video, volume 3	=773  0\$tCounseling and therapy in video (online collection). v. 3	0
+REPLACE	=830  \0$aCounseling and therapy in video, 3d. edition.	=773  0\$tCounseling and therapy in video (online collection). v. 3	0
+REPLACE	=490  0\$aEducation in video	=773  0\$tEducation in video (online collection)	1
+REPLACE	=490  0\$aEducation in video, volume 1	=773  0\$tEducation in video (online collection)	1
+REPLACE	=830  \0$aEducation in video.	=773  0\$tEducation in video (online collection)	0
+REPLACE	=490  0\$aEthnographic video online	=773  0\$tEthnographic video online (online collection)	0
+REPLACE	=830  \0$aEthnographic video online.	=773  0\$tEthnographic video online (online collection)	0
+REPLACE	=490  0\$aFilmakers library online	=773  0\$tFilmakers library online (online collection)	0
+REPLACE	=830  \0$aFilmakers library online.	=773  0\$tFilmakers library online (online collection)	0
+REPLACE	=490  0\$aOpera in video	=773  0\$tOpera in video (online collection)	0
+REPLACE	=830  \0$aOpera in video.	=773  0\$tOpera in video (online collection)	0
+SUBFIELD_REMOVE	856	z		|0
+REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?CTIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xCounseling and therapy in video	2
+REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?EDIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xEducation in video	2
+REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?ANTH.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xEthnographic video online	2
+REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?FLON.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xFilmakers library online	2
+REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?OPIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xOpera in video	2
+REPLACE	^(?<a>=856  40)(?<b>\$u)	${a}$$yStreaming video available via the UNC-Chapel Hill Libraries${b}	2
+DELETE	910		0	False	False	False
+DELETE	941		0	False	False	False
+DELETE	943		0	False	False	False
+DELETE	944		0	False	False	False
+DELETE	945		0	False	False	False
+DELETE	950		0	False	False	False

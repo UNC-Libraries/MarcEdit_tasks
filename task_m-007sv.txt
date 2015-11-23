@@ -1,0 +1,8 @@
+REPLACE	^(?<a>=007  v)[^z]	${a}z	2
+REPLACE	^(?<a>=007  vz)[^\\]	${a}\	2
+REPLACE	^(?<a>=007  vz.)[^abcgmnuz]	${a}|	2
+REPLACE	^(?<a>=007  vz..)[^z]	${a}z	2
+REPLACE	^(?<a>=007  vz...)[^a]	${a}a	2
+REPLACE	^(?<a>=007  vz....)[^z]	${a}z	2
+REPLACE	^(?<a>=007  vz.....)[^z]	${a}z	2
+REPLACE	^(?<a>=007  vz......)[^kmnqsuz]	${a}|	2
