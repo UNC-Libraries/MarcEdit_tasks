@@ -6,7 +6,7 @@ DELETE	538		0	False	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
 REPLACE	=710  ..\$aKanopy \(Firm\)	=590  \\$$aProvider: Kanopy (Firm).	2		1
 DELETE	773	^=773  (?!0\\\$tKanopy streaming video PDA collections)	2	False	False	False
-ADD	773	0\$tKanopy streaming video PDA collections (online collection)	100	
+ADD	773	0\$tKanopy streaming video PDA collections (online collection). UNL	100	
 DELETE	793	Kanopy	0	False	False	False
 EDITFIELD	856	http://www.kanopy	0	http://unc.kanopy	
 ADD	919	\\$afilmfinder	100	
