@@ -1,3 +1,5 @@
 #Updates 588 (and Source of title 500) coding to current practices and MARC specs
 REPLACE	^=588  .\\\$aDescription based on:? (.)	=588  0\$$aucase($1)	2		1
 REPLACE	^=500  .\\\$aDescription based on:? (.)	=588  0\$$aucase($1)	2		1
+REPLACE	^=588  .\\\$aTitle from	=588  0\$$aTitle from	2		1
+REPLACE	^=500  .\\\$aTitle from	=588  0\$$aTitle from	2		1
