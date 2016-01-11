@@ -1,0 +1,11 @@
+#
+SUBFIELD_EDIT	008	23		o	0|0
+TASK_LIST	m-008noc Code for nature of contents	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008noc.txt
+TASK_LIST	m-008in Index indicator fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008in.txt
+TASK_LIST	a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt
+DELETE	530		0	False	False	False
+DELETE	533		0	False	False	False
+DELETE	538		0	False	False	False
+DELETE	583		0	False	False	False
+DELETE	590	Electronic books	0	False	False	False
+DELETE	590	Electronic reproduction	0	False	False	False
