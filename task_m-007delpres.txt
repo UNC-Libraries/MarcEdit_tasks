@@ -1,0 +1,2 @@
+#
+DELETE	007	^=007  c.*p$	2	False	False	False
