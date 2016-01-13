@@ -77,4 +77,3 @@ s-japanese	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_
 s-korean	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-to_ssj.txt	.txt
-zzzzz	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\tasksfile-2016_01_13_150210994.txt	
