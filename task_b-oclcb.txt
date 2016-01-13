@@ -20,7 +20,6 @@ DELETE	773	Springer eBooks	1	False	False	False
 REPLACE	^=888	=950	2
 REPLACE	^(?<a>=001  )o(c[mn]|n)(?<b>[\d]*)[^\d]*$	${a}${b}	2
 EDITFIELD	001	\	0		
-DELETE	007	^=007  c.*p$	2	False	False	False
 SUBFIELD_EDIT	008	23		o	0|0
 TASK_LIST	m-020sf 020 subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020sf.txt
 TASK_LIST	a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt
