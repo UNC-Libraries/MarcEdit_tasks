@@ -1,7 +1,7 @@
 ﻿a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt	SHIFT+F1
 a-ebooks General ebook edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebooks.txt	
 a-genebk General Ebook Tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-genebk.txt	
-a-generes General E-Res Tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-generes.txt	
+a-generes General E-Res Tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-generes.txt	SHIFT+F9
 a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt	SHIFT+F2
 a-safrmhdg Streaming audio form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-safrmhdg.txt	
 a-spchar Clean diacritics and symbols	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-spchar.txt	

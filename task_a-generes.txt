@@ -1,5 +1,7 @@
 #
+REPLACE	^=035  \\\\\$a\(NhCcYBP\)	=035  \\$$a(OCoLC)(NhCcYBP)	2	=773.*DDA \(online collection\)	2
 DELETE	035	(OCoLC)	0	False	True	False
+REPLACE	^=035  \\\\\$a\(OCoLC\)\(NhCcYBP\)	=035  \\$$a(NhCcYBP)	2		1
 REPLACE	^(?<start>=035.*\(OCoLC\))(oc[nm]|on)	${start}	2		1
 TASK_LIST	m-588 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-588.txt
 TASK_LIST	a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt
