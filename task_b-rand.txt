@@ -1,10 +1,5 @@
 #
-ADD	006	m\\\\\o\\d\\\\\\\\	101	
-ADD	007	cr\|n\|||||||a	101	
-SUBFIELD_EDIT	008	23		o	0|0
-DELETE	035	(Sirsi)	0	False	False	False
 DELETE	037		0	False	False
-DELETE	530		0	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	773	0\$tRAND electronic books (online collection)	100	
 ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
