@@ -48,7 +48,7 @@ h-hathitrust ingest marc prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_se
 m-006eb 006 ebook fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006eb.txt	SHIFT+F3
 m-006sa 006 streaming audio fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006sa.txt	
 m-006sv 006 streaming video fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006sv.txt	
-m-007delpres Delete preservation 007s	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007delpres
+m-007delpres Delete preservation 007s	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007delpres	
 m-007eber 007 ebook eresource fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007eber.txt	SHIFT+F4
 m-007sv 007 streaming video fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007sv.txt	
 m-008in Index indicator fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008in.txt	
