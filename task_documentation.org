@@ -179,3 +179,126 @@ Breakdown of the regex:
 =020  \\$a55555555X$c55/-; $q({dollar}5.55)
 =020  \\$a55555555X$c55/5
 =020  \\$z55555555555$c5.55
+* task_m-300df.txt
+Remove any instance of /digital file/ (or files) from the 300$b (including any commas or spaces that precede the phrase
+EDITFIELD	300	(?<a>\$b[^$]*),* *digital file(s|)	2	${a}	
+
+Remove any instance of (case-insensitive) /PDF/ (or PDFs), or PDF file(s) from the 300$b (including any commas or spaces that precede the phrase
+EDITFIELD	300	(?<a>\$b[^$]*?),* *[Pp][Dd][Ff]s?( files?)?	2	${a}	
+
+Get rid of double (or more) spacing anywhere in 300
+EDITFIELD	300	\s\s+	2	 	
+
+Protect periods at the ends of abbreviations
+EDITFIELD	300	(?<a>(ill|port)s?)\.	2	${a}zzz	
+
+Remove periods and commas from the end of the field. Do twice because sometimes there is both a comman and a period at the end
+EDITFIELD	300	\s*[,.]\s*$	2		
+EDITFIELD	300	\s*[,.]\s*$	2		
+
+Remove blank $b (and preceding ISBD punctuation)
+EDITFIELD	300	\s*:*\s*\$b\s*$	2		
+
+Put periods back on the end of abbreviations
+EDITFIELD	300	zzz	1	.	
+
+
+** Data for testing
+=300  \\$a1 online resource (xi, 575 p. : ill., portr.) :$bdigital file.
+=300  \\$a1 electronic text (55 p.) :$bcol. ill., col. map, digital file.
+=300  \\$a1 electronic text (55 p.) :$bcol. ill., digital file.
+=300  \\$a1 electronic text (55 p.) :$bdigital file.
+=300  \\$a1 electronic text (55 p.) :$bill. (some col.), digital file.
+=300  \\$a1 electronic text (55 p.) :$bill., digital file.
+=300  \\$a1 electronic text (xvi, 174a p. : ill.) :$bdigital file.
+=300  \\$a1 electronic text (xvi, 43, 139-291, 55 p.) :$bill., digital file.
+=300  \\$a1 electronic text (xvi, 55 p. : ill.) :$bdigital file.
+=300  \\$a1 electronic text (xvi, 55 p.)  :$bill., digital file.
+=300  \\$a1 electronic text (xvi, 55 p.) :$bdigital file.
+=300  \\$a1 electronic text (xvi, 55 p.) :$bill., digital file.
+=300  \\$a1 electronic text (xvi, 55 p.) :$bill., maps, digital file.
+=300  \\$a1 electronic text (xvi, 59a p. : ill.) :$bdigital file.
+=300  \\$a1 electronic text (xvi, [105] p.) :$bill., digital file.
+=300  \\$a1 online resource ( 1 electronic text ix, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource ( 1 electronic text xvii, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource ( 55 p.) :$bill., digital file.
+=300  \\$a1 online resource ( 55 p.) :$bill., ports., digital file.
+=300  \\$a1 online resource ( 55 p., [16] p. of plates) :$bill. (some col.), maps, ports., digital file.
+=300  \\$a1 online resource ( 55 pages) :$billustrations, digital file.
+=300  \\$a1 online resource ( vii, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource ( xiv, 55 pages) :$billustrations, digital file.
+=300  \\$a1 online resource ( xxx, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource (1 electronic text  (55 p.) :)$bdigital file.
+=300  \\$a1 online resource (1 electronic text (55 p.)) :$bdigital file.
+=300  \\$a1 online resource (1 electronic text (55 p.)) :$bill., digital file.
+=300  \\$a1 online resource (1 electronic text (55 p.)) :$bill., map, digital file.
+=300  \\$a1 online resource (1 electronic text (55 p.)) :$bill., ports., digital file.
+=300  \\$a1 online resource (1 electronic text (xvi, 55 p. )) :$bdigital file.
+=300  \\$a1 online resource (1 electronic text (xvi, 55 p.) :)$bdigital file.
+=300  \\$a1 online resource (1 electronic text (xvi, 55 p.)) :$bdigital file.
+=300  \\$a1 online resource (1 electronic text (xvi, 55 p.)) :$bill., digital file.
+=300  \\$a1 online resource (1 electronic text (xvi, 55 p.)) :$bill., map, digital file.
+=300  \\$a1 online resource (1 electronic text (xvi, 55 p.)) :$bill., maps, digital file.
+=300  \\$a1 online resource (1 electronic text viii, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource (1 electronic text xiv, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource (1 electronic text xvi, 55 p. ill.) :$bdigital file.
+=300  \\$a1 online resource (1 online resource (1 electronic text (xvi, 55 p.) :))$bill. (some col.), map, digital file.
+=300  \\$a1 online resource (55 p. : ill.) :$bdigital file.
+=300  \\$a1 online resource (55 p.) :$bcharts, digital file.
+=300  \\$a1 online resource (55 p.) :$bdigital file, PDF.
+=300  \\$a1 online resource (55 p.) :$bdigital file.
+=300  \\$a1 online resource (55 p.) :$bill. (chiefly col.), digital file.
+=300  \\$a1 online resource (55 p.) :$bill., digital file.
+=300  \\$a1 online resource (55 p.) :$bill., maps, digital file.
+=300  \\$a1 online resource (electronic texts (55 p.)) :$bdigital files.
+=300  \\$a1 online resource (xli, 55 p. : ill.) :$bdigital file.
+=300  \\$a1 online resource (xliii, 55 p. : ill.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : 1 ill.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : bill. (some col.)) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : bill.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : col. ill.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : ill. (chiefly col.)) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : ill. (some col.)) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : ill.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : ill., maps, ports.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p. : ill., portr.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p.) :$bdigital file, PDF, ill., ports.
+=300  \\$a1 online resource (xvi, 55 p.) :$bdigital file, PDF.
+=300  \\$a1 online resource (xvi, 55 p.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p.) :$bgraphs, digital file.
+=300  \\$a1 online resource (xvi, 55 p.) :$bill. (some col.), digital file.
+=300  \\$a1 online resource (xvi, 55 p.) :$bill., 1 map, digital file.
+=300  \\$a1 online resource (xvi, 55 p.) :$bill., digital file.
+=300  \\$a1 online resource (xvi, 55 p.) :$bill., maps, digital file.
+=300  \\$a1 online resource (xvi, 55 p., [10] p. of plates : ill.) :$bdigital file.
+=300  \\$a1 online resource (xvi, 55 p., [2] p. of plates) :$bill. (some col.), digital file.
+=300  \\$a1 online resource (xvi, 55 p., [4] p. of plates : ill. (some col.)) :$bdigital file.
+=300  \\$a1 online resource :$bdigital files
+=300  \\$a1 online resource$bdigital file.
+=300  \\$a1 v. :$bdigital files.
+=300  \\$a1streaming video file (20 min.) :$sd., col., digital file.
+=300  \\$a1streaming video file (24 min.) :$sd., col., digital file.
+=300  \\$a1streaming video file (30 min.) :$sd., col., digital file.
+=300  \\$a1streaming video file (45 min.) :$sd., col., digital file.
+=300  \\$a4 v. :$bdigital file, PDF.
+=300  \\$a55 p.  :$bdigital file, PDF file.
+=300  \\$a55 p. :$bdigital file, PDF.
+=300  \\$a55 pDF (55 pages) :$bcolor illustrations, digital file.
+=300  \\$a55 pDF (55 pages) :$billustrations (some color), digital file.
+=300  \\$a55 pDF (pages) :$bcolor illustrations, digital file.
+=300  \\$aOnline resource (xvi, 55 p.) :$bdigital file.
+=300  \\$a[133] p. :$bdigital file, PDF.
+=300  \\$a[199] p. :$bdigital file, PDF.
+=300  \\$a[4], 55 p. :$bdigital file, PDF.
+=300  \\$a[9] p. :$bdigital file.
+=300  \\$aii, 55 p. :$bdigital file, PDF.
+=300  \\$aiv, 55 p. :$bdigital file
+=300  \\$aiv, 55 p. :$bdigital file, PDF.
+=300  \\$aiv, 55 p. :$bdigital file.
+=300  \\$av :$bdigital file, PDF.
+=300  \\$av. :$bdigital file, PDF.
+=300  \\$av. of electronic text ;$cPDF, digital file.
+=300  \\$avi, 55 p.  :$bdigital file, PDF file.
+=300  \\$avi, 55 p. :$bdigital file, PDF.
+=300  \\$aviii, 55 p. :$bdigital file.
+=300  \\$axvii, 83p. [38] :$bdigital file, PDF.
