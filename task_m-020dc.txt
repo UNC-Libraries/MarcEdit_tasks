@@ -1,2 +1,2 @@
-SUBFIELD_REMOVE	020	c		|0
-REPLACE	^(?<a>=020.*) *:.*$	${a}	2
+#
+EDITFIELD	020	 *\p{Po}*\$c[^$]+(?= *\p{Po}*(\$|$))	2		
