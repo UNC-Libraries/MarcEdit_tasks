@@ -9,3 +9,5 @@ DELETE	538		0	False	False	False
 DELETE	583		0	False	False	False
 DELETE	590	Electronic books	0	False	False	False
 DELETE	590	Electronic reproduction	0	False	False	False
+DELETE	710	SpringerLink \(Online service\) *$	2	False	False	False
+DELETE	773	0\\\$tSpringer eBooks *$	2	False	False	False
