@@ -8,10 +8,25 @@ The task name prefix indicates the general type of task:
  - task_x-* - tasks in testing
 
 * task_m-020dc.txt - Removes 020$c and cleans up punctuation
-[Po] Punctuation, Other
-\p{Lu} matches any in the class
-\P{Lu} matches any NOT in the class
+In field 020, replace:
+
  *\p{Po}*\$c[^$]+(?= *\p{Po}*(\$|$))
+
+with:
+
+(nothing/blank)
+
+Breakdown of the regex: 
+ - * -- zero to any number of spaces
+ - \p{Po}* -- followed by zero to any number of characters in the [Po] Punctuation, Other Unicode class
+ - \$c -- followed by a subfield c
+ - [^$]+ -- followed by one or more characters that are NOT $
+ - (?= -- This begins a [[https://msdn.microsoft.com/en-us/library/bs2twtah%28v=vs.110%29.aspx#zerowidth_positive_lookahead_assertion][zero-width positive lookahead assertion]], so the pattern must continue to match, but anything in this assertion will not be included in the segment of text to be replaced---this matching stuff will be retained after the substitution
+ - * -- followed by 0-any spaces
+ - \p{Po}* -- followed by 0-any "Punctuation, Other" characters
+ - (\$|$) -- followed by EITHER as subfield delimiter or the end of a line
+ - ) -- ends the zero-width positive lookahead assertion
+
 ** Data for testing
 =020  \\$a9783110444124$qhardcover : alk. paper
 =020  \\$a555555555 :$c55/-
