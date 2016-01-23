@@ -61,7 +61,7 @@ m-020sf 020 subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_setting
 m-264crsf 264 2nd ind 4 copyright date subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-264crsf.txt	
 m-264in2 Fix ind 2 per role	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-264in2.txt	
 m-300cl Clean 300s for batch eresourcification	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300cl.txt	
-m-300df Clean 300s containing digital file	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300df.txt
+m-300df Clean 300s containing digital file	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300df.txt	
 m-300e Eresourcify 300s	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300e.txt	SHIFT+F5
 m-505b Basic coding not enhanced	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-505b.txt	
 m-588 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-588.txt	
@@ -77,4 +77,4 @@ s-del SerSol delete prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_setting
 s-japanese	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-japanese.txt	
 s-korean	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-ssjloc.txt	
-s-to_ssj Go back to ssj and ssib	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-to_ssj.txt	.txt
+s-to_ssj Go back to ssj and ssib	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-to_ssj.txt	
