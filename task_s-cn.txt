@@ -1,7 +1,6 @@
 #
 REPLACE	=949  \1$aINTERNET: SerSol E-book$z099 9	=949  \1	0
 SUBFIELD_EDIT	008	23		o	0|0
-SUBFIELD_EDIT	006	06		o	0|0
 SUBFIELD_EDIT	006	09		d	0|0
 SUBFIELD_REMOVE	020	c		|0
 TASK_LIST	m-505b Basic coding not enhanced	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-505b.txt
