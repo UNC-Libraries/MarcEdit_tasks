@@ -2,7 +2,7 @@
 REPLACE	=001  10*	=001  FMGFOD	2
 REPLACE	$h[electronic resource (video)]	$h[electronic resource]	0
 DELETE	500	Films on Demand is distributed by	0	False	False
-DELETE	500	Encoded with permission	0	False	False
+DELETE	500	Encoded with permission	1	False	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess available to UNC-Chapel Hill authenticated users. Authentication required both on- and off-campus.$fUnlimited simultaneous users	100	
 ADD	590	\\$aProvider: Films Media Group.	100	
