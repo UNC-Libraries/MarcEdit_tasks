@@ -6,6 +6,7 @@ a-generes General E-Res Tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_se
 a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt	SHIFT+F2
 a-safrmhdg Streaming audio form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-safrmhdg.txt	
 a-spchar Clean diacritics and symbols	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-spchar.txt	
+a-sv Streaming video general tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-sv.txt	
 a-svfrmhdg Streaming video form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-svfrmhdg.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aai-690.txt	
 b-aspeb ASP Ebook batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspeb.txt	
