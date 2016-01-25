@@ -4,6 +4,8 @@ DELETE	533		0	False	False	False
 DELETE	538		0	False	False	False
 DELETE	583		0	False	False	False
 DELETE	710	Alexander Street Press	1	False	False	False
+ADD	710	Films Media Group	100	
+DELETE	710	Films for the Humanities & Sciences (Firm)	0	False	False	False
 ADD	919	\\$afilmfinder	100	
 EDITFIELD	300	\d+ online resources? \((\d+) video files? (\(.*?\))\)	2	$1 streaming video $2	
 EDITFIELD	300	online resource	0	streaming video	
