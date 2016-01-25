@@ -2,15 +2,11 @@
 REPLACE	=001  10*	=001  FMGFOD	2
 DELETE	035	(OCoLC)	0	False	True
 REPLACE	$h[electronic resource (video)]	$h[electronic resource]	0
-REPLACE	^=264  \\4\$a	=264  \4$$c	2		1
-REPLACE	^(?<a>=300.*) :\$b.*	${a}	2
 DELETE	500	Films on Demand is distributed by	0	False	False
 DELETE	500	Encoded with permission	0	False	False
 REPLACE	=506  (?<a>..\$a)Access requires authentication through Films on Demand.	=506  ${a}Access available to UNC-Chapel Hill authenticated users. Authentication required both on- and off-campus.$$fUnlimited simultaneous users	2
-DELETE	538		0	False	False
 DELETE	710	Films for the Humanities & Sciences (Firm)	0	False	False
 DELETE	710	Films Media Group	0	False	False	False
-EDITFIELD	710	, $e	0	,$e	
 ADD	590	\\$aProvider: Films Media Group.	100	
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	949	\1$g1$lestr$t76$rn$h0$u	100	
