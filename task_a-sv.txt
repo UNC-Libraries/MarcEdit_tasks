@@ -8,7 +8,10 @@ ADD	919	\\$afilmfinder	100
 EDITFIELD	300	online resource	0	streaming video	
 REPLACE	(?<start>=300.*)video file(?<end>[^s].*)	${start}video${end}	2		1
 REPLACE	(?<start>=300.*)video files(?<end>.*)	${start}videos${end}	2		1
+DELETE	336		0	False	False	False
+DELETE	337		0	False	False	False
+DELETE	338		0	False	False	False
+RDAHELPER	1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 DELETE	337	$avideo	0	False	False	False
-ADD	337	\\$acomputer$bc$2rdamedia	101	
 DELETE	338	$aother	0	False	False	False
-ADD	338	\\$aonline resource$bcr$2rdacarrier	101	
+TASK_LIST	a-svfrmhdg Streaming video form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-svfrmhdg.txt
