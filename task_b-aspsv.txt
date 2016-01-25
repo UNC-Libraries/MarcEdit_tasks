@@ -4,7 +4,7 @@ EDITFIELD	040	,$	0	$
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Alexander Street Press.	100
-ADD	949	\1$g1$lestr$h0$rn$q0$t76$u- $nPerpetual access	100	
+ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-$nPerpetual access	100	
 REPLACE	=490  0\\\$aCounseling and therapy in video[^,]	=773  0\$$tCounseling and therapy in video (online collection). v. 1	2
 REPLACE	=830  \0$aCounseling and therapy in video.	=773  0\$tCounseling and therapy in video (online collection). v. 1	0
 REPLACE	=490  0\$aCounseling and therapy in video, 2d. edition	=773  0\$tCounseling and therapy in video (online collection). v. 2	0
