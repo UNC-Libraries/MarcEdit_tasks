@@ -1,4 +1,7 @@
 #
+SUBFIELD_EDIT	008	21	|	\	0|0
+SUBFIELD_EDIT	008	23:5	|||||	\\\\\	0|0
+SUBFIELD_EDIT	008	30:3	|||	\\\	0|0
 SUBFIELD_EDIT	008	29		o	0|0
 DELETE	533		0	False	False	False
 DELETE	538		0	False	False	False
