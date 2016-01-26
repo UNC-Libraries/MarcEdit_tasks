@@ -1,16 +1,12 @@
 #
-SUBFIELD_EDIT	008	29		o	0|0
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-DELETE	538		0	False	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
 REPLACE	=710  ..\$aKanopy \(Firm\)	=590  \\$$aProvider: Kanopy (Firm).	2		1
 DELETE	773	^=773  (?!0\\\$tKanopy streaming video PDA collections)	2	False	False	False
 ADD	773	0\$tKanopy streaming video PDA collections (online collection). UNL	100	
-DELETE	793	Kanopy	0	False	False	False
 EDITFIELD	856	http://www.kanopy	0	http://unc.kanopy	
-ADD	919	\\$afilmfinder	100	
 ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-	100	
-ADD	915	\\$9NOTAUTHO	100	
-ADD	949	\\$a*b3=x	100	
+DELETE	793	Kanopy	0	False	False	False
 DELETE	971	Kanopy	0	False	False	False
+TASK_LIST	m-notauth No Authority Control	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-notauth.txt
