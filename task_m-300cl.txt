@@ -19,3 +19,4 @@ REPLACE	^(?<a>=300.*)\$b\$b	${a}$$b	2
 REPLACE	^(?<a>=300.*)(?<b>\$b.*\([^)]*)$	${a}${b})	2
 REPLACE	^(?<a>=300.*?)( :)?\)\$b	${a}) :$$b	2
 EDITFIELD	300	 \(pages cm\.?\)	2		
+EDITFIELD	300	\s*:\s*$	2		
