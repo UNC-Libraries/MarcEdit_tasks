@@ -5,3 +5,4 @@ REPLACE	^=300  \\\\\$ap\.? ?[;:]?\$?c.*	=300  \\$$a1 online resource.	2
 EDITFIELD	300	\$a[Oo]nline resources?	2	$$a1 online resource	
 REPLACE	^=300  \\\\\$a(?!\d+ (online resource|electronic text|PDF))(?<a>.*?)(?<b>$| [:;])	=300  \\$$a1 online resource (${a})${b}	2
 REPLACE	^(?<a>=300.*) ;\$c.*$	${a}	2
+EDITFIELD	300	(?<a>online resources?) \(\s*\)	2	${a}	
