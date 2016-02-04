@@ -8,7 +8,6 @@ REPLACE	(?<a>=008  ..................[^a]{2})[\\|](?<b>[^a])	${a}a${b}	2	=300.*i
 REPLACE	(?<a>=008  ..................[^a]{3})[\\|]	${a}a	2	=300.*ill	2
 TASK_LIST	a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt
 TASK_LIST	m-300cl Clean 300s for batch eresourcification	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300cl.txt
-TASK_LIST	m-300df Clean 300s containing digital file	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300df.txt
 DELETE	530		0	False	False	False
 DELETE	533		0	False	False	False
 DELETE	538		0	False	False	False
@@ -18,5 +17,3 @@ DELETE	590	Electronic reproduction	0	False	False	False
 DELETE	710	SpringerLink \(Online service\) *$	2	False	False	False
 DELETE	773	0\\\$tSpringer eBooks *$	2	False	False	False
 DELETE	830	e-Duke books scholarly collection	0	False	False	False
-DELETE	336	(\$atext|\$btxt)	2	False	True	False
-ADD	336	\\$atext$btxt$2rdacontent	101	
