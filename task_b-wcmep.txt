@@ -6,6 +6,9 @@ REPLACE	^=710  (..\$aCIAO.*)$	=999  $1	2	=773  0\\\$tCIAO \(Columbia internation
 REPLACE	^=710  (..\$aColumbia [Un]niversity( |\.\$b)Press.*)$	=999  $1	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
 REPLACE	^=(490|830)  (..\$aColumbia [Uu]niversity [Pp]ress on-?line[\s\p{P}]*)$	=999  $2	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
 REPLACE	^=(440|490|500|730|740|830)  (.*Columbia [Ii]nternational [Aa]ffairs [Oo]nline.*)$	=999  $2	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
+REPLACE	^=710  (..\$aEuropean Mathematical Society[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tEuropean Mathematical Society ebooks \(online collection\)	2
+REPLACE	^(=773  0\\\$tEuropean Mathematical Society ebooks \(online collection\).*)$	$1\n=590  \\$$aProvider: European Mathematical Society.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
+REPLACE	^(?<a>=949.*)\$nPerpetual access	$1	2	=773  0\\\$tEuropean Mathematical Society ebooks \(online collection\)\. 2004-2013	2
 REPLACE	^(=773  0\\\$tJournal issues as monographs \(online collection\)\. Wiley\..*)$	$1\n=590  \\$$aProvider: Wiley.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-	2		1
 REPLACE	^=710  (..\$aWiley InterScience \(Online service\)[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tJournal issues as monographs \(online collection\)\. Wiley\.	2
 REPLACE	^=710  (..\$a(Royal Society of Chemistry|Chemical Society) \(Great Britain\)[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tRoyal Society of Chemistry ebooks \(online collection\)	2
