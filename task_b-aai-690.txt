@@ -1,7 +1,10 @@
 #
-REPLACE	^=690  \\\\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	^=690  04\$aSlaves\$xReligious education\. *$	=650  \0$$aSlaves$$xReligious life.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  0\\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
+REPLACE	^=690  0\\$aWomen\. *$	=650  \0$$aWomen.	2
 REPLACE	^=690  \\0\$aAfrican American artists\. *$	=650  \0$$aAfrican American artists.	2
 REPLACE	^=690  \\0\$aAfrican American writers\. *$	=650  \0$$aAfrican American authors.	2
+REPLACE	^=690  \\0\$aAfro-American poets\. *$	=650  \0$$aAfrican American poets.	2
 REPLACE	^=690  \\0\$aAfro-American women authors\. *$	=650  \0$$aAfrican American women authors.	2
 REPLACE	^=690  \\0\$aAfro-American women poets\. *$	=650  \0$$aAfrican American women poets.	2
 REPLACE	^=690  \\0\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
@@ -21,8 +24,11 @@ REPLACE	^=690  \\4\$aAfrican American writers\. *$	=650  \0$$aAfrican American a
 REPLACE	^=690  \\4\$aAfrican Americans\$xAutobiography\. *$	=650  \0$$aAfrican Americans$$vBiography.	2
 REPLACE	^=690  \\4\$aAfrican-American women writers\. *$	=650  \0$$aAfrican American women authors.	2
 REPLACE	^=690  \\4\$aAfrican-American writers\. *$	=650  \0$$aAfrican American authors.	2
-REPLACE	^=690  \\4\$aAfro-American clergy\$xAutobiography\. *$	=650  \0$$aAfrican American clergy$$vBiography.	2
+REPLACE	^=690  \\4\$aAfro-American Baptists\$xAutobiography\. *$	=650  \0$$aAfrican American Baptists$$vBiography.	2
 REPLACE	^=690  \\4\$aAfro-American Methodists\$xAutobiography\. *$	=650  \0$$aAfrican American Methodists$$vBiography.	2
+REPLACE	^=690  \\4\$aAfro-American clergy\$xAutobiography\. *$	=650  \0$$aAfrican American clergy$$vBiography.	2
+REPLACE	^=690  \\4\$aAfro-American clergy\$zNorth Carolina\$xAutobiography\. *$	=650  \0$$aAfrican American clergy$$zNorth Carolina$$vBiography.	2
+REPLACE	^=690  \\4\$aAfro-American college administrators\$zNorth Carolina\$xAutobiography\. *$	=650  \0$$aAfrican American college administrators$$zNorth Carolina$$vBiography.	2
 REPLACE	^=690  \\4\$aAfro-American missionaries\$zUnited States\$zAutobiography\. *$	=650  \0$$aAfrican American missionaries$$zUnited States$$vBiography.	2
 REPLACE	^=690  \\4\$aAfro-American organizations\. *$	=650  \0$$aAfrican Americans$$xAssociations, institutions, etc.	2
 REPLACE	^=690  \\4\$aAfro-American printers\. *$	=650  \0$$aAfrican American press.	2
@@ -30,6 +36,7 @@ REPLACE	^=690  \\4\$aAfro-American soldiers\$xCivil War, 1861-1865\. *$	=650  \0
 REPLACE	^=690  \\4\$aAfro-American soldiers\$yCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
 REPLACE	^=690  \\4\$aAfro-American soldiers\$ySpanish-American War, 1898\. *$	=650  \0$$aAfrican American soldiers$$ySpanish-American War, 1898.	2
 REPLACE	^=690  \\4\$aAfro-American soldiers\$yWar of 1812\. *$	=650  \0$$aAfrican American soldiers$$yWar of 1812.	2
+REPLACE	^=690  \\4\$aAfro-American soldiers\$yWorld War, 1914-1918\. *$	=650  \0$$aAfrican American soldiers$$yWorld War, 1914-1918.	2
 REPLACE	^=690  \\4\$aAfro-American women writers\. *$	=650  \0$$aAfrican American women authors.	2
 REPLACE	^=690  \\4\$aAfro-American women\$xAutobiography\. *$	=650  \0$$aAfrican American women$$vBiography.	2
 REPLACE	^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
@@ -44,14 +51,17 @@ REPLACE	^=690  \\4\$aAfro-Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$
 REPLACE	^=690  \\4\$aAfro-Americans\$zNew York \(State\)\$xAutobiography\. *$	=650  \0$$aAfrican Americans$$zNew York (State)$$vBiography.	2
 REPLACE	^=690  \\4\$aAgriculturists\$zUnited States\. *$	=650  \0$$aAgriculturists$$zUnited States.	2
 REPLACE	^=690  \\4\$aAnti-slave-trade literature\$zGreat Britain\. *$	=655  \7$$aAnti-slave trade literature$$zGreat Britain.$$2rbgenr	2
+REPLACE	^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
 REPLACE	^=690  \\4\$aBlack nurses\. *$	=650  \0$$aNurses, Black.	2
 REPLACE	^=690  \\4\$aBlack writers\. *$	=650  \0$$aAuthors, Black.	2
 REPLACE	^=690  \\4\$aBlacks\$xAutobiography\. *$	=650  \0$$aBlacks$$vBiography.	2
 REPLACE	^=690  \\4\$aBlacks\$xReligious education\$zAfrica, West\. *$	=650  \0$$aBlacks$$zAfrica, West$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aBlacks\$xReligious education\. *$	=650  \0$$aBlacks$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aBooksellers, Black\. *$	=650  \0$$aBooksellers.\n=650  \0$$aBlacks.	2
+REPLACE	^=690  \\4\$aConverts\$xAutobiography\. *$	=650  \0$$aConverts$$vBiography	2
 REPLACE	^=690  \\4\$aFreedmen\$zMaryland\$xAutobiography\. *$	=650  \0$$aFreedmen$$zMaryland$$vBiography.	2
 REPLACE	^=690  \\4\$aFugitive slaves\$zEngland\$xAutobiography\. *$	=650  \0$$aFugitive slaves$$zEngland$$vBiography.	2
+REPLACE	^=690  \\4\$aFugitive slaves\$zSouth Carolina\$xAutobiography\. *$	=650  \0$$aFugitive slaves$$zSouth Carolina$$vBiography.	2
 REPLACE	^=690  \\4\$aFugitive slaves\$zUnited States\$xAutobiography\. *$	=650  \0$$aFugitive slaves$$zUnited States$$vBiography.	2
 REPLACE	^=690  \\4\$aGreat Britain\$xColonies\$zTobago \(Trinidad and Tobago\)\. *$	=651  \0$$aGreat Britain$$xColonies$$zAmerica.\n=651  \0$$aTobago (Trinidad and Tobago).	2
 REPLACE	^=690  \\4\$aGreat Britain\$xColonies\$zWest Indies\. *$	=651  \0$$aGreat Britain$$xColonies$$zAmerica.\n=651  \0$$aWest Indies, British.	2
@@ -72,6 +82,7 @@ REPLACE	^=690  \\4\$aRace relations\$zUnited States\. *$	=651  \0$$aUnited State
 REPLACE	^=690  \\4\$aRace relations\$zVirginia\. *$	=651  \0$$aVirginia$$xRace relations.	2
 REPLACE	^=690  \\4\$aSlave insurrections\$zHaiti\. *$	=650  \0$$aSlave insurrections$$zHaiti.	2
 REPLACE	^=690  \\4\$aSlave trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
+REPLACE	^=690  \\4\$aSlave-trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
 REPLACE	^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
 REPLACE	^=690  \\4\$aSlavery\$xJustification\$zBahamas\. *$	=650  \0$$aSlavery$$zBahamas$$xJustification.	2
 REPLACE	^=690  \\4\$aSlavery\$xJustification\$zCuba\. *$	=650  \0$$aSlavery$$zCuba$$xJustification.	2
@@ -97,13 +108,12 @@ REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zWest Indies, British\. *$	=6
 REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zWest Indies\. *$	=650  \0$$aSlaves$$xReligious life$$zWest Indies.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aSlaves\$xReligious education\. *$	=650  \0$$aSlaves$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aSlaves\$zGeorgia\$xAutobiography\. *$	=650  \0$$aSlaves$$zGeorgia$$vBiography.	2
+REPLACE	^=690  \\4\$aSlaves\$zLouisiana\$xAutobiography\. *$	=650  \0$$aSlaves$$zLouisiana$$vBiography.	2
 REPLACE	^=690  \\4\$aSlaves\$zNorth Carolina\$xAutobiography\. *$	=650  \0$$aSlaves$$zNorth Carolina$$vBiography.	2
 REPLACE	^=690  \\4\$aSlaves\$zSouth Carolina\$xAutobiography\. *$	=650  \0$$aSlaves$$zSouth Carolina$$vBiography.	2
 REPLACE	^=690  \\4\$aSlaves\$zUnited States\$xAutobiography\. *$	=650  \0$$aSlaves$$zUnited States$$vBiography.	2
-REPLACE	^=690  \\4\$aSlave-trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
+REPLACE	^=690  \\4\$aVoyages and travels\. *$	=650  \0$$aVoyages and travels.	2
 REPLACE	^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
 REPLACE	^=690  \\4\$aWomen in literature\. *$	=650  \0$$aWomen in literature.	2
 REPLACE	^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	^=690  0\\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
-REPLACE	^=690  0\\$aWomen\. *$	=650  \0$$aWomen.	2
-REPLACE	^=690  04\$aSlaves\$xReligious education\. *$	=650  \0$$aSlaves$$xReligious life.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\\\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
