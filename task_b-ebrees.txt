@@ -5,3 +5,5 @@ EDITFIELD	300	volumen	1	volumes
 EDITFIELD	300	páginas no numeradas	1	unnumbered pages	
 EDITFIELD	300	po*áginas	2	pages	
 EDITFIELD	300	ilustraciones	1	illustrations	
+EDITFIELD	300	tablas	0	tables	
+EDITFIELD	300	planos	0	plans	
