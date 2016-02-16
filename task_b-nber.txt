@@ -6,11 +6,18 @@ ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	949	\1$g1$lebnb$t11$rn$h0$u	100	
 ADD	773	0\$tNational Bureau of Economic Research (NBER) working papers (online collection)	100	
 DELETE	530	Hardcopy	0	False	False
-DELETE	538	(System requirements|World Wide Web)	2	False	False
 REPLACE	^=001  	=001  NBER	2
-SUBFIELD_EDIT	008	23		o	0|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	x		NBER electronic working paper	101|0
 REPLACE	^=856  ..	=856  40	2
 REPLACE	 &bull; 	 -- 	0
+EDITFIELD	100	..	0	.	
+EDITFIELD	700	..	1	.	
+EDITFIELD	260	Mass.$b	0	Mass. :$b	
+EDITFIELD	260	Research$c	0	Research,$c	
+EDITFIELD	490	(?<a>[^ ][^;])\$v	2	${a} ;$$v	
+EDITFIELD	830	(?<a>[^ ][^;])\$v	2	${a} ;$$v	
+REPLACE	’	'	0		1
+REPLACE	`	‘	0		1
+REPLACE	&ndash;	-	0		1
