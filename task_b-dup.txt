@@ -1,6 +1,6 @@
 #
 COPY	035	001	false			false
-REPLACE	^=001  \\\\\$a	=001  dukeup	2		1
+REPLACE	^=001  \\\\\$a(?<a>.*)	=001  ${a}dukeup	2		1
 EDITFIELD	035	$a	0	$a(OCoLC)	
 ADD	003	OCoLC	100	
 DELETE	506		0	False	False	False
