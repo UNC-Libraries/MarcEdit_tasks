@@ -2,7 +2,7 @@
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 INDICATOR	520	8\		2\
-REPLACE	^=776  08\$iPrint version(?<a>\$z[0-9X]+) *$	=020  \\${a}$$qprint	2		1
+REPLACE	^=776  08\$iPrint version( :|)(?<a>\$z[0-9X]+) *$	=020  \\${a}$$qprint	2		1
 INDICATOR	856			40
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
