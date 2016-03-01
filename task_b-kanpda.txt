@@ -2,7 +2,7 @@
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	590	//$aProvider: Kanopy (Firm).	100	
+ADD	590	\\$aProvider: Kanopy (Firm).	100	
 REPLACE	=710  ..\$aKanopy \(Firm\)	=590  \\$$aProvider: Kanopy (Firm).	2		1
 DELETE	773	^=773  (?!0\\\$tKanopy streaming video PDA collections)	2	False	False	False
 ADD	773	0\$tKanopy streaming video PDA collections (online collection). UNL	100	
