@@ -16,5 +16,6 @@ DELETE	960		0	False	False	False
 DELETE	998		0	False	False	False
 REPLACE	^=700  2	=700  1	2		1
 DELETE	773		0	True	False	False
+DELETE	506		0	True	False	False
 TASK_LIST	m-020q Convert parenthetical qualifier to $q	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020q.txt
 DELETE	035	OCoLC	0	False	True	False
