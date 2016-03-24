@@ -1,0 +1,14 @@
+#
+ADD	773	0\$tSpringer e-books (online collection)	100	
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-$nPerpetual access	100	
+DELETE	912		0	False	False	False
+REPLACE	™		0		1
+REPLACE	–		0		1
+REPLACE	’	'	0		1
+REPLACE	—	--	0		1
+REPLACE	®		0		1
+REPLACE	“	"	0		1
+REPLACE	”	"	0		1
+TASK_LIST	m-notauth No Authority Control	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-notauth.txt
+DELETE	773	0\$tSpringer eBooks	0	False	False	False

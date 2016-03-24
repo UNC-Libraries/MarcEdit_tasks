@@ -45,6 +45,8 @@ b-sabo Sabin americana batch edits	G:\TechServ\ESM\e-resources cataloging\MARCed
 b-siam SIAM ebooks batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-siam.txt	
 b-spro1 Springer OCLC batch edit 1	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-spro1.txt	
 b-spro2 Springer OCLC batch edits 2	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-spro2.txt	
+b-sprspr1 Springer from Springer 2	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-sprspr1.txt	
+b-sprspr2 Springer from Springer 1	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-sprspr2.txt	
 b-synlec Synthesis Lectures batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-synlec.txt	
 b-wcmep WCM ebook main per-collection edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-wcmep.txt	
 h-hathitrust ingest marc prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_h-hathitrust.txt	
