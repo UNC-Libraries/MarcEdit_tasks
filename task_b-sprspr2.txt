@@ -1,8 +1,18 @@
 #
-ADD	773	0\$tSpringer e-books (online collection)	100	
+SUBFIELD_EDIT	LDR	6		a	0|0
+SUBFIELD_EDIT	LDR	7	a	m	0|0
+EDITFIELD	260	:\$bSpringer.*:\$bImprint: Springer	2	:$$bSpringer	
+EDITFIELD	264	:\$bSpringer.*:\$bImprint: Springer	2	:$$bSpringer	
 ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	949	\1$g1$lebnb$h0$rn$t11$u-$nPerpetual access	100	
+ADD	773	0\$tSpringer e-books (online collection)	100	
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 DELETE	912		0	False	False	False
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-$nPerpetual access	100	
+EDITFIELD	100	.$e	0	,$e	
+EDITFIELD	700	.$e	1	,$e	
+EDITFIELD	100	..	0	.	
+EDITFIELD	700	..	1	.	
 REPLACE	™		0		1
 REPLACE	–		0		1
 REPLACE	’	'	0		1
@@ -11,4 +21,3 @@ REPLACE	®		0		1
 REPLACE	“	"	0		1
 REPLACE	”	"	0		1
 TASK_LIST	m-notauth No Authority Control	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-notauth.txt
-DELETE	773	0\$tSpringer eBooks	0	False	False	False
