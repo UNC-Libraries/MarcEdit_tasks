@@ -1,5 +1,5 @@
 #
-REPLACE	^=505  (?<a>.)0\$.	=505  ${a}\$$a	2
+REPLACE	^=505  (?<i1>.)0\$.	=505  ${i1}\$$a	2		1
 EDITFIELD	505	 /$r	0	 / 	
 EDITFIELD	505	 --$t	0	 -- 	
 EDITFIELD	505	$g	0	 	
