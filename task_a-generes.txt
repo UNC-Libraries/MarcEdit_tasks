@@ -6,8 +6,16 @@ REPLACE	^=035  \\\\\$a\(NhCcYBP\)	=035  \\$$a(OCoLC)(NhCcYBP)	2	=773.*DDA \(onli
 DELETE	035	(OCoLC)	0	False	True	False
 REPLACE	^=035  \\\\\$a\(OCoLC\)\(NhCcYBP\)	=035  \\$$a(NhCcYBP)	2		1
 REPLACE	^(?<start>=035.*\(OCoLC\))(oc[nm]|on)	${start}	2		1
+EDITFIELD	040	((?:\$a[^$]+)*)((?:\$b[^$]+)*)((?:\$c[^$]+)*)((?:\$d[^$]+)*)((?:\$e[^$]+)*)	2	$1$2$5$3$4	
+EDITFIELD	040	^(\$a[^$]+)(\$[^b]|$)	2	$1$$beng$2	
 EDITFIELD	264	,? *\$e[^$]*	2		
 REPLACE	^(=264  .4\$)a	$1c	2		1
+EDITFIELD	336	^\$btxt\s*\$2rdacontent\s*$	2	$$atext$$btxt$$2rdacontent	
+EDITFIELD	336	^\$atext\s*\$2rdacontent\s*$	2	$$atext$$btxt$$2rdacontent	
+EDITFIELD	337	^\$bc\s*\$2rdamedia\s*$	2	$$acomputer$$bc$$2rdamedia	
+EDITFIELD	337	^\$acomputer\s*\$2rdamedia\s*$	2	$$acomputer$$bc$$2rdamedia	
+EDITFIELD	338	^\$bcr\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
+EDITFIELD	338	^\$aonline resource\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
 TASK_LIST	m-588 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-588.txt
 TASK_LIST	a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt
 TASK_LIST	m-020sf 020 subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020sf.txt
