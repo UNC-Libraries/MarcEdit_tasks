@@ -1,6 +1,8 @@
 #
 REPLACE	^=710  (..\$aAmerican Chemical Society[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tACS symposium series \(online collection\)	2
 REPLACE	^(=773  0\\\$tACS symposium series \(online collection\).*)$	$1\n=590  \\$$aProvider: American Chemical Society.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
+REPLACE	^(=773  0\\\$tCambridge histories online \(online collection\).*)$	$1\n=590  \\$$aProvider: Cambridge University Press.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
+REPLACE	^=(490|500|830)  (.*Cambridge [Hh]istories [Oo]n-?line[\s\p{P}]*)$	=999  $2	2	=773  0\\\$tCambridge histories online \(online collection\).*	2
 REPLACE	^(=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\).*)$	$1\n=590  \\$$aProvider: CIAO.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-	2		1
 REPLACE	^=710  (..\$aCIAO.*)$	=999  $1	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
 REPLACE	^=710  (..\$aColumbia [Un]niversity( |\.\$b)Press.*)$	=999  $1	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
