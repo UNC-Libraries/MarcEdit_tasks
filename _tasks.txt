@@ -20,6 +20,7 @@ b-dup Duke University Press batch edits	G:\TechServ\ESM\e-resources cataloging\M
 b-eai1 Early American Imprints, first series	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-eai1.txt	
 b-ebrac Ebrary Academic Complete	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrac.txt	
 b-ebrees elibro Escuelas Secundarias 300 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrees.txt	
+b-ebrperp Ebrary perp batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrperp.txt	
 b-eeubo Early Euro Books Online batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ehraf.txt	
 b-fmgfod FMG films on demand batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-fmgfod.txt	
