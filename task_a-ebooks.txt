@@ -15,6 +15,7 @@ DELETE	583		0	False	False	False
 DELETE	590	Electronic books	0	False	False	False
 DELETE	590	Electronic reproduction	0	False	False	False
 DELETE	710	ebrary, Inc.	1	False	False	False
+DELETE	710	Springer Science+Business Media	1	False	False	False
 DELETE	710	SpringerLink \(Online service\) *$	2	False	False	False
 DELETE	710	Adam Matthew Digital	1	False	False	False
 DELETE	710	Gale Group	1	False	False	False
