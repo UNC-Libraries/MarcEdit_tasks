@@ -1,8 +1,8 @@
 #
 SUBFIELD_EDIT	LDR	6		a	0|0
 SUBFIELD_EDIT	LDR	7	a	m	0|0
-EDITFIELD	260	:\$bSpringer.*:\$bImprint: Springer	2	:$$bSpringer	
-EDITFIELD	264	:\$bSpringer.*:\$bImprint: Springer	2	:$$bSpringer	
+EDITFIELD	260	 :\$b[^$]+\$bImprint: ([^$]+)	2	 :$$b$1	
+EDITFIELD	264	 :\$b[^$]+\$bImprint: ([^$]+)	2	 :$$b$1	
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	773	0\$tSpringer e-books (online collection)	100	
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
