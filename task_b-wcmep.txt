@@ -18,8 +18,10 @@ REPLACE	^(=773  0\\\$tRoyal Society of Chemistry ebooks \(online collection\).*)
 REPLACE	^=710  (..\$aSociety of Photo-optical Instrumentation Engineers[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSPIE ebooks \(online collection\)	2
 REPLACE	^=500(.*SPIE [Dd]igital [Ll]ibrary)	=999  $1	2	=773  0\\\$tSPIE ebooks \(online collection\)	2
 REPLACE	^(=773  0\\\$tSPIE ebooks \(online collection\).*)$	$1\n=590  \\$$aProvider: SPIE.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
-REPLACE	^=710  (..\$a(SpringerLink[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSpringer e-books \(online collection\)	2
+REPLACE	^=710  (..\$aSpringerLink[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSpringer e-books \(online collection\)	2
 REPLACE	^(=773  0\\\$tSpringer e-books \(online collection\).*)$	$1\n=590  \\$$aProvider: SpringerLink.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
+REPLACE	^=710  (..\$aSpringerLink[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSpringer major series e-books \(online collection\)	2
+REPLACE	^(=773  0\\\$tSpringer major series e-books \(online collection\).*)$	$1\n=590  \\$$aProvider: SpringerLink.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-	2		1
 DELETE	999		0	False	False	False
 DELETE	773		0	True	False	False
 DELETE	590		0	True	False	False
