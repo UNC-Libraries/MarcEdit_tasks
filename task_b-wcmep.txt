@@ -15,6 +15,8 @@ REPLACE	^(=773  0\\\$tJournal issues as monographs \(online collection\)\. Wiley
 REPLACE	^=710  (..\$aWiley InterScience \(Online service\)[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tJournal issues as monographs \(online collection\)\. Wiley\.	2
 REPLACE	^=710  (..\$a(Royal Society of Chemistry|Chemical Society) \(Great Britain\)[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tRoyal Society of Chemistry ebooks \(online collection\)	2
 REPLACE	^(=773  0\\\$tRoyal Society of Chemistry ebooks \(online collection\).*)$	$1\n=590  \\$$aProvider: Royal Society of Chemistry (Great Britain).\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
+REPLACE	^=710  (..\$a(ScienceDirect|Elsevier).*)$	=999  $1	2	=773  0\\\$tScienceDirect ebooks \(online collection\)	2
+REPLACE	^(=773  0\\\$tScienceDirect ebooks \(online collection\).*)$	$1\n=590  \\$$aProvider: Elsevier/ScienceDirect.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
 REPLACE	^=710  (..\$aSociety of Photo-optical Instrumentation Engineers[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSPIE ebooks \(online collection\)	2
 REPLACE	^=500(.*SPIE [Dd]igital [Ll]ibrary)	=999  $1	2	=773  0\\\$tSPIE ebooks \(online collection\)	2
 REPLACE	^(=773  0\\\$tSPIE ebooks \(online collection\).*)$	$1\n=590  \\$$aProvider: SPIE.\n=506  1\$$aAccess limited to UNC Chapel Hill-authenticated users.$$fUnlimited simultaneous users\n=949  \1$$g1$$lebnb$$t11$$rn$$h0$$u-$$nPerpetual access	2		1
