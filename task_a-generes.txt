@@ -6,7 +6,7 @@ REPLACE	^=035  \\\\\$a\(NhCcYBP\)	=035  \\$$a(OCoLC)(NhCcYBP)	2	=773.*DDA \(onli
 DELETE	035	(OCoLC)	0	False	True	False
 REPLACE	^=035  \\\\\$a\(OCoLC\)\(NhCcYBP\)	=035  \\$$a(NhCcYBP)	2		1
 REPLACE	^(?<start>=035.*\(OCoLC\))(oc[nm]|on)	${start}	2		1
-EDITFIELD	040	((?:\$a[^$]+)*)((?:\$b[^$]+)*)((?:\$c[^$]+)*)((?:\$d[^$]+)*)((?:\$e[^$]+)*)	2	$1$2$5$3$4	
+EDITFIELD	040	((?:\$a[^$]+)*)((?:\$[^b][^$]+)*)((?:\$b[^$]+)*)((?:\$c[^$]+)*)((?:\$d[^$]+)*)((?:\$e[^$]+)*)	2	$1$3$2$6$4$5	
 EDITFIELD	040	^(\$a[^$]+)(\$[^b]|$)	2	$1$$beng$2	
 EDITFIELD	264	,? *\$e[^$]*	2		
 REPLACE	^(=264  .4\$)a	$1c	2		1
