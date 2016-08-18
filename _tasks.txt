@@ -32,6 +32,7 @@ b-hvd001 Harvard Univ Press 001-024 fix	G:\TechServ\ESM\e-resources cataloging\M
 b-jml Jazz Music Library batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-jml.txt	
 b-jprs Joint Publications Research Service batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-jprs.txt	
 b-kanpda Kanopy Streaming PDA edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-kanpda.txt	
+b-liont LION texts	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-liont.txt	
 b-llt Library of Latin Texts batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-llt.txt	
 b-mef MEF Digital batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-mef.txt	
 b-momw Making of the Modern World batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-momw.txt	
