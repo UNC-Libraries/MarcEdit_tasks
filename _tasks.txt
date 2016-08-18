@@ -13,6 +13,7 @@ b-aspeb ASP Ebook batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_se
 b-aspsa ASP Streaming audio batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspsa.txt	
 b-aspsv ASP Streaming video batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspsv.txt	
 b-bep Business Expert Press batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-bep.txt	
+b-cbo Cambridge Books Online	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\tasksfile-2016_08_16_171230921.txt	
 b-codgh Criterion on Demand subject genre headings fixes	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-codgh.txt	
 b-colldl Colloquium Digital Library batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-colldl.txt	
 b-cwmo Contemporary World Music batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-cwmo.txt	
@@ -41,6 +42,7 @@ b-oclca OCLC Authority Control set	G:\TechServ\ESM\e-resources cataloging\MARCed
 b-oclcb OCLC batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oclcb.txt	SHIFT+F8
 b-oro Oxford Ref Online Prem	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oro.txt	
 b-ose Oxford Scholarly Editions batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ose.txt	
+b-pqss Serial Set batch workflow	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-pqss.txt	
 b-rand RAND ebook batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-rand.txt	
 b-sabo Sabin americana batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-sabo.txt	
 b-siam SIAM ebooks batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-siam.txt	

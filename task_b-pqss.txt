@@ -1,0 +1,13 @@
+#
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
+REPLACE	^=500  \\\\\$aRecord is based on b(?<a>ib.*) Reuse.*$	=588  1\$$aB${a}	2		1
+DELETE	506		0	False	False	False
+DELETE	510	ProQuest U.S. Serial Set Digital Collection	0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	506	1\$aReuse except for individual research requires license from ProQuest, LLC.	100	
+DELETE	490	[A-Za-z]+\.[A-Za-z]+\.[0-9]+	2	False	False	False
+REPLACE	^=099  ..\$a(ProQuest Serial Set Number |)\d+[^ ]+ (?<sudoc>.*)$	=500  \\$$aDoc-No: ${sudoc}.	2		1
+SUBFIELD_REMOVE	856	y	Electronic resource	107|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
