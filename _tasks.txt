@@ -13,7 +13,7 @@ b-aspeb ASP Ebook batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_se
 b-aspsa ASP Streaming audio batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspsa.txt	
 b-aspsv ASP Streaming video batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspsv.txt	
 b-bep Business Expert Press batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-bep.txt	
-b-cbo Cambridge Books Online	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\tasksfile-2016_08_16_171230921.txt	
+b-cbo Cambridge Books Online	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-cbo.txt	
 b-codgh Criterion on Demand subject genre headings fixes	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-codgh.txt	
 b-colldl Colloquium Digital Library batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-colldl.txt	
 b-cwmo Contemporary World Music batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-cwmo.txt	
