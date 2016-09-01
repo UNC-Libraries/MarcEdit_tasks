@@ -32,5 +32,7 @@ EDITFIELD	300	\s\s	2
 REPLACE	\s+$		2		1
 EDITFIELD	300	(?<a>\$a[^$]*?)\s*(?<b>\d* ill)	2	${a} :$$b${b}	
 EDITFIELD	300	\$a(\d+) electronic resource	2	$$a${1} online resource	
+EDITFIELD	300	\$a(\d+) electronic text	2	$$a${1} online resource	
+EDITFIELD	300	\$a(\d+) PDF	2	$$a${1} online resource	
 EDITFIELD	300	$aOnline-Datei	0	$a1 online resource	
 EDITFIELD	300	$aOnline-Ressource	1	$a1 online resource	
