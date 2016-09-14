@@ -1,5 +1,6 @@
 #
 ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: Business Expert Press.	100	
 ADD	949	\1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
 DELETE	530	Also available in print	0	False	False
 DELETE	035	(OCoLC)	0	False	True	False
