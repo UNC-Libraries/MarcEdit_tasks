@@ -17,6 +17,7 @@ b-cbo Cambridge Books Online	G:\TechServ\ESM\e-resources cataloging\MARCedit_set
 b-codgh Criterion on Demand subject genre headings fixes	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-codgh.txt	
 b-colldl Colloquium Digital Library batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-colldl.txt	
 b-cwmo Contemporary World Music batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-cwmo.txt	
+b-docuseek Docuseek2 batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-docuseek
 b-dup Duke University Press batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-dup.txt	
 b-eai1 Early American Imprints, first series	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-eai1.txt	
 b-ebrac Ebrary Academic Complete	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrac.txt	
@@ -85,4 +86,4 @@ s-del SerSol delete prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_setting
 s-japanese	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-japanese.txt	
 s-korean	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-ssjloc.txt	
-s-to_ssj Go back to ssj and ssib	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-to_ssj.txt	
+s-to_ssj Go back to ssj and ssib	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-to_ssj.txt	.txt	
