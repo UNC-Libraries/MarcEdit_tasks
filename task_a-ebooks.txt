@@ -23,4 +23,4 @@ DELETE	773	0\\\$tSpringer eBooks *$	2	False	False	False
 DELETE	773	ACLS Humanities E-Book	0	False	False	False
 DELETE	797	ebrary	1	False	False	False
 DELETE	797	ProQuest (Firm)	1	False	False	False
-DELETE	830	e-Duke books scholarly collection	0	False	False	False
+DELETE	830	e-Duke books scholarly collection	1	False	False	False
