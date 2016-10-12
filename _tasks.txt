@@ -53,6 +53,7 @@ b-spro2 Springer OCLC batch edits 2	task_b-spro2.txt
 b-sprspr1 Springer from Springer 2	task_b-sprspr1.txt	
 b-sprspr2 Springer from Springer 1	task_b-sprspr2.txt	
 b-synlec Synthesis Lectures batch edits	task_b-synlec.txt	
+b-tfcrcdda TFCRC Evidence Based DDA batch edits	task_b-tfcrcdda.txt	
 b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
 b-wcmep WCM ebook main per-collection edits	task_b-wcmep.txt	
 h-hathitrust ingest marc prep	task_h-hathitrust.txt	
