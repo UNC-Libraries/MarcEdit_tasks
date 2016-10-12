@@ -1,6 +1,14 @@
 #
 REPLACE	^=001  	=001  TFDDA	2		1
 TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
+DELETE	010		1	False	False	False
+DELETE	025		1	False	False	False
+DELETE	037		1	False	False	False
+DELETE	066		1	False	False	False
+DELETE	911		1	False	False	False
+DELETE	912		1	False	False	False
+DELETE	913		1	False	False	False
+DELETE	995		1	False	False	False
 DELETE	975		1	False	False	False
 SUBFIELD_REMOVE	856	z		107|1
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|1
