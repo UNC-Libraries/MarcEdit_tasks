@@ -1,5 +1,5 @@
 #
-REPLACE	^=001  	=001  TFDDA	2		1
+REPLACE	^=001  	=001  TFDDATF	2		1
 TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
 DELETE	010		1	False	False	False
 DELETE	025		1	False	False	False
