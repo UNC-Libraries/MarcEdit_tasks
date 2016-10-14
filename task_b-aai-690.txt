@@ -9,3 +9,7 @@ REPLACE	^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSla
 REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zGreat Britain\$xColonies\. *$	=650  \0$$aSlaves$$xReligious life$$zGreat Britain$$xColonies.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aSlaves\$xReligious education\. *$	=650  \0$$aSlaves$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+DELETE	999	DELETE ME	0	False	False	False
+DELETE	650		1	True	False	False
+DELETE	651		1	True	False	False
+DELETE	655		1	True	False	False
