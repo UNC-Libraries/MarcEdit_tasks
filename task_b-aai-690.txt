@@ -1,25 +1,11 @@
 #
-REPLACE	^=690  \\0\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
-REPLACE	^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
-REPLACE	^=690  \\4\$aAfro-American organizations\. *$	=650  \0$$aAfrican Americans$$xAssociations, institutions, etc.	2
-REPLACE	^=690  \\4\$aAfro-American publishers\. *$	=650  \0$$aAfrican American press.	2
-REPLACE	^=690  \\4\$aAfro-American women poets\. *$	=650  \0$$aAfrican American women poets.	2
-REPLACE	^=690  \\4\$aAfro-American women writers\. *$	=650  \0$$aAfrican American women authors.	2
+REPLACE	^=690  \\4\$aAfro-American soldiers\$xCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
 REPLACE	^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
 REPLACE	^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xAutobiographies\. *$	=650  \0$$aAfrican Americans$$vBiography.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xAutobiography\. *$	=650  \0$$aAfrican Americans$$vBiography.	2
-REPLACE	^=690  \\4\$aAnti-slavery literature\$zUnited States\$xPeriodicals\. *$	=655  \7$$aAntislavery literature$$zUnited States$$vPeriodicals.$$2rbgenr	2
-REPLACE	^=690  \\4\$aBlack writers\. *$	=650  \0$$aAuthors, Black.	2
-REPLACE	^=690  \\4\$aFugitive slaves\$zSouth Carolina\$xAutobiography\. *$	=650  \0$$aFugitive slaves$$zSouth Carolina$$vBiography.	2
-REPLACE	^=690  \\4\$aRace relations\$zPennsylvania\$zPhiladelphia\. *$	=651  \0$$aPennsylvania$$zPhiladelphia$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zPennsylvania\. *$	=651  \0$$aPennsylvania$$zPhiladelphia.	2
+REPLACE	^=690  \\4\$aBlacks\$xReligious education\. *$	=650  \0$$aBlacks$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aRace relations\$zSouthern States\. *$	=651  \0$$aSouthern States$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zUnited States\$xCongresses\. *$	=651  \0$$aUnited States$$xRace relations$$vCongresses.	2
-REPLACE	^=690  \\4\$aRace relations\$zUnited States\. *$	=651  \0$$aUnited States$$xRace relations.	2
-REPLACE	^=690  \\4\$aSlave trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
-REPLACE	^=690  \\4\$aSlavery\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
-REPLACE	^=690  \\4\$aSlaves\$xAutobiography\. *$	=650  \0$$aSlaves$$zUnited States$$vBiography.	2
-REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zBarbados\. *$	=650  \0$$aSlaves$$xReligious life$$zBarbados.\n=650  \0$$aReligious education.	2
-REPLACE	^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
+REPLACE	^=690  \\4\$aSlave insurrections\$zSurinam\$xDrama\. *$	=650  \0$$aSlave insurrections$$zSurinam$$vDrama	2
+REPLACE	^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
+REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zGreat Britain\$xColonies\. *$	=650  \0$$aSlaves$$xReligious life$$zGreat Britain$$xColonies.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\4\$aSlaves\$xReligious education\. *$	=650  \0$$aSlaves$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
