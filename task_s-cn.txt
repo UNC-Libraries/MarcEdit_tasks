@@ -18,7 +18,7 @@ DELETE	773		0	True	False	False
 DELETE	506		0	True	False	False
 TASK_LIST	m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
 DELETE	035	OCoLC	0	False	True	False
-DELETE	912	OCoLC	0	False	True	False
-DELETE	952	OCoLC	0	False	True	False
-DELETE	963	OCoLC	0	False	True	False
-DELETE	985	OCoLC	0	False	True	False
+DELETE	912		0	False	True	False
+DELETE	952		0	False	True	False
+DELETE	963		0	False	True	False
+DELETE	985		0	False	True	False
