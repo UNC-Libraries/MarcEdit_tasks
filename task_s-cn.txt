@@ -8,13 +8,13 @@ DELETE	710	ebrary, Inc.	0	False	False	False
 SUBFIELD_EDIT	008	15:3	|||	xx\	0|0
 SUBFIELD_EDIT	008	35:3	|||	\\\	0|0
 EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file) \((?<a>.*?)\)\.?\)	2	1 online resource (${a})	
-TASK_LIST	m-008in Index indicator fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008in.txt
-TASK_LIST	m-008noc Code for nature of contents	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008noc.txt
+TASK_LIST	m-008in Index indicator fix	task_m-008in.txt
+TASK_LIST	m-008noc Code for nature of contents	task_m-008noc.txt
 DELETE	920		0	False	False	False
 DELETE	960		0	False	False	False
 DELETE	998		0	False	False	False
 REPLACE	^=700  2	=700  1	2		1
 DELETE	773		0	True	False	False
 DELETE	506		0	True	False	False
-TASK_LIST	m-020q Convert parenthetical qualifier to $q	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020q.txt
+TASK_LIST	m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
 DELETE	035	OCoLC	0	False	True	False
