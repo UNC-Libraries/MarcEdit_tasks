@@ -1,4 +1,4 @@
-#* 008/23 FormItem = o online * 008/18 Freq = u if 310 says frequency unknown * 008/18 = q if 310 says quarterly* 008/19 Regularity = u if 008/18 = u * 008/24 = b if 6XX$v = Bibliography * 008/25-27 = b based on 504 if 008/24 is blank/pipe
+#
 SUBFIELD_EDIT	008	23		o	0|0
 REPLACE	(?<a>=008  ..................).	${a}u	2	=310.*Frequency.*unknown	2
 REPLACE	(?<a>=008  ..................).	${a}q	2	=310.*Updated quarterly	2
