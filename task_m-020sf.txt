@@ -1,3 +1,3 @@
 #
 REPLACE	(?<start>=020.*\$)z(?<finish>.*(([Ee]|[Oo])(-| |)([Bb]o?o?k|[Ii][Ss][Bb][Nn])|[Hh][Tt][Mm][Ll]|[Ee][Pp][Uu][Bb]|[Ee]?[Mm]obi|[Oo]nline|[Pp][Dd][Ff]|[Ee]lectronic|[Ee]b(:| ).*paper))	${start}a${finish}	2
-REPLACE	(=020.*\$)a(.*(?:(?:[Hh]ard|[Pp]aper)back|[Hh]ardcover|[Pp]bk?|[Hh]bk?|[Cc]loth|(?:[Aa]lk\.?|[Tt]rade|[Aa]cid(?:-| )[Ff]ree) [Pp]aper|[Pp]rint))	$1z$2	2		1
+REPLACE	(=020.*\$)a(.*(?:(?:[Hh]ard|[Pp]aper)back|[Hh]ardcover|[Mm]icro(form|fiche)|[Pp]bk?|[Hh]bk?|[Cc]loth|(?:[Aa]lk\.?|[Tt]rade|[Aa]cid(?:-| )[Ff]ree) [Pp]aper|[Pp]rint))	$1z$2	2		1
