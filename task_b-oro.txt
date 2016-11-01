@@ -4,7 +4,8 @@ DELETE	490	$aOxford quick reference	0	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100
-REPLACE	=710  2\$aOxford University Press	=590  \\$aProvider: Oxford University Press	0
+ADD	590	\\$aProvider: Oxford University Press.	100
+DELETE	710	Oxford University Press	0	False	False
 DELETE	730	$aOxford reference online premium.	0	False	False
 ADD	773	0\$tOxford reference online premium (online collection)	100
 REPLACE	^=776  08\$iPrint version( :|)(?<a>\$z[0-9X]+) *$	=020  \\${a}$$qprint	2		1

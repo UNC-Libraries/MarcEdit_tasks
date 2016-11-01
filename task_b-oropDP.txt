@@ -1,2 +1,25 @@
 #
+REPLACE	^=001  (?<a>\d)	=001  OXO${a}	2
 SUBFIELD_EDIT	008	24		d	0|0
+EDITFIELD	245	Dictionary plus	1		
+EDITFIELD	245	(\$a)(.)	2	$1Dictionary plus lcase($2)	
+COPY	245	246	false			false
+REPLACE	^(=246  )00\$aD	=246  3\$$aOxford d	2		1
+DELETE	490	$aOxford quick reference	0	False	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: Oxford University Press.	100
+DELETE	710	$aOxford University Press	0	False	False
+DELETE	730	$aOxford reference online premium.	0	False	False
+ADD	773	0\$tOxford reference online premium (online collection). Dynamic ebooks	100
+REPLACE	^=776  08\$iPrint version( :|)(?<a>\$z[0-9X]+) *$	=020  \\${a}$$qprint	2		1
+DELETE	830	$aOxford quick reference	0	False	False
+INDICATOR	856			40
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_REMOVE	856	x		|0
+SUBFIELD_REMOVE	856	z		|0
+SUBFIELD_REMOVE	856	3	Oxford reference	|0
+SUBFIELD_EDIT	856	x		Oxford reference online premium	101|0
+ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
