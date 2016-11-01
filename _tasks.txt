@@ -43,7 +43,7 @@ b-ocap OCA print link add batch edit	task_b-ocap.txt
 b-oclca OCLC Authority Control set	task_b-oclca.txt	
 b-oclcb OCLC batch edits	task_b-oclcb.txt	SHIFT+F8
 b-oro Oxford Ref Online Prem	task_b-oro.txt	
-b-oropDP OROP Dictionary Plus	task_b-oropDP	
+b-oropDP OROP Dictionary Plus	task_b-oropDP.txt	
 b-ose Oxford Scholarly Editions batch edits	task_b-ose.txt	
 b-pqss Serial Set batch workflow	task_b-pqss.txt	
 b-rand RAND ebook batch edits	task_b-rand.txt	
