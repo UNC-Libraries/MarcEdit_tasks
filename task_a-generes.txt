@@ -8,6 +8,7 @@ REPLACE	^=035  \\\\\$a\(OCoLC\)\(NhCcYBP\)	=035  \\$$a(NhCcYBP)	2		1
 REPLACE	^(?<start>=035.*\(OCoLC\))(oc[nm]|on)	${start}	2		1
 EDITFIELD	040	((?:\$a[^$]+)*)((?:\$[^b][^$]+)*)((?:\$b[^$]+)*)((?:\$c[^$]+)*)((?:\$d[^$]+)*)((?:\$e[^$]+)*)	2	$1$3$2$6$4$5	
 EDITFIELD	040	^(\$a[^$]+)(\$[^b]|$)	2	$1$$beng$2	
+EDITFIELD	040	*	0	?	
 EDITFIELD	264	,? *\$e[^$]*	2		
 REPLACE	^(=264  .4\$)a	$1c	2		1
 EDITFIELD	336	^\$btxt\s*\$2rdacontent\s*$	2	$$atext$$btxt$$2rdacontent	
@@ -17,8 +18,8 @@ EDITFIELD	337	^\$acomputer\s*\$2rdamedia\s*$	2	$$acomputer$$bc$$2rdamedia
 EDITFIELD	338	^\$bcr\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
 EDITFIELD	338	^\$aonline resource\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
 REPLACE	^(?<a>=520  )8(?<b>.\$a)Annotation\$b	${a}\${b}	2		1
-TASK_LIST	m-588 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-588.txt
-TASK_LIST	a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt
-TASK_LIST	m-020sf 020 subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020sf.txt
-TASK_LIST	m-020dc Delete cost data	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020dc.txt
-TASK_LIST	m-020q Convert parenthetical qualifier to $q	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020q.txt
+TASK_LIST	m-588 fix	task_m-588.txt
+TASK_LIST	a-hdgsrc Delete headings from some sources	task_a-hdgsrc.txt
+TASK_LIST	m-020sf 020 subfield fix	task_m-020sf.txt
+TASK_LIST	m-020dc Delete cost data	task_m-020dc.txt
+TASK_LIST	m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
