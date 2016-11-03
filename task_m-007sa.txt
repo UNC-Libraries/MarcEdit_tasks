@@ -1,0 +1,14 @@
+#
+EDITFIELD	007	^s[^r]	2	sr	
+EDITFIELD	007	^(s.)[^\\]	2	$1\	
+EDITFIELD	007	^(s..)[^n]	2	$1n	
+EDITFIELD	007	^(s...)[^mqsuz|]	2	$1|	
+EDITFIELD	007	^(s....)[^n]	2	$1n	
+EDITFIELD	007	^(s.....)[^n]	2	$1n	
+EDITFIELD	007	^(s......)[^n]	2	$1n	
+EDITFIELD	007	^(s.......)[^n]	2	$1n	
+EDITFIELD	007	^(s........)[^n]	2	$1n	
+EDITFIELD	007	^(s.........)[^n]	2	$1n	
+EDITFIELD	007	^(s..........)[^n]	2	$1n	
+EDITFIELD	007	^(s...........)[^abcdefghnuz|]	2	$1|	
+EDITFIELD	007	^(s............)[^abdeuz|]	2	$1|	

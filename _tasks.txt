@@ -63,6 +63,7 @@ m-006sa 006 streaming audio fix	task_m-006sa.txt
 m-006sv 006 streaming video fix	task_m-006sv.txt	
 m-007delpres Delete preservation 007s	task_m-007delpres.txt	
 m-007eber 007 ebook eresource fix	task_m-007eber.txt	SHIFT+F4
+m-007sa 007 streaming audio fix	task_m-007sa.txt	
 m-007sv 007 streaming video fix	task_m-007sv.txt	
 m-008in Index indicator fix	task_m-008in.txt	
 m-008noc Code for nature of contents	task_m-008noc.txt	
