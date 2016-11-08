@@ -8,7 +8,7 @@ DELETE	538		0	False	False	False
 DELETE	583		0	False	False	False
 DELETE	710	Alexander Street Press	1	False	False	False
 DELETE	710	Films Media Group	0	False	False	False
-DELETE	710	Films for the Humanities & Sciences (Firm)	0	False	False	False
+DELETE	710	Films for the Humanities & Sciences	0	False	False	False
 DELETE	710	Kanopy (Firm)	0	False	False	False
 ADD	919	\\$afilmfinder	100	
 EDITFIELD	300	 ?:?\$b[^$]*	2		
@@ -25,5 +25,5 @@ DELETE	338		0	False	False	False
 RDAHELPER	1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0
 DELETE	337	$avideo	0	False	False	False
 DELETE	338	$aother	0	False	False	False
-TASK_LIST	a-svfrmhdg Streaming video form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-svfrmhdg.txt
+TASK_LIST	a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt
 REPLACE	\s+$		2		1
