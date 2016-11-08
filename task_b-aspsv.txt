@@ -5,21 +5,6 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Alexander Street Press.	100
 ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-$nPerpetual access	100	
-REPLACE	=490  0\\\$aCounseling and therapy in video[^,]	=773  0\$$tCounseling and therapy in video (online collection). v. 1	2
-REPLACE	=830  \0$aCounseling and therapy in video.	=773  0\$tCounseling and therapy in video (online collection). v. 1	0
-REPLACE	=490  0\$aCounseling and therapy in video, 2d. edition	=773  0\$tCounseling and therapy in video (online collection). v. 2	0
-REPLACE	=490  0\$aCounseling and therapy in video, volume 2	=773  0\$tCounseling and therapy in video (online collection). v. 2	0
-REPLACE	=490  0\$aCounseling and therapy in video, volume 3	=773  0\$tCounseling and therapy in video (online collection). v. 3	0
-REPLACE	=830  \0$aCounseling and therapy in video, 3d. edition.	=773  0\$tCounseling and therapy in video (online collection). v. 3	0
-REPLACE	=490  0\$aEducation in video	=773  0\$tEducation in video (online collection)	1
-REPLACE	=490  0\$aEducation in video, volume 1	=773  0\$tEducation in video (online collection)	1
-REPLACE	=830  \0$aEducation in video.	=773  0\$tEducation in video (online collection)	0
-REPLACE	=490  0\$aEthnographic video online	=773  0\$tEthnographic video online (online collection)	0
-REPLACE	=830  \0$aEthnographic video online.	=773  0\$tEthnographic video online (online collection)	0
-REPLACE	=490  0\$aFilmakers library online	=773  0\$tFilmakers library online (online collection)	0
-REPLACE	=830  \0$aFilmakers library online.	=773  0\$tFilmakers library online (online collection)	0
-REPLACE	=490  0\$aOpera in video	=773  0\$tOpera in video (online collection)	0
-REPLACE	=830  \0$aOpera in video.	=773  0\$tOpera in video (online collection)	0
 SUBFIELD_REMOVE	856	z		|0
 REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?CTIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xCounseling and therapy in video	2
 REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?EDIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xEducation in video	2
