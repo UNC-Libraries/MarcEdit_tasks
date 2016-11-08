@@ -1,0 +1,11 @@
+#
+REPLACE	^(=001.*\/)marc	$1	2		1
+buildnewfield	=001  {001}{999$a}	False	True	True	False
+REPLACE	^(=001.*\/)(.*)	$1lcase($2)	2		1
+SWAP	999		a		856	40	w	1	1	1		0	0
+EDITFIELD	856	(\$u.*)MARC(;.*)\$w(.*)	2	$1$3$2	
+REPLACE	=999  \\$aCTIV	=773  0\$tCounseling and therapy in video (online collection). v. 1	0
+REPLACE	=999  \\$aEDIV	=773  0\$tEducation in video (online collection)	0
+REPLACE	=999  \\$aANTH	=773  0\$tEthnographic video online (online collection)	0
+REPLACE	=999  \\$aFLON	=773  0\$tFilmakers library online (online collection)	0
+REPLACE	=999  \\$aOPIV	=773  0\$tOpera in video (online collection)	0

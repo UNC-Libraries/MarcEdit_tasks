@@ -10,6 +10,7 @@ a-spchar Clean diacritics and symbols	task_a-spchar.txt
 a-sv Streaming video general tasks	task_a-sv.txt	
 a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
+b-aspcoll ASP collection specific edits	task_b-aspcoll.txt	
 b-aspeb ASP Ebook batch edits	task_b-aspeb.txt	
 b-aspsa ASP Streaming audio batch edits	task_b-aspsa.txt	
 b-aspsv ASP Streaming video batch edits	task_b-aspsv.txt	
