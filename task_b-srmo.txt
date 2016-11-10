@@ -1,0 +1,16 @@
+#
+DELETE	490	SAGE research methods	1	False	False	False
+DELETE	500	SAGE research methods online	0	False	False	False
+DELETE	500	Online video	0	False	False	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	\\$aProvider: SAGE.	100	
+ADD	590	\\$aVendor-supplied catalog record.	100	
+DELETE	730	SAGE research methods online	1	False	False	False
+DELETE	830	SAGE research methods	1	False	False	False
+EDITFIELD	856	$3SAGE research methods$	0	$	
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	x		SAGE research methods online	101|0
+ADD	949	\\$g1$lebnb$t11$rn$h0$u-	100	
+TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt

@@ -57,6 +57,8 @@ b-spro1 Springer OCLC batch edit 1	task_b-spro1.txt
 b-spro2 Springer OCLC batch edits 2	task_b-spro2.txt	
 b-sprspr1 Springer from Springer 2	task_b-sprspr1.txt	
 b-sprspr2 Springer from Springer 1	task_b-sprspr2.txt	
+b-srmoPRE SAGE research methods pre-edit	task_b-srmoPRE.txt	
+b-srmo Sage Research Methods	task_b-srmo.txt	
 b-synlec Synthesis Lectures batch edits	task_b-synlec.txt	
 b-tfcrcdda TFCRC Evidence Based DDA batch edits	task_b-tfcrcdda.txt	
 b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
