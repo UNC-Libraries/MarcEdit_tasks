@@ -35,6 +35,7 @@ b-hvd001 Harvard Univ Press 001-024 fix	task_b-hvd001.txt
 b-jml Jazz Music Library batch edits	task_b-jml.txt	
 b-jprs Joint Publications Research Service batch edits	task_b-jprs.txt	
 b-kanpda Kanopy Streaming PDA edits	task_b-kanpda.txt	
+b-lionaud LION audio	task_b-lionaud.txt	
 b-liont LION texts	task_b-liont.txt	
 b-llt Library of Latin Texts batch edits	task_b-llt.txt	
 b-mef MEF Digital batch edits	task_b-mef.txt	
@@ -45,6 +46,7 @@ b-ocap OCA print link add batch edit	task_b-ocap.txt
 b-oclca OCLC Authority Control set	task_b-oclca.txt	
 b-oclcb OCLC batch edits	task_b-oclcb.txt	SHIFT+F8
 b-oro Oxford Ref Online Prem	task_b-oro.txt	
+b-oroCR OROP continuing resources	task_b-oroCR.txt	
 b-oropDP OROP Dictionary Plus	task_b-oropDP.txt	
 b-ose Oxford Scholarly Editions batch edits	task_b-ose.txt	
 b-pqss Serial Set batch workflow	task_b-pqss.txt	
