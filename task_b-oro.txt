@@ -13,8 +13,8 @@ DELETE	830	$aOxford quick reference	0	False	False
 INDICATOR	856			40
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
-SUBFIELD_REMOVE	856	x		|0
-SUBFIELD_REMOVE	856	z		|0
-SUBFIELD_REMOVE	856	3	Oxford reference	|0
+SUBFIELD_REMOVE	856	x		107|0
+SUBFIELD_REMOVE	856	z		107|0
+SUBFIELD_REMOVE	856	3	Oxford reference	107|0
 SUBFIELD_EDIT	856	x		Oxford reference online premium	101|0
 ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
