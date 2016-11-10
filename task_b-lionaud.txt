@@ -7,5 +7,8 @@ SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	y		Streaming audio available via the UNC-Chapel Hill Libraries	102|0
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	$aVendor-supplied catalog record.	100	
-ADD	590	$aProQuest.	100	
+ADD	590	$aProvider: ProQuest.	100	
 ADD	949	1$g1$lestr$h0$rn$q2$t50$u-	100	
+SUBFIELD_REMOVE	300	c	[0-9.]+MB	107|2
+EDITFIELD	300	; *$	2		
+EDITFIELD	300	\$a(.*?) *$	2	$$a1 online resource ($1)	
