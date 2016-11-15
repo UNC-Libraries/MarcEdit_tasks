@@ -18,6 +18,7 @@ EDITFIELD	337	^\$acomputer\s*\$2rdamedia\s*$	2	$$acomputer$$bc$$2rdamedia
 EDITFIELD	338	^\$bcr\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
 EDITFIELD	338	^\$aonline resource\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
 REPLACE	^(?<a>=520  )8(?<b>.\$a)Annotation\$b	${a}\${b}	2		1
+REPLACE	^(=520  )8(\\\$a[^$]+)$	$1\$2	2		1
 TASK_LIST	m-588 fix	task_m-588.txt
 TASK_LIST	a-hdgsrc Delete headings from some sources	task_a-hdgsrc.txt
 TASK_LIST	m-020sf 020 subfield fix	task_m-020sf.txt
