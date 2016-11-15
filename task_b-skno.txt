@@ -1,0 +1,13 @@
+#
+REPLACE	=520  8\	=520  \\	0		1
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	\\$aProvider: SAGE.	100	
+ADD	773	0\$tSAGE knowledge (online collection)	100	
+ADD	949	\\$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
+REPLACE	=856  40$3SAGE knowledge$	=856  40$	0		1
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
+SUBFIELD_EDIT	856	x		SAGE knowledge	102|0
+TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
