@@ -2,5 +2,5 @@
 DELETE	999		0	False	False	False
 COPY	776	999	false	$z		false
 EDITFIELD	999	(\$z[^$]*)	2	$+/r	
-REPLACE	^=999  ..	=020  \\	2		1
+REPLACE	^=999  ..(.*)	=020  \\$1$$qprint	2		1
 DELETE	020		1	True	False	False
