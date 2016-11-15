@@ -1,13 +1,14 @@
 #
 SUBFIELD_EDIT	008	23		o	0|0
-TASK_LIST	m-008noc Code for nature of contents	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008noc.txt
-TASK_LIST	m-008in Index indicator fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008in.txt
+SUBFIELD_EDIT	008	32	|	\	0|0
+TASK_LIST	m-008noc Code for nature of contents	task_m-008noc.txt
+TASK_LIST	m-008in Index indicator fix	task_m-008in.txt
 REPLACE	(?<a>=008  ..................)[\\|](?<b>[^a]{3})	${a}a${b}	2	=300.*ill	2
 REPLACE	(?<a>=008  ..................[^a])[\\|](?<b>[^a]{2})	${a}a${b}	2	=300.*ill	2
 REPLACE	(?<a>=008  ..................[^a]{2})[\\|](?<b>[^a])	${a}a${b}	2	=300.*ill	2
 REPLACE	(?<a>=008  ..................[^a]{3})[\\|]	${a}a	2	=300.*ill	2
-TASK_LIST	a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt
-TASK_LIST	m-300cl Clean 300s for batch eresourcification	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300cl.txt
+TASK_LIST	a-ebfrmhdg Ebook form heading cleaner	task_a-ebfrmhdg.txt
+TASK_LIST	m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt
 DELETE	530		0	False	False	False
 DELETE	533		0	False	False	False
 DELETE	538		0	False	False	False
