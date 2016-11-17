@@ -32,6 +32,7 @@ b-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt
 b-hathipi HathiTrust ingest prep	task_b-hathipi.txt	
 b-hvd Harvard Univ Press ebooks batch	task_b-hvd.txt	
 b-hvd001 Harvard Univ Press 001-024 fix	task_b-hvd001.txt	
+b-iop IOP ebooks	task_b-iop.txt	
 b-jml Jazz Music Library batch edits	task_b-jml.txt	
 b-jprs Joint Publications Research Service batch edits	task_b-jprs.txt	
 b-kanpda Kanopy Streaming PDA edits	task_b-kanpda.txt	
@@ -98,3 +99,4 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
+b-gsw GeoScienceWorld ebooks	tasksfile-2016_11_15_170058199.txt	

@@ -1,0 +1,10 @@
+#
+REPLACE	(^=001  )(.)	$1iop$2	2		1
+DELETE	545		0	False	False	False
+DELETE	710	\$e(publisher|distributor)	2	False	False	False
+ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	\\$aProvider: IOP	100	
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	949	\1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
