@@ -9,7 +9,9 @@ SUBFIELD_EDIT	008	33:2		\\	0|1
 EDITFIELD	362	 *- *$	2		
 SWAP	362		a		245		n	1	1	1		0	0
 SWAP	362		a		130		n	1	1	1		0	0
-EDITFIELD	245	(\$a[^$]+)(.*)(\$n[^$]+)	2	$1$3$2	
+EDITFIELD	245	(\$a[^$]+)( [:/]|,)(\$.*)(\$n[^$]+)	2	$1.$4$2$3	
+EDITFIELD	245	(\$a[^$]+)(\$.*)(\$n[^$]+)	2	$1.$3$2	
+EDITFIELD	245	..$	0	.$	
 DELETE	222		0	False	False	False
 DELETE	362		0	False	False	False
 DELETE	310		0	False	False	False
