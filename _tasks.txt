@@ -25,6 +25,7 @@ b-eai1 Early American Imprints, first series	task_b-eai1.txt
 b-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
 b-ebrees elibro Escuelas Secundarias 300 fix	task_b-ebrees.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
+b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	SHIFT+CONTROL+F1
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
 b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
@@ -99,4 +100,3 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
-b-gsw GeoScienceWorld ebooks	tasksfile-2016_11_15_170058199.txt	
