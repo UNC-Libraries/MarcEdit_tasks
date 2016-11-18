@@ -1,11 +1,7 @@
 #
-SUBFIELD_EDIT	008	23		o	0|0
 EDITFIELD	245	$h[recurso electronico]	0	$h[electronic resource]	
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-DELETE	533		0	False	False	False
-DELETE	538		0	False	False	False
-DELETE	583		0	False	False	False
 DELETE	590	electronic	1	False	False	False
 DELETE	710	ebrary	1	False	False	False
 DELETE	710	e-libro	1	False	False	False
@@ -14,7 +10,8 @@ DELETE	922		0	False	False	False
 DELETE	980		0	False	False	False
 DELETE	982		0	False	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	\\$aProvider: ebrary.	100	
 SUBFIELD_REMOVE	856	x		107|1
 SUBFIELD_REMOVE	856	z		107|1
-REPLACE	=949  \\$g1$lebnb$t11$rn$h0$u-$nPerpetual access	=949  \\$g1$lebnb$t11$rn$h0$u-	0
-REPLACE	=949  \1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	=949  \1$g1$lebnb$t11$rn$h0$u-	0
+EDITFIELD	949	$nPerpetual access	0		
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
