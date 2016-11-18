@@ -25,7 +25,7 @@ b-eai1 Early American Imprints, first series	task_b-eai1.txt
 b-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
 b-ebrees elibro Escuelas Secundarias 300 fix	task_b-ebrees.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
-b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	SHIFT+CONTROL+F1
+b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
 b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
@@ -68,6 +68,7 @@ b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt
 b-wcmep WCM ebook main per-collection edits	task_b-wcmep.txt	
 h-hathitrust ingest marc prep	task_h-hathitrust.txt	
 m-006eb 006 ebook fix	task_m-006eb.txt	SHIFT+F3
+m-006map 006 map fix	task_m-006map.txt	
 m-006sa 006 streaming audio fix	task_m-006sa.txt	
 m-006sv 006 streaming video fix	task_m-006sv.txt	
 m-007delpres Delete preservation 007s	task_m-007delpres.txt	
