@@ -1,0 +1,6 @@
+#
+SUBFIELD_EDIT	008	18:4	    	||||	0|0
+SUBFIELD_EDIT	008	22:2	\s	||	0|0
+SUBFIELD_EDIT	008	29		o	0|0
+EDITFIELD	856	$yFull text available via the UNC-Chapel Hill Libraries	0	$yAvailable via the UNC-Chapel Hill Libraries	
+EDITFIELD	949	$lebnb	0	$lerri	
