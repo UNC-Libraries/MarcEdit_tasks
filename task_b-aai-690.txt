@@ -1,13 +1,56 @@
 #
+REPLACE	^=690  \\0\$aClergy\$zUnited States\$xAutobiography\. *$	=650  \0$$aClergy$$zUnited States$$vBiography.	2
+REPLACE	^=690  \\0\$aEducation\. *$	=650  \0$$aEducation.	2
+REPLACE	^=690  \\0\$aPhilanthropy\. *$	=999  \\$$aDELETE ME	2
+REPLACE	^=690  \\0\$aRace relations\$zLouisiana\$vFiction\. *$	=651  \0$$Louisiana$$xRace relations$$vFiction.	2
+REPLACE	^=690  \\0\$aWomen musicians\. *$	=650  \0$$aWomen musicians.	2
+REPLACE	^=690  \\0\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
+REPLACE	^=690  \\0\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
+REPLACE	^=690  \\3\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	^=690  \\4\$aAbolitionists\$zUnited States\$xSatire\. *$	=650  \0$$aAbolitionists$$zUnited States$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	^=690  \\4\$aAfrican American actors\$vSatires\. *$	=650  \0$$aAfrican American actors$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	^=690  \\4\$aAfrican American soldiers\$yCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
+REPLACE	^=690  \\4\$aAfrican Americans\$vSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	^=690  \\4\$aAfrican Americans\$vSatires\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	^=690  \\4\$aAfrican Americans\$xReligious education\$zUnited States\. *$	=650  \0$$aAfrican Americans$$xReligious life.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\4\$aAfro-American criminals\. *$	=650  \0$$aAfrican American criminals.	2
+REPLACE	^=690  \\4\$aAfro-American organizations\. *$	=650  \0$$aAfrican Americans$$xAssociations, institutions, etc.	2
+REPLACE	^=690  \\4\$aAfro-American scientists\. *$	=650  \0$$aAfrican American scientists.	2
 REPLACE	^=690  \\4\$aAfro-American soldiers\$xCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
-REPLACE	^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
+REPLACE	^=690  \\4\$aAfro-American soldiers\$xCivil War\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
+REPLACE	^=690  \\4\$aAfro-American soldiers\$yRevolution, 1775-1783\. *$	=650  \0$$aAfrican American soldiers$$yRevolution, 1775-1783.	2
+REPLACE	^=690  \\4\$aAfro-American soldiers\$yWar of 1812\. *$	=650  \0$$aAfrican American soldiers$$yWar of 1812.	2
+REPLACE	^=690  \\4\$aAfro-American translators\. *$	=650  \0$$aAfrican Americans.\n=650  \0$$aTranslators.	2
 REPLACE	^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	^=690  \\4\$aAfro-Americans\$xCivil War\. *$	=650  \0$$aAfrican Americans$$yCivil War, 1861-1865.	2
+REPLACE	^=690  \\4\$aAfro-Americans\$xReligious education\$zSouth Carolina\. *$	=650  \0$$aAfrican Americans$$zSouth Carolina$$xReligious life.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\4\$aAfro-Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
+REPLACE	^=690  \\4\$aBlacks\$xReligious education\$zGreat Britain\. *$	=650  \0$$aBlacks$$zGreat Britain$$xReligious life.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aBlacks\$xReligious education\. *$	=650  \0$$aBlacks$$xReligious life.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\4\$aPhilanthropy\. *$	=999  \\$$aDELETE ME	2
+REPLACE	^=690  \\4\$aRace relations\$zLouisiana\$xDrama\. *$	=651  \0$$Louisiana$$xRace relations$$vDrama.	2
+REPLACE	^=690  \\4\$aRace relations\$zMississippi\. *$	=651  \0$$aMississippi$$xRace relations.	2
+REPLACE	^=690  \\4\$aRace relations\$zSouth Africa\. *$	=651  \0$$aSouth Africa$$xRace relations.	2
+REPLACE	^=690  \\4\$aRace relations\$zSouth Carolina\$zHamburg\. *$	=651  \0$$aSouth Carolina$$zHamburg$$xRace relations.	2
+REPLACE	^=690  \\4\$aRace relations\$zSouthern States\$vFiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vFiction.	2
 REPLACE	^=690  \\4\$aRace relations\$zSouthern States\. *$	=651  \0$$aSouthern States$$xRace relations.	2
-REPLACE	^=690  \\4\$aSlave insurrections\$zSurinam\$xDrama\. *$	=650  \0$$aSlave insurrections$$zSurinam$$vDrama	2
+REPLACE	^=690  \\4\$aRace relations\$zUnited States\. *$	=651  \0$$aUnited States$$xRace relations.	2
+REPLACE	^=690  \\4\$aRace relations\$zVirginia\. *$	=651  \0$$aVirginia$$xRace relations.	2
+REPLACE	^=690  \\4\$aRace relations\. *$	=650  \0$$aRace relations.	2
+REPLACE	^=690  \\4\$aSlave trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
+REPLACE	^=690  \\4\$aSlave trade\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
+REPLACE	^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
+REPLACE	^=690  \\4\$aSlavery\$xJustification\$zFrance\. *$	=650  \0$$aSlavery$$zFrance$$xJustification.	2
+REPLACE	^=690  \\4\$aSlavery\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
+REPLACE	^=690  \\4\$aSlavery\$xJustification\$zUnited States\$vFiction\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification$$vFiction.	2
 REPLACE	^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
-REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zGreat Britain\$xColonies\. *$	=650  \0$$aSlaves$$xReligious life$$zGreat Britain$$xColonies.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\4\$aSlavery\$zUnited States\$xSatire\. *$	=650  \0$$aSlavery$$zUnited States$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zSouth Carolina\. *$	=650  \0$$aSlaves$$xReligious life$$zSouth Carolina.\n=650  \0$$aReligious education.	2
 REPLACE	^=690  \\4\$aSlaves\$xReligious education\. *$	=650  \0$$aSlaves$$xReligious life.\n=650  \0$$aReligious education.	2
+REPLACE	^=690  \\4\$aTrials \(Fugitive slaves\)\$zMassachusetts\$zBoston\. *$	=650  \0$$aFugitive slaves$$zMassachusetts$$zBoston.\n=650  \0$$aTrials$$zMassachusetts$$zBoston.	2
+REPLACE	^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
 REPLACE	^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
 DELETE	999	DELETE ME	0	False	False	False
 DELETE	650		1	True	False	False
