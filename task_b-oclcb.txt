@@ -2,11 +2,18 @@
 SUBFIELD_REMOVE	856	z	An electronic book accessible through the World Wide Web	|1
 SUBFIELD_REMOVE	856	z	restricted	|1
 SUBFIELD_REMOVE	856	z	online resource	|1
-REPLACE	^=950	=888	2
 REPLACE	^=024  8	=999  8	2
 REPLACE	^=082  \\	=999  8	2
-REPLACE	^=(029|037|049|055|07[02]|08[04]|09[06]|256|506|516|53[038]|583|653|883|9[0-46-9]\d|95[1-57-9])	=999	2		1
+REPLACE	^=(029|037|049|055|07[02]|08[04]|09[06]|256|506|516|53[038]|583|653|883)	=999	2		1
 DELETE	999		0	False	False	False
+REPLACE	^=950	=888	2
+REPLACE	^=915	=666	2		1
+REPLACE	^=949	=444	2		1
+REPLACE	^=9\d\d	=999	2		1
+DELETE	999		0	False	False	False
+REPLACE	^=888	=950	2
+REPLACE	^=666	=915	2		1
+REPLACE	^=444	=949	2		1
 DELETE	024	$b	0	False	False	False
 DELETE	035	OCoLC	0	False	True	False
 DELETE	060	Online Book	0	False	False	False
@@ -17,6 +24,5 @@ DELETE	710	Ebooks Corporation	1	False	False	False
 DELETE	710	American Chemical Society\. *$	2	False	False	False
 DELETE	710	American Geophysical Union\. *$	2	False	False	False
 DELETE	773	Springer eBooks	1	False	False	False
-REPLACE	^=888	=950	2
 REPLACE	^(?<a>=001  )o(c[mn]|n)(?<b>[\d]*)[^\d]*$	${a}${b}	2
 EDITFIELD	001	\	0		
