@@ -1,5 +1,7 @@
 #
 SUBFIELD_EDIT	008	23		o	0|0
+SUBFIELD_EDIT	008	20		\	0|0
+SUBFIELD_EDIT	008	30:3		\\\	0|0
 REPLACE	(?<a>=008  ..................).	${a}u	2	=310.*Frequency.*unknown	2
 REPLACE	(?<a>=008  ..................).	${a}q	2	=310.*Updated quarterly	2
 REPLACE	(?<a>=008  ..................u).	${a}u	2		1

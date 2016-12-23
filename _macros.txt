@@ -1,1 +1,1 @@
-test macro	C:\Users\kspurgin\AppData\Roaming\marcedit\macros\macrofile-2013_01_03_094345824.txt	
+test macro	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\macrofile-2013_01_03_094345824.txt	

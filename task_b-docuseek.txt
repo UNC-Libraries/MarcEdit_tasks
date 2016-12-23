@@ -1,5 +1,5 @@
 #
-REPLACE	^=001  	=001  docsk	0		1
+SUBFIELD_EDIT	001		^b	docsk	0|0
 DELETE	049		0	False	False	False
 EDITFIELD	856	http://www.docuseek2.com	0	http://docuseek2.com	
 SUBFIELD_REMOVE	856	z	Connect to electronic video	107|0
