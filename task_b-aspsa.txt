@@ -24,6 +24,6 @@ REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.as
 REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?JAZZ.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xJazz music library	2
 REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?GLMU.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xSmithsonian global sound for libraries	2
 SUBFIELD_EDIT	856	y		Streaming audio available via the UNC-Chapel Hill Libraries	101|0
-ADD	949	\1$g1$lestr$h0$rn$q0$t50$u-$nPerpetual access	100	
+ADD	949	\1$g1$lestr$h0$rn$q0$t50$u- $nPerpetual access	100
 INDICATOR	740	.1		.2
 REPLACE	=300  \\$aStreaming audio	=300  \\$a1 online resource	0

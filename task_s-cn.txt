@@ -1,21 +1,24 @@
 #
 REPLACE	=949  \1$aINTERNET: SerSol E-book$z099 9	=949  \1	0
-DELETE	500	Project Muse	1	False	False	False
+SUBFIELD_EDIT	008	23		o	0|0
+SUBFIELD_EDIT	006	09		d	0|0
+SUBFIELD_REMOVE	020	c		|0
+DELETE	710	Adam Matthew Digital (Firm)	0	False	False	False
 DELETE	710	ebrary, Inc.	0	False	False	False
-DELETE	710	Project Muse	1	False	False	False
-DELETE	830	Project Muse	1	False	False	False
 SUBFIELD_EDIT	008	15:3	|||	xx\	0|0
-SUBFIELD_EDIT	008	33	2	0	0|0
 SUBFIELD_EDIT	008	35:3	|||	\\\	0|0
 EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file) \((?<a>.*?)\)\.?\)	2	1 online resource (${a})	
+TASK_LIST	m-008in Index indicator fix	task_m-008in.txt
+TASK_LIST	m-008noc Code for nature of contents	task_m-008noc.txt
+DELETE	920		0	False	False	False
+DELETE	960		0	False	False	False
+DELETE	998		0	False	False	False
 REPLACE	^=700  2	=700  1	2		1
 DELETE	773		0	True	False	False
 DELETE	506		0	True	False	False
+TASK_LIST	m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
+DELETE	035	OCoLC	0	False	True	False
 DELETE	912		0	False	True	False
-DELETE	920		0	False	False	False
-DELETE	945		0	False	False	False
 DELETE	952		0	False	True	False
-DELETE	960		0	False	False	False
 DELETE	963		0	False	True	False
 DELETE	985		0	False	True	False
-DELETE	998		0	False	False	False
