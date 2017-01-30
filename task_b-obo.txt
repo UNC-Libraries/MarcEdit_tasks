@@ -1,7 +1,8 @@
 #
+REPLACE	^=001  	=001  obo	2		1
 SUBFIELD_EDIT	008	21		w	0|0
 SUBFIELD_EDIT	008	25	[\|]	a	0|2
-DELETE	020	module	0	False	False	False
+DELETE	020		0	False	False	False
 DELETE	490		0	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
