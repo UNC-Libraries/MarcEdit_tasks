@@ -3,7 +3,10 @@ SUBFIELD_EDIT	LDR	6		a	0|0
 SUBFIELD_EDIT	LDR	7	a	m	0|0
 EDITFIELD	260	 :\$b[^$]+\$bImprint: ([^$]+)	2	 :$$b$1	
 EDITFIELD	264	 :\$b[^$]+\$bImprint: ([^$]+)	2	 :$$b$1	
+DELETE	506	0\$aOpen Access	0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	\\$aProvider: SpringerLink.	100	
 ADD	773	0\$tSpringer e-books (online collection)	100	
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
@@ -20,4 +23,4 @@ REPLACE	—	--	0		1
 REPLACE	®		0		1
 REPLACE	“	"	0		1
 REPLACE	”	"	0		1
-TASK_LIST	m-notauth No Authority Control	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-notauth.txt
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
