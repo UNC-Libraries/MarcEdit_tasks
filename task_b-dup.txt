@@ -5,6 +5,8 @@ EDITFIELD	035	$a	0	$a(OCoLC)
 ADD	003	OCoLC	100	
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	\\$aProvider: Duke University Press.	100	
+ADD	590	\\$aVendor-supplied catalog record.	100	
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	x		Duke University Press ebooks	101|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
