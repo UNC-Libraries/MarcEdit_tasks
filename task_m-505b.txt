@@ -1,4 +1,5 @@
 #
+SUBFIELD_REMOVE	505	u		107|0
 REPLACE	^=505  (?<i1>.)0	=505  ${i1}\	2		1
 REPLACE	^(?<a>=505  ..\$)[^a]	${a}a	2		1
 EDITFIELD	505	 /$r	0	 / 	
