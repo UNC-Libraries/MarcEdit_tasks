@@ -2,7 +2,9 @@
 REPLACE	=856  \\$uurn	=956  \\$uurn	0
 REPLACE	^=856(  .*dx\.doi\.org)	=956$1	2
 ADD	300	\\$a1 online resource.	100
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: National Bureau of Economic Research (NBER).	100	
 ADD	949	\1$g1$lebnb$t11$rn$h0$u	100	
 ADD	773	0\$tNational Bureau of Economic Research (NBER) working papers (online collection)	100	
 DELETE	530	Hardcopy	0	False	False
