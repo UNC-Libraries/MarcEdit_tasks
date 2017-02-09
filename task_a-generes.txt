@@ -2,6 +2,9 @@
 REPLACE	: $b	:$b	0		1
 REPLACE	, $e	,$e	0		1
 DELETE	020	\$[az][0-9Xx]+	2	True	False	False
+TASK_LIST	m-020sf 020 subfield fix	task_m-020sf.txt
+TASK_LIST	m-020dc Delete cost data	task_m-020dc.txt
+TASK_LIST	m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
 REPLACE	^=035  \\\\\$a\(NhCcYBP\)	=035  \\$$a(OCoLC)(NhCcYBP)	2	=773.*DDA \(online collection\)	2
 DELETE	035	(OCoLC)	0	False	True	False
 REPLACE	^=035  \\\\\$a\(OCoLC\)\(NhCcYBP\)	=035  \\$$a(NhCcYBP)	2		1
@@ -17,10 +20,8 @@ EDITFIELD	337	^\$bc\s*\$2rdamedia\s*$	2	$$acomputer$$bc$$2rdamedia
 EDITFIELD	337	^\$acomputer\s*\$2rdamedia\s*$	2	$$acomputer$$bc$$2rdamedia	
 EDITFIELD	338	^\$bcr\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
 EDITFIELD	338	^\$aonline resource\s*\$2rdacarrier\s*$	2	$$aonline resource$$bcr$$2rdacarrier	
+TASK_LIST	m-505b Basic coding not enhanced	task_m-505b.txt
 REPLACE	^(?<a>=520  )8(?<b>.\$a)Annotation\$b	${a}\${b}	2		1
 REPLACE	^(=520  )8(\\\$a[^$]+)$	$1\$2	2		1
 TASK_LIST	m-588 fix	task_m-588.txt
 TASK_LIST	a-hdgsrc Delete headings from some sources	task_a-hdgsrc.txt
-TASK_LIST	m-020sf 020 subfield fix	task_m-020sf.txt
-TASK_LIST	m-020dc Delete cost data	task_m-020dc.txt
-TASK_LIST	m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
