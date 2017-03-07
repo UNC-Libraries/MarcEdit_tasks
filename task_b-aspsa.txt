@@ -5,20 +5,18 @@ DELETE	945		0	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Alexander Street Press.	100
 REPLACE	^=500(?<a>  \\\\\$a.*from original container.*$)	=588${a}	2
-REPLACE	=490  0\$aAmerican song	=773  0\$tAmerican song (online collection)	0
-REPLACE	=490  0\$aAmerican song online	=773  0\$tAmerican song online (online collection)	0
+REPLACE	=490  0\$aAmerican music	=773  0\$tAmerican music (online collection)	0		1
 REPLACE	=490  0\$aClassical music library	=773  0\$tClassical music library (online collection)	0
 REPLACE	=490  0\$aContemporary world music	=773  0\$tContemporary world music (online collection)	0
 REPLACE	=490  0\$aJazz music library	=773  0\$tJazz music library (online collection)	0
 REPLACE	=490  0\$aSmithsonian global sound for libraries	=773  0\$tSmithsonian global sound for libraries (online collection)	0
-REPLACE	=830  \0$aAmerican song.	=773  0\$tAmerican song (online collection)	0
-REPLACE	=830  \0$aAmerican song online.	=773  0\$tAmerican song online (online collection)	0
+REPLACE	=830  \0$aAmerican music.	=773  0\$tAmerican music (online collection)	0		1
 REPLACE	=830  \0$aClassical music library.	=773  0\$tClassical music library (online collection)	0
 REPLACE	=830  \0$aContemporary world music.	=773  0\$tContemporary world music (online collection)	0
 REPLACE	=830  \0$aJazz music library.	=773  0\$tJazz music library (online collection)	0
 REPLACE	=830  \0$aSmithsonian global sound for libraries.	=773  0\$tSmithsonian global sound for libraries (online collection)	0
 SUBFIELD_REMOVE	856	z		|0
-REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?AMSO.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xAmerican Song	2
+REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?AMSO.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xAmerican music	2		1
 REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?CLMU.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xClassical music library	2
 REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?WOMU.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xContemporary world music	2
 REPLACE	^(?<a>=856  40.*)\$u(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?JAZZ.*)$	${a}$$uhttp://libproxy.lib.unc.edu/login?url=${b}$$xJazz music library	2
