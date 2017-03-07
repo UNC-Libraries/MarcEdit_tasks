@@ -1,104 +1,105 @@
-a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt	SHIFT+F1
-a-ebooks General ebook edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebooks.txt	SHIFT+F10
-a-ecr General online cont resource edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ecr.txt	
-a-genebk General Ebook Tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-genebk.txt	
-a-generes General E-Res Tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-generes.txt	SHIFT+F9
-a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt	SHIFT+F2
-a-map General online map edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-map.txt	
-a-sa Streaming audio general edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-sa.txt	
-a-safrmhdg Streaming audio form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-safrmhdg.txt	
-a-spchar Clean diacritics and symbols	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-spchar.txt	
-a-sv Streaming video general tasks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-sv.txt	
-a-svfrmhdg Streaming video form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-svfrmhdg.txt	
-b-aai-690 Fix 690s in Afro Americana Imprints	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aai-690.txt	
-b-aspcoll ASP collection specific edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspcoll.txt	
-b-aspeb ASP Ebook batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspeb.txt	
-b-aspsa ASP Streaming audio batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspsa.txt	
-b-aspsv ASP Streaming video batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-aspsv.txt	
-b-bep Business Expert Press batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-bep.txt	
-b-cbo Cambridge Books Online	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-cbo.txt	
-b-codgh Criterion on Demand subject genre headings fixes	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-codgh.txt	
-b-colldl Colloquium Digital Library batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-colldl.txt	
-b-cwmo Contemporary World Music batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-cwmo.txt	
-b-docuseek Docuseek2 batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-docuseek.txt	
-b-dup Duke University Press batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-dup.txt	
-b-eai1 Early American Imprints, first series	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-eai1.txt	
-b-ebrac Ebrary Academic Complete	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrac.txt	
-b-ebrees elibro Escuelas Secundarias 300 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrees.txt	
-b-ebrperp Ebrary perp batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrperp.txt	
-b-ebrsubCR Ebrary subscription continuing resources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ebrsubCR.txt	
-b-eeubo Early Euro Books Online batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-eeubo.txt	
-b-ehraf EHRAF world cultures batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ehraf.txt	
-b-fmgfod FMG films on demand batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-fmgfod.txt	
-b-ftnow Foundations and Trends in X batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ftnow.txt	
-b-hathipi HathiTrust ingest prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-hathipi.txt	
-b-hvd Harvard Univ Press ebooks batch	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-hvd.txt	
-b-hvd001 Harvard Univ Press 001-024 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-hvd001.txt	
-b-iop IOP ebooks	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-iop.txt	
-b-jml Jazz Music Library batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-jml.txt	
-b-jprs Joint Publications Research Service batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-jprs.txt	
-b-kanpda Kanopy Streaming PDA edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-kanpda.txt	
-b-lionaud LION audio	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-lionaud.txt	
-b-liont LION texts	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-liont.txt	
-b-llt Library of Latin Texts batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-llt.txt	
-b-mef MEF Digital batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-mef.txt	
-b-momw Making of the Modern World batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-momw.txt	
-b-nber NBER batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-nber.txt	
-b-obo Oxford Bibliographies Online batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-obo.txt	
-b-ocap OCA print link add batch edit	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ocap.txt	
-b-oclca OCLC Authority Control set	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oclca.txt	
-b-oclcb OCLC batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oclcb.txt	SHIFT+F8
-b-oro Oxford Ref Online Prem	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oro.txt	
-b-oroCR OROP continuing resources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oroCR.txt	
-b-oropDP OROP Dictionary Plus	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-oropDP.txt	
-b-ose Oxford Scholarly Editions batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-ose.txt	
-b-pqss Serial Set batch workflow	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-pqss.txt	
-b-rand RAND ebook batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-rand.txt	
-b-sabo Sabin americana batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-sabo.txt	
-b-siam SIAM ebooks batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-siam.txt	
-b-skno SAGE knowledge online	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-skno.txt	
-b-spro1 Springer OCLC batch edit 1	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-spro1.txt	
-b-spro2 Springer OCLC batch edits 2	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-spro2.txt	
-b-sprspr1 Springer from Springer 2	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-sprspr1.txt	
-b-sprspr2 Springer from Springer 1	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-sprspr2.txt	
-b-srmoPRE SAGE research methods pre-edit	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-srmoPRE.txt	
-b-srmo Sage Research Methods	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-srmo.txt	
-b-synlec Synthesis Lectures batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-synlec.txt	
-b-tfcrcdda TFCRC Evidence Based DDA batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-tfcrcdda.txt	
-b-tfdda TF Evidence Based DDA batch edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-tfdda.txt	
-b-wcmep WCM ebook main per-collection edits	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_b-wcmep.txt	
-h-hathitrust ingest marc prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_h-hathitrust.txt	
-m-006eb 006 ebook fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006eb.txt	SHIFT+F3
-m-006map 006 map fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006map.txt	
-m-006sa 006 streaming audio fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006sa.txt	
-m-006sv 006 streaming video fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006sv.txt	
-m-007delpres Delete preservation 007s	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007delpres.txt	
-m-007eber 007 ebook eresource fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007eber.txt	SHIFT+F4
-m-007sa 007 streaming audio fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007sa.txt	
-m-007sv 007 streaming video fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007sv.txt	
-m-008in Index indicator fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008in.txt	
-m-008noc Code for nature of contents	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-008noc.txt	
-m-020dc Delete cost data	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020dc.txt	
-m-020p7 Get print ISBN from 776	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020p7.txt	
-m-020q Convert parenthetical qualifier to $q	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020q.txt	
-m-020sf 020 subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-020sf.txt	
-m-264crsf 264 2nd ind 4 copyright date subfield fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-264crsf.txt	
-m-264in2 Fix ind 2 per role	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-264in2.txt	
-m-300cl Clean 300s for batch eresourcification	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300cl.txt	
-m-300df Clean 300s containing digital file	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300df.txt	
-m-300e Eresourcify 300s	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300e.txt	SHIFT+F5
-m-505b Basic coding not enhanced	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-505b.txt	
-m-588 fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-588.txt	
-m-decimal_subs	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-decimal_subs.txt	
-m-notauth No Authority Control	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-notauth.txt	
-m-rt Relator term cleanup	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-rt.txt	
-o-ocam OCA mono prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_o-ocam.txt	
-o-ocas OCA serials prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_o-ocas.txt	
-o-skel OCA OCLC skeleton file prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_o-skel.txt	
-s-chinese	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-chinese.txt	
-s-cn Fix SerSol call number	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-cn.txt	SHIFT+F6
-s-del SerSol delete prep	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-del.txt	SHIFT+F7
-s-japanese	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-japanese.txt	
-s-korean	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-korean.txt	
-s-ssjloc Change ssj ssib to local	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-ssjloc.txt	
-s-to_ssj Go back to ssj and ssib	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_s-to_ssj.txt	
+﻿a-ebfrmhdg Ebook form heading cleaner	task_a-ebfrmhdg.txt	SHIFT+F1
+a-ebooks General ebook edits	task_a-ebooks.txt	SHIFT+F10
+a-ecr General online cont resource edits	task_a-ecr.txt	
+a-genebk General Ebook Tasks	task_a-genebk.txt	
+a-generes General E-Res Tasks	task_a-generes.txt	SHIFT+F9
+a-hdgsrc Delete headings from some sources	task_a-hdgsrc.txt	SHIFT+F2
+a-map General online map edits	task_a-map.txt	
+a-sa Streaming audio general edits	task_a-sa.txt	
+a-safrmhdg Streaming audio form heading cleaner	task_a-safrmhdg.txt	
+a-spchar Clean diacritics and symbols	task_a-spchar.txt	
+a-sv Streaming video general tasks	task_a-sv.txt	
+a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt	
+b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
+b-aspcoll ASP collection specific edits	task_b-aspcoll.txt	
+b-aspeb ASP Ebook batch edits	task_b-aspeb.txt	
+b-aspsa ASP Streaming audio batch edits	task_b-aspsa.txt	
+b-aspsv ASP Streaming video batch edits	task_b-aspsv.txt	
+b-bep Business Expert Press batch edits	task_b-bep.txt	
+b-cbo Cambridge Books Online	task_b-cbo.txt	
+b-codgh Criterion on Demand subject genre headings fixes	task_b-codgh.txt	
+b-colldl Colloquium Digital Library batch edits	task_b-colldl.txt	
+b-cwmo Contemporary World Music batch edits	task_b-cwmo.txt	
+b-docuseek Docuseek2 batch edits	task_b-docuseek.txt	
+b-dup Duke University Press batch edits	task_b-dup.txt	
+b-eai1 Early American Imprints, first series	task_b-eai1.txt	
+b-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
+b-ebrees elibro Escuelas Secundarias 300 fix	task_b-ebrees.txt	
+b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
+b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
+b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
+b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
+b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
+b-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt	
+b-hathipi HathiTrust ingest prep	task_b-hathipi.txt	
+b-hvd Harvard Univ Press ebooks batch	task_b-hvd.txt	
+b-hvd001 Harvard Univ Press 001-024 fix	task_b-hvd001.txt	
+b-iop IOP ebooks	task_b-iop.txt	
+b-jml Jazz Music Library batch edits	task_b-jml.txt	
+b-jprs Joint Publications Research Service batch edits	task_b-jprs.txt	
+b-kanpda Kanopy Streaming PDA edits	task_b-kanpda.txt	
+b-lionaud LION audio	task_b-lionaud.txt	
+b-liont LION texts	task_b-liont.txt	
+b-llt Library of Latin Texts batch edits	task_b-llt.txt	
+b-mef MEF Digital batch edits	task_b-mef.txt	
+b-momw Making of the Modern World batch edits	task_b-momw.txt	
+b-nber NBER batch edits	task_b-nber.txt	
+b-obo Oxford Bibliographies Online batch edits	task_b-obo.txt	
+b-ocap OCA print link add batch edit	task_b-ocap.txt	
+b-oclca OCLC Authority Control set	task_b-oclca.txt	
+b-oclcb OCLC batch edits	task_b-oclcb.txt	SHIFT+F8
+b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
+b-oro Oxford Ref Online Prem	task_b-oro.txt	
+b-oroCR OROP continuing resources	task_b-oroCR.txt	
+b-oropDP OROP Dictionary Plus	task_b-oropDP.txt	
+b-ose Oxford Scholarly Editions batch edits	task_b-ose.txt	
+b-pqss Serial Set batch workflow	task_b-pqss.txt	
+b-rand RAND ebook batch edits	task_b-rand.txt	
+b-sabo Sabin americana batch edits	task_b-sabo.txt	
+b-siam SIAM ebooks batch edits	task_b-siam.txt	
+b-skno SAGE knowledge online	task_b-skno.txt	
+b-spro1 Springer OCLC batch edit 1	task_b-spro1.txt	
+b-spro2 Springer OCLC batch edits 2	task_b-spro2.txt	
+b-sprspr1 Springer from Springer 2	task_b-sprspr1.txt	
+b-sprspr2 Springer from Springer 1	task_b-sprspr2.txt	
+b-srmoPRE SAGE research methods pre-edit	task_b-srmoPRE.txt	
+b-srmo Sage Research Methods	task_b-srmo.txt	
+b-synlec Synthesis Lectures batch edits	task_b-synlec.txt	
+b-tfcrcdda TFCRC Evidence Based DDA batch edits	task_b-tfcrcdda.txt	
+b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
+b-wcmep WCM ebook main per-collection edits	task_b-wcmep.txt	
+h-hathitrust ingest marc prep	task_h-hathitrust.txt	
+m-006eb 006 ebook fix	task_m-006eb.txt	SHIFT+F3
+m-006map 006 map fix	task_m-006map.txt	
+m-006sa 006 streaming audio fix	task_m-006sa.txt	
+m-006sv 006 streaming video fix	task_m-006sv.txt	
+m-007delpres Delete preservation 007s	task_m-007delpres.txt	
+m-007eber 007 ebook eresource fix	task_m-007eber.txt	SHIFT+F4
+m-007sa 007 streaming audio fix	task_m-007sa.txt	
+m-007sv 007 streaming video fix	task_m-007sv.txt	
+m-008in Index indicator fix	task_m-008in.txt	
+m-008noc Code for nature of contents	task_m-008noc.txt	
+m-020dc Delete cost data	task_m-020dc.txt	
+m-020p7 Get print ISBN from 776	task_m-020p7.txt	
+m-020q Convert parenthetical qualifier to $q	task_m-020q.txt	
+m-020sf 020 subfield fix	task_m-020sf.txt	
+m-264crsf 264 2nd ind 4 copyright date subfield fix	task_m-264crsf.txt	
+m-264in2 Fix ind 2 per role	task_m-264in2.txt	
+m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt	
+m-300df Clean 300s containing digital file	task_m-300df.txt	
+m-300e Eresourcify 300s	task_m-300e.txt	SHIFT+F5
+m-505b Basic coding not enhanced	task_m-505b.txt	
+m-588 fix	task_m-588.txt	
+m-decimal_subs	task_m-decimal_subs.txt	
+m-notauth No Authority Control	task_m-notauth.txt	
+m-rt Relator term cleanup	task_m-rt.txt	
+o-ocam OCA mono prep	task_o-ocam.txt	
+o-ocas OCA serials prep	task_o-ocas.txt	
+o-skel OCA OCLC skeleton file prep	task_o-skel.txt	
+s-chinese	task_s-chinese.txt	
+s-cn Fix SerSol call number	task_s-cn.txt	SHIFT+F6
+s-del SerSol delete prep	task_s-del.txt	SHIFT+F7
+s-japanese	task_s-japanese.txt	
+s-korean	task_s-korean.txt	
+s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
+s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
