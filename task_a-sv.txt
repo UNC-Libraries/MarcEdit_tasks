@@ -11,7 +11,7 @@ DELETE	710	Films Media Group	0	False	False	False
 DELETE	710	Films for the Humanities & Sciences	0	False	False	False
 DELETE	710	Kanopy (Firm)	0	False	False	False
 ADD	919	\\$afilmfinder	100	
-EDITFIELD	300	 ?:?\$b[^$]*	2		
+EDITFIELD	300	 ?;?\$c[^$]*	2		
 EDITFIELD	300	(?<a>\d+) online resource(?<b>s?) \(\d* ?(?:streaming |)video files?\)	2	${a} streaming video${b}	
 EDITFIELD	300	(?<a>\d+) online resource(?<b>s?) \(\d* ?(?:streaming |)videos? files?, 	2	${a} streaming video${b} (	
 EDITFIELD	300	(?<a>\d+) online resource(?<b>s?) \(\d* ?(?:streaming |)videos? files? (?<c>\(.*?\))\)	2	${a} streaming video${b} ${c}	
