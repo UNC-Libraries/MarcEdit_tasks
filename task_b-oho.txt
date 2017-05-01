@@ -15,5 +15,6 @@ buildnewfield	=999  30$a{245$a}	False	False	True	False
 REPLACE	^=999(.*Oxford handbook)	=998$1	2		1
 DELETE	999		0	False	False	False
 EDITFIELD	998	\$a.*Oxford handbook	2	$$aHandbook	
+EDITFIELD	998	 [:/] *$	2		
 REPLACE	^=998	=246	2		1
 DELETE	246		0	True	False	False
