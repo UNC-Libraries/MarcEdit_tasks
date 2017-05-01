@@ -29,6 +29,7 @@ b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt
 b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
+b-filmp Film Platform batch edits	task_b-filmp.txt	
 b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
 b-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt	
 b-hathipi HathiTrust ingest prep	task_b-hathipi.txt	
@@ -103,3 +104,4 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
+
