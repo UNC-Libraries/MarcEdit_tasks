@@ -1,38 +1,12 @@
 #
-REPLACE	^(?<a>=300.*[:;])[/p]\$	${a}$$	2
-REPLACE	^(?<a>=300.*;) *(?<b>[0-9])	${a}$$c${b}	2
-REPLACE	^(?<a>=300.*) ?: ?bill	${a} :$$bill	2
-REPLACE	^(?<a>=300.*) ?; ?c ?	${a} ;$$c	2
-REPLACE	^(?<a>=300.*:) +\$b	${a}$$b	2
-REPLACE	^(?<a>=300.*[^ ]): ?\$b	${a} :$$b	2
-REPLACE	^(?<a>=300.*)\. ?\$b	${a}. :$$b	2
-REPLACE	^(?<a>=300.*);\$b	${a}:$$b	2
-REPLACE	^(?<a>=300.*[^ ]) ?[;:]\$b *(?<b>[0-9]+ cm\.?)	${a} ;$$c${b}	2
-REPLACE	^(?<a>=300.*p\.)?,? ?:? ?(?<b>(ill|port|map))	${a} :$$b${b}	2
-REPLACE	^(?<a>=300.*1 online resource \(.*?) *: *(?<b>.*?)\) *$	${a}) :$$b${b}	2
-REPLACE	^(?<a>=300.*)\$b\$b	${a}$$b	2
-REPLACE	^(?<a>=300.*)(?<b>\$b.*\([^)]*)$	${a}${b})	2
-REPLACE	^(?<a>=300.*?)( :)?\)\$b	${a}) :$$b	2
-EDITFIELD	300	\s*\p{Po}*\s*\$c.*$	2		
-EDITFIELD	300	 \(pages cm\.?\)	2		
-EDITFIELD	300	\s*:\s*$	2		
-EDITFIELD	300	(?<a>\$b[^$]*),* *digital file(s|)	2	${a}	
-EDITFIELD	300	(?<a>\$b[^$]*?),* *[Pp][Dd][Ff]s?( files?)?	2	${a}	
-EDITFIELD	300	(?<a>\$b[^$]*),* *online resource(s|)	2	${a}	
-EDITFIELD	300	\s\s+	2	 	
-EDITFIELD	300	(?<a>(ill|port)s?)\.	2	${a}zzz	
-EDITFIELD	300	\s*[,.]\s*$	2		
-EDITFIELD	300	\s*[,.]\s*$	2		
-EDITFIELD	300	\s*:*\s*\$b\s*$	2		
-EDITFIELD	300	zzz	1	.	
-EDITFIELD	300	\s*eReference\.?	2		
-EDITFIELD	300	\s+pagg(\.|\s|$)	2	 p. 	
-EDITFIELD	300	\s+(?<a>p|illus)(\s|$)	2	 ${a}. 	
-EDITFIELD	300	\s\s	2	 	
-REPLACE	\s+$		2		1
-EDITFIELD	300	(?<a>\$a[^$]*?)\s*(?<b>\d* ill)	2	${a} :$$b${b}	
-EDITFIELD	300	\$a(\d+) electronic resource	2	$$a${1} online resource	
-EDITFIELD	300	\$a(\d+) electronic text	2	$$a${1} online resource	
-EDITFIELD	300	\$a(\d+) PDF	2	$$a${1} online resource	
-EDITFIELD	300	$aOnline-Datei	0	$a1 online resource	
-EDITFIELD	300	$aOnline-Ressource	1	$a1 online resource	
+EDITFIELD	300	 *; *c	2	 ;$$c	
+EDITFIELD	300	 *; *(\d+)	2	 ;$$c$1	
+EDITFIELD	300	 ?;? ?\$c[^$]+	2		
+EDITFIELD	300	(\$b)([^$]*) *digital *([^$]*)	2	$1$2$3	
+EDITFIELD	300	(\$b)([^$]*) *files? *([^$]*)	2	$1$2$3	
+EDITFIELD	300	(\$b)([^$]*) *[Pp][Dd][Ff] *([^$]*)	2	$1$2$3	
+EDITFIELD	300	(\$a\d+ )(electronic text|electronic document|PDF)	2	$1online resource	
+EDITFIELD	300	 *:* *\$b *(\$|$)	2	$1	
+EDITFIELD	300	(\$a[^$]+) : ([^$]+)\)	2	$1) :$$b$2	
+EDITFIELD	300	, *$	2		
+EDITFIELD	300	\$e	2	 +$$e	

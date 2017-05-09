@@ -87,9 +87,9 @@ m-020q Convert parenthetical qualifier to $q	task_m-020q.txt
 m-020sf 020 subfield fix	task_m-020sf.txt	
 m-264crsf 264 2nd ind 4 copyright date subfield fix	task_m-264crsf.txt	
 m-264in2 Fix ind 2 per role	task_m-264in2.txt	
-m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt	
+m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt	SHIFT+F5
 m-300df Clean 300s containing digital file	task_m-300df.txt	
-m-300e Eresourcify 300s	task_m-300e.txt	SHIFT+F5
+m-300e Eresourcify 300s	task_m-300e.txt	
 m-505b Basic coding not enhanced	task_m-505b.txt	
 m-588 fix	task_m-588.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
