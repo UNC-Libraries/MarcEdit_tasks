@@ -1,13 +1,17 @@
 #
+EDITFIELD	300	 *[;:]? *\$b *(\d+ cm)	2	 ;$$c$1
 EDITFIELD	300	 *; *c	2	 ;$$c	
 EDITFIELD	300	 *; *(\d+)	2	 ;$$c$1	
-EDITFIELD	300	 ?;? ?\$c[^$)]+	2		
+EDITFIELD	300	 *;? *\$c[^$)]+	2		
+EDITFIELD	300	 *: *b	2	 :$$b	
 EDITFIELD	300	(\$b)([^$]*) *digital[\p{P}]* *([^$]*)	2	$1$2$3	
 EDITFIELD	300	(\$b)([^$]*) *files?[\p{P}]* *([^$]*)	2	$1$2$3	
 EDITFIELD	300	(\$b)([^$]*) *[Pp][Dd][Ff][\p{P}]* *([^$]*)	2	$1$2$3	
 EDITFIELD	300	(\$a\d+ )(electronic text|electronic document|PDF)	2	$1online resource	
-EDITFIELD	300	(\$b)[ \p{P}^$]+(\$|$)	2	$1$2	
-EDITFIELD	300	 *:* *\$b *(\$|$)	2	$1	
+EDITFIELD	300	 *:? *\$b[ \p{P}^$]*(\$|$)	2	$1	
 EDITFIELD	300	(\$a[^$]+) : ([^$]+)\)	2	$1) :$$b$2	
+EDITFIELD	300	 +: +\$b	2	 :$$b	
+EDITFIELD	300	 *[.;] *\$b	2	 :$$b	
+EDITFIELD	300	([^:])\$b	2	$1 :$$b	
 EDITFIELD	300	, *$	2		
 EDITFIELD	300	\$e	2	 +$$e	
