@@ -27,6 +27,7 @@ b-ebrac Ebrary Academic Complete	task_b-ebrac.txt
 b-ebrees elibro Escuelas Secundarias 300 fix	task_b-ebrees.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
 b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
+b-EIO Editoria Italiana	task_b-eio.txt	
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
 b-filmp Film Platform batch edits	task_b-filmp.txt	
@@ -63,8 +64,8 @@ b-spro1 Springer OCLC batch edit 1	task_b-spro1.txt
 b-spro2 Springer OCLC batch edits 2	task_b-spro2.txt	
 b-sprspr1 Springer from Springer 2	task_b-sprspr1.txt	
 b-sprspr2 Springer from Springer 1	task_b-sprspr2.txt	
-b-srmoPRE SAGE research methods pre-edit	task_b-srmoPRE.txt	
 b-srmo Sage Research Methods	task_b-srmo.txt	
+b-srmoPRE SAGE research methods pre-edit	task_b-srmoPRE.txt	
 b-synlec Synthesis Lectures batch edits	task_b-synlec.txt	
 b-tfcrcdda TFCRC Evidence Based DDA batch edits	task_b-tfcrcdda.txt	
 b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
@@ -104,4 +105,3 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
-
