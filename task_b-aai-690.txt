@@ -1,72 +1,72 @@
 #
-REPLACE	^=690  \\0\$aAfrican American composers\. *$	=650  \0$$aAfrican American composers.	2
-REPLACE	^=690  \\0\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	^=690  \\0\$aEducation\. *$	=650  \0$$aEducation.	2
-REPLACE	^=690  \\0\$aEntertainment events\$zPennsylvania\$zPhiladelphia\. *$	=650  \0$$aEntertainment events$$zPennsylvania$$zPhiladelphia.	2
-REPLACE	^=690  \\0\$aWomen editors\. *$	=650  \0$$aWomen editors.	2
-REPLACE	^=690  \\0\$aWomen musicians\. *$	=650  \0$$aWomen musicians.	2
-REPLACE	^=690  \\0\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
-REPLACE	^=690  \\0\$aWomen translators\. *$	=650  \0$$aWomen translators.	2
-REPLACE	^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
-REPLACE	^=690  \\3\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	^=690  \\4\$aAbolitionists\$zUnited States\$xAutobiography\. *$	=650  \0$$aAbolitionists$$zUnited States$$vBiography.	2
-REPLACE	^=690  \\4\$aAfrican Americans\$vSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
-REPLACE	^=690  \\4\$aAfrican Americans\$vSatires\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
-REPLACE	^=690  \\4\$aAfrican Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
-REPLACE	^=690  \\4\$aAfro-American criminals\. *$	=650  \0$$aAfrican American criminals.	2
-REPLACE	^=690  \\4\$aAfro-American organizations\. *$	=650  \0$$aAfrican Americans$$xAssociations, institutions, etc.	2
-REPLACE	^=690  \\4\$aAfro-American publishers\. *$	=650  \0$$aAfrican American press.	2
-REPLACE	^=690  \\4\$aAfro-American soldiers\$yCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
-REPLACE	^=690  \\4\$aAfro-American soldiers\$yRevolution, 1775-1783\. *$	=650  \0$$aAfrican American soldiers$$yRevolution, 1775-1783.	2
-REPLACE	^=690  \\4\$aAfro-American soldiers\$ySpanish-American War, 1898\. *$	=650  \0$$aAfrican American soldiers$$ySpanish-American War, 1898.	2
-REPLACE	^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
-REPLACE	^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$vFiction\. *$	=650  \0$$aAfrican Americans$$vFiction.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xDrama\. *$	=650  \0$$aAfrican Americans$$vDrama.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xEducation\$zGeorgia\$zSavannah\. *$	=650  \0$$aAfrican Americans$$xEducation$$zGeorgia$$zSavannah.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xJuvenile literature\. *$	=650  \0$$aAfrican Americans$$vJuvenile literature.	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
-REPLACE	^=690  \\4\$aAfro-Americans\$xServices for\$zNew York \(State\)\$zNew York\. *$	=650  \0$$aAfrican Americans$$xServices for$$zNew York (State)$$zNew York.	2
-REPLACE	^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
-REPLACE	^=690  \\4\$aAnti-slave-trade literature\$zGreat Britain\. *$	=655  \7$$aAnti-slave trade literature$$zGreat Britain.$$2rbgenr	2
-REPLACE	^=690  \\4\$aAnti-slave-trade literature\$zScotland\. *$	=655  \7$$aAnti-slave trade literature$$zScotland.$$2rbgenr	2
-REPLACE	^=690  \\4\$aBlack pirates\. *$	=650  \0$$aPirates.\n=650  \0$$aBlacks.	2
-REPLACE	^=690  \\4\$aBlacks\$vJuvenile fiction\. *$	=650  \0$$aBlacks$$vJuvenile fiction.	2
-REPLACE	^=690  \\4\$aBlacks\$zEngland\$vSatire\. *$	=650  \0$$aBlacks$$zEngland$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
-REPLACE	^=690  \\4\$aClergy\$zUnited States\$xAutobiography\. *$	=650  \0$$aClergy$$zUnited States$$vBiography.	2
-REPLACE	^=690  \\4\$aHand-colored plate\. *$	=999  \\$$aDELETE ME	2
-REPLACE	^=690  \\4\$aPhilanthropy\. *$	=999  \\$$aDELETE ME	2
-REPLACE	^=690  \\4\$aRace relations\$zAlabama\. *$	=651  \0$$aAlabama$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zGreat Britain\$vFiction\. *$	=651  \0$$aGreat Britain$$xRace relations$$vFiction.	2
-REPLACE	^=690  \\4\$aRace relations\$zMassachusetts\$xJuvenile literature\. *$	=651  \0$$aMassachusetts$$xRace relations$$vJuvenile literature.	2
-REPLACE	^=690  \\4\$aRace relations\$zMississippi\. *$	=651  \0$$aMississippi$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zPennsylvania\$zPhiladelphia\$vFiction\. *$	=651  \0$$aPennsylvania$$zPhiladelphia$$xRace relations$$vFiction.	2
-REPLACE	^=690  \\4\$aRace relations\$zPennsylvania\$zPhiladelphia\. *$	=651  \0$$aPennsylvania$$zPhiladelphia$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zSouthern States\$vFiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vFiction.	2
-REPLACE	^=690  \\4\$aRace relations\$zSouthern States\$vJuvenile fiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vJuvenile fiction.	2
-REPLACE	^=690  \\4\$aRace relations\$zSouthern States\$zFiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vFiction.	2
-REPLACE	^=690  \\4\$aRace relations\$zSouthern states\. *$	=651  \0$$aSouthern States$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zUnited States\$vFiction\. *$	=651  \0$$aUnited States$$xRace relations$$vFiction.	2
-REPLACE	^=690  \\4\$aRace relations\$zUnited States\$vPoetry\. *$	=651  \0$$aUnited States$$xRace relations$$vPoetry.	2
-REPLACE	^=690  \\4\$aRace relations\$zUnited States\. *$	=651  \0$$aUnited States$$xRace relations.	2
-REPLACE	^=690  \\4\$aRace relations\$zVirginia\. *$	=651  \0$$aVirginia$$xRace relations.	2
-REPLACE	^=690  \\4\$aSlave trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
-REPLACE	^=690  \\4\$aSlavery\$xAnti-slavery literature\$zUnited States *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
-REPLACE	^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
-REPLACE	^=690  \\4\$aSlavery\$xJustification\$zFrance\. *$	=650  \0$$aSlavery$$zFrance$$xJustification.	2
-REPLACE	^=690  \\4\$aSlavery\$xJustification\$zUnited States\$vPoetry\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification$$vPoetry.	2
-REPLACE	^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
-REPLACE	^=690  \\4\$aSlavery\$xJustification\$zVirginia\. *$	=650  \0$$aSlavery$$zVirginia$$xJustification.	2
-REPLACE	^=690  \\4\$aSlavery\$zGreat Britain\$xColonies\$zWest Indies\. *$	=650  \0$$aSlavery$$zGreat Britain$$xColonies.	2
-REPLACE	^=690  \\4\$aSlaves\$xAutobiography\. *$	=650  \0$$aSlaves$$zUnited States$$vBiography.	2
-REPLACE	^=690  \\4\$aSlaves\$xCriminal procedure\$zDemerara\. *$	=650  \0$$aSlaves$$zDemerara.\n=650  \0$$aCriminal procedure$$zDemerara.	2
-REPLACE	^=690  \\4\$aSlaves\$xReligious education\$zWest Indies, British\. *$	=650  \0$$aSlaves$$xReligious life$$zWest Indies, British.\n=650  \0$$aReligious education.	2
-REPLACE	^=690  \\4\$aSlaves\$zGreat Britain\$xColonies\$zWest Indies\. *$	=650  \0$$aSlaves$$zWest Indies, British.	2
-REPLACE	^=690  \\4\$aSwift's Syphilitic Specific\. *$	=650  \0$$aSyphilis$$xAlternative treatment.	2
-REPLACE	^=690  \\4\$aTemperance\. *$	=650  \0$$aTemperance.	2
-REPLACE	^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
-REPLACE	^=690  \\4\$aWomen publishers\. *$	=650  \0$$aWomen publishers.	2
-REPLACE	^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\0\$aAfrican American composers\. *$	=650  \0$$aAfrican American composers.	2
+REPLACE	(?i)^=690  \\0\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\0\$aEducation\. *$	=650  \0$$aEducation.	2
+REPLACE	(?i)^=690  \\0\$aEntertainment events\$zPennsylvania\$zPhiladelphia\. *$	=650  \0$$aEntertainment events$$zPennsylvania$$zPhiladelphia.	2
+REPLACE	(?i)^=690  \\0\$aWomen editors\. *$	=650  \0$$aWomen editors.	2
+REPLACE	(?i)^=690  \\0\$aWomen musicians\. *$	=650  \0$$aWomen musicians.	2
+REPLACE	(?i)^=690  \\0\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
+REPLACE	(?i)^=690  \\0\$aWomen translators\. *$	=650  \0$$aWomen translators.	2
+REPLACE	(?i)^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
+REPLACE	(?i)^=690  \\3\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAbolitionists\$zUnited States\$xAutobiography\. *$	=650  \0$$aAbolitionists$$zUnited States$$vBiography.	2
+REPLACE	(?i)^=690  \\4\$aAfrican Americans\$vSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAfrican Americans\$vSatires\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAfrican Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAfro-American criminals\. *$	=650  \0$$aAfrican American criminals.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American organizations\. *$	=650  \0$$aAfrican Americans$$xAssociations, institutions, etc.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American publishers\. *$	=650  \0$$aAfrican American press.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American soldiers\$yCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American soldiers\$yRevolution, 1775-1783\. *$	=650  \0$$aAfrican American soldiers$$yRevolution, 1775-1783.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American soldiers\$ySpanish-American War, 1898\. *$	=650  \0$$aAfrican American soldiers$$ySpanish-American War, 1898.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$vFiction\. *$	=650  \0$$aAfrican Americans$$vFiction.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$xDrama\. *$	=650  \0$$aAfrican Americans$$vDrama.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$xEducation\$zGeorgia\$zSavannah\. *$	=650  \0$$aAfrican Americans$$xEducation$$zGeorgia$$zSavannah.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$xJuvenile literature\. *$	=650  \0$$aAfrican Americans$$vJuvenile literature.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$xServices for\$zNew York \(State\)\$zNew York\. *$	=650  \0$$aAfrican Americans$$xServices for$$zNew York (State)$$zNew York.	2
+REPLACE	(?i)^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAnti-slave-trade literature\$zGreat Britain\. *$	=655  \7$$aAnti-slave trade literature$$zGreat Britain.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAnti-slave-trade literature\$zScotland\. *$	=655  \7$$aAnti-slave trade literature$$zScotland.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aBlack pirates\. *$	=650  \0$$aPirates.\n=650  \0$$aBlacks.	2
+REPLACE	(?i)^=690  \\4\$aBlacks\$vJuvenile fiction\. *$	=650  \0$$aBlacks$$vJuvenile fiction.	2
+REPLACE	(?i)^=690  \\4\$aBlacks\$zEngland\$vSatire\. *$	=650  \0$$aBlacks$$zEngland$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aClergy\$zUnited States\$xAutobiography\. *$	=650  \0$$aClergy$$zUnited States$$vBiography.	2
+REPLACE	(?i)^=690  \\4\$aHand-colored plate\. *$	=999  \\$$aDELETE ME	2
+REPLACE	(?i)^=690  \\4\$aPhilanthropy\. *$	=999  \\$$aDELETE ME	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zAlabama\. *$	=651  \0$$aAlabama$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zGreat Britain\$vFiction\. *$	=651  \0$$aGreat Britain$$xRace relations$$vFiction.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zMassachusetts\$xJuvenile literature\. *$	=651  \0$$aMassachusetts$$xRace relations$$vJuvenile literature.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zMississippi\. *$	=651  \0$$aMississippi$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zPennsylvania\$zPhiladelphia\$vFiction\. *$	=651  \0$$aPennsylvania$$zPhiladelphia$$xRace relations$$vFiction.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zPennsylvania\$zPhiladelphia\. *$	=651  \0$$aPennsylvania$$zPhiladelphia$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern States\$vFiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vFiction.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern States\$vJuvenile fiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vJuvenile fiction.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern States\$zFiction\. *$	=651  \0$$aSouthern States$$xRace relations$$vFiction.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern states\. *$	=651  \0$$aSouthern States$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zUnited States\$vFiction\. *$	=651  \0$$aUnited States$$xRace relations$$vFiction.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zUnited States\$vPoetry\. *$	=651  \0$$aUnited States$$xRace relations$$vPoetry.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zUnited States\. *$	=651  \0$$aUnited States$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zVirginia\. *$	=651  \0$$aVirginia$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aSlave trade\$xJustification\$zGreat Britain\. *$	=650  \0$$aSlavery$$zGreat Britain$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xAnti-slavery literature\$zUnited States *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zFrance\. *$	=650  \0$$aSlavery$$zFrance$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zUnited States\$vPoetry\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification$$vPoetry.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zVirginia\. *$	=650  \0$$aSlavery$$zVirginia$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$zGreat Britain\$xColonies\$zWest Indies\. *$	=650  \0$$aSlavery$$zGreat Britain$$xColonies.	2
+REPLACE	(?i)^=690  \\4\$aSlaves\$xAutobiography\. *$	=650  \0$$aSlaves$$zUnited States$$vBiography.	2
+REPLACE	(?i)^=690  \\4\$aSlaves\$xCriminal procedure\$zDemerara\. *$	=650  \0$$aSlaves$$zDemerara.\n=650  \0$$aCriminal procedure$$zDemerara.	2
+REPLACE	(?i)^=690  \\4\$aSlaves\$xReligious education\$zWest Indies, British\. *$	=650  \0$$aSlaves$$xReligious life$$zWest Indies, British.\n=650  \0$$aReligious education.	2
+REPLACE	(?i)^=690  \\4\$aSlaves\$zGreat Britain\$xColonies\$zWest Indies\. *$	=650  \0$$aSlaves$$zWest Indies, British.	2
+REPLACE	(?i)^=690  \\4\$aSwift's Syphilitic Specific\. *$	=650  \0$$aSyphilis$$xAlternative treatment.	2
+REPLACE	(?i)^=690  \\4\$aTemperance\. *$	=650  \0$$aTemperance.	2
+REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
+REPLACE	(?i)^=690  \\4\$aWomen publishers\. *$	=650  \0$$aWomen publishers.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
 DELETE	999	DELETE ME	0	False	False	False
 DELETE	650		1	True	False	False
 DELETE	651		1	True	False	False
