@@ -7,7 +7,8 @@ EDITFIELD	300	 *: *b	2	 :$$b
 EDITFIELD	300	(\$b)([^$]*) *digital[\p{P}]* *([^$]*)	2	$1$2$3	
 EDITFIELD	300	(\$b)([^$]*) *files?[\p{P}]* *([^$]*)	2	$1$2$3	
 EDITFIELD	300	(\$b)([^$]*) *[Pp][Dd][Ff][\p{P}]* *([^$]*)	2	$1$2$3	
-EDITFIELD	300	(\$a\d+ )(electronic text|electronic document|PDF)	2	$1online resource	
+EDITFIELD	300	(\$a\d+ )(electronic (text|document|resource)|PDF)	2	$1online resource	
+EDITFIELD	300	(\$a\d+ )Online	2	$1online	
 EDITFIELD	300	 *:? *\$b[ \p{P}^$]*(\$|$)	2	$1	
 EDITFIELD	300	(\$a[^$]+) : ([^$]+)\)	2	$1) :$$b$2	
 EDITFIELD	300	 +: +\$b	2	 :$$b	
