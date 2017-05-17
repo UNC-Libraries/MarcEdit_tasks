@@ -17,3 +17,8 @@ EDITFIELD	300	([^:])\$b	2	$1 :$$b
 EDITFIELD	300	, *$	2		
 EDITFIELD	300	\$e	2	 +$$e	
 EDITFIELD	300	 +\)	2	)	
+EDITFIELD	300	 *[:;] *$	2		
+EDITFIELD	300	\( *\)	2		
+EDITFIELD	300	(pages?|illustrations?|plates?|color|maps?)\.	2	$1	
+EDITFIELD	300	(\([^$)]*)$	2	$1)	
+EDITFIELD	300	\s\s+	2	 	
