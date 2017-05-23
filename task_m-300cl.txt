@@ -1,4 +1,7 @@
 #
+EDITFIELD	300	\( +	2	(	
+EDITFIELD	300	 +\)	2	)	
+EDITFIELD	300	 *\((pages|p\.) *(cm\.?|)\)	2		
 EDITFIELD	300	 *[;:]? *\$b *(\d+ cm)	2	 ;$$c$1
 EDITFIELD	300	 *; *c	2	 ;$$c	
 EDITFIELD	300	 *; *(\d+)	2	 ;$$c$1	
