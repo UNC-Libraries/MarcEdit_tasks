@@ -3,7 +3,6 @@ ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Business Expert Press.	100	
 ADD	949	\1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
 DELETE	530	Also available in print	0	False	False
-DELETE	035	(OCoLC)	0	False	True	False
 DELETE	538	(World Wide Web|Acrobat)	2	False	False
 DELETE	500	Part of.*digital library	2	False	False
 DELETE	028		0	False	False
@@ -11,8 +10,7 @@ DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 DELETE	653		0	False	False
 DELETE	830	digital library	0	False	False
-SUBFIELD_EDIT	008	23		o	0|0
-REPLACE	[New York, N.Y.] (222 East 46th Street, New York, NY 10017) :	New York, N.Y. :	0
+REPLACE	 (222 East 46th Street, New York, NY 10017) :	 :	0		1
 REPLACE	^(?<a>=300.*)1 electronic text \(	${a}1 online resource (	2
 REPLACE	^(?<a>=300.*)\) :\$bdigital file\.	${a})	2
 REPLACE	^(?<a>=300.*): ill\.\)	${a}) :$bill.	2
