@@ -1,6 +1,5 @@
 #
-TASK_LIST	m-300df Clean 300s containing digital file	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-300df.txt
-REPLACE	=300  \\\\\$a1 (electronic (resource|text)|PDF)	=300  \\$$a1 online resource	2		1
+TASK_LIST	m-300df Clean 300s containing digital file	task_m-300df.txt
 REPLACE	^=300  \\\\\$ap\.? ?[;:]?\$?c.*	=300  \\$$a1 online resource.	2
 EDITFIELD	300	\$a[Oo]nline resources?	2	$$a1 online resource	
 REPLACE	^=300  \\\\\$a(?!\d+ (online resource|electronic text|PDF))(?<a>.*?)(?<b>$| [:;])	=300  \\$$a1 online resource (${a})${b}	2
