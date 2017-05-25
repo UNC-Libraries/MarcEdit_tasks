@@ -1,7 +1,6 @@
 ﻿a-ebfrmhdg Ebook form heading cleaner	task_a-ebfrmhdg.txt	SHIFT+F1
 a-ebooks General ebook edits	task_a-ebooks.txt	SHIFT+F10
 a-ecr General online cont resource edits	task_a-ecr.txt	
-a-genebk General Ebook Tasks	task_a-genebk.txt	
 a-generes General E-Res Tasks	task_a-generes.txt	SHIFT+F9
 a-hdgsrc Delete headings from some sources	task_a-hdgsrc.txt	SHIFT+F2
 a-map General online map edits	task_a-map.txt	

@@ -1,4 +1,0 @@
-TASK_LIST	m-006eb 006 ebook fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-006eb.txt
-TASK_LIST	m-007eber 007 ebook eresource fix	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_m-007eber.txt
-TASK_LIST	a-ebfrmhdg Ebook form heading cleaner	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-ebfrmhdg.txt
-TASK_LIST	a-hdgsrc Delete headings from some sources	G:\TechServ\ESM\e-resources cataloging\MARCedit_settings\macros\task_a-hdgsrc.txt
