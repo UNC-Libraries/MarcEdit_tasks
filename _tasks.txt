@@ -92,6 +92,7 @@ m-300df Clean 300s containing digital file	task_m-300df.txt
 m-300e Eresourcify 300s	task_m-300e.txt	SHIFT+F5
 m-505b Basic coding not enhanced	task_m-505b.txt	
 m-588 fix	task_m-588.txt	
+m-949 Perpetual access note	task_m-949perp.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
 m-notauth No Authority Control	task_m-notauth.txt	
 m-rt Relator term cleanup	task_m-rt.txt	
