@@ -11,7 +11,6 @@ ADD	773	0\$tSpringer e-books (online collection)	100
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 DELETE	912		0	False	False	False
-ADD	949	\1$g1$lebnb$h0$rn$t11$u-$nPerpetual access	100	
 EDITFIELD	100	.$e	0	,$e	
 EDITFIELD	700	.$e	1	,$e	
 EDITFIELD	100	..	0	.	
@@ -24,3 +23,4 @@ REPLACE	®		0		1
 REPLACE	“	"	0		1
 REPLACE	”	"	0		1
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

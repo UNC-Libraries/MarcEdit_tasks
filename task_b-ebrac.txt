@@ -13,5 +13,5 @@ ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: ebrary.	100	
 SUBFIELD_REMOVE	856	x		107|1
 SUBFIELD_REMOVE	856	z		107|1
-EDITFIELD	949	$nPerpetual access	0		
+DELETE	949		0	False	False	False
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

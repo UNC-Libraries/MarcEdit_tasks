@@ -1,7 +1,6 @@
 #
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Business Expert Press.	100	
-ADD	949	\1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
 DELETE	530	Also available in print	0	False	False
 DELETE	538	(World Wide Web|Acrobat)	2	False	False
 DELETE	500	Part of.*digital library	2	False	False
@@ -20,3 +19,4 @@ SUBFIELD_REMOVE	856	z		|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries 	101|0
 SUBFIELD_EDIT	856	x		Business Expert Press e-book	101|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

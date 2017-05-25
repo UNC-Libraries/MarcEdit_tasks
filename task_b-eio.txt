@@ -4,9 +4,9 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Casalini Libri.	100	
 ADD	773	0\$tEditoria Italiana online (online collection). {YEAR}	100	
-ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
 SUBFIELD_EDIT	856	x		Editoria Italiana Online	102|0
 DELETE	900		0	False	False	False
 DELETE	910		0	False	False	False
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

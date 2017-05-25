@@ -1,3 +1,4 @@
+#
 REPLACE	^=(01[056]|02[89]|03[57]|049|506|53[03]|541|583|653|994)	=999	2
 REPLACE	^=082  \\	=999  \	2
 DELETE	999		0	False	False	False
@@ -12,6 +13,6 @@ SUBFIELD_REMOVE	856	z	Available to subscribing institutions	|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	x		Making of the Modern World	101|0
-ADD	949	\1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
 ADD	915	\\$9NOTAUTHO$1[YYYYMMDD]$3initials	100	
 ADD	949	\\$a*b3=x	100	
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

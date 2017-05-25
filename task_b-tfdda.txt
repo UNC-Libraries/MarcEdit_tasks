@@ -19,4 +19,3 @@ SUBFIELD_REMOVE	856	z		107|1
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|1
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|1
 EDITFIELD	880	\/({dollar}1|\([3BNS2])	2	
-ADD	949	\1$g1$lebnb$h0$rn$q0$t11$u-	100	

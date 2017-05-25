@@ -6,4 +6,3 @@ ADD	590	\\$aProvider: Kanopy (Firm).	100
 ADD	590	\\$aVendor-supplied catalog record.	100
 DELETE	773		0	False	False	False
 ADD	773	0\$tMEF digital (online collection)	100
-ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-	100

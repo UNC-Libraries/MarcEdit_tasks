@@ -12,5 +12,4 @@ ADD	590	\\$aProvider: Docuseek.	100
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	773	0\$tDocuseek2 (online collection)	100	
-ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-	100	
 REPLACE	^=945  \\\\\$c\(OCoLC\)0*	=035  \\$$a(OCoLC)	2		1

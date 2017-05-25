@@ -1,6 +1,5 @@
 #
 ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
 REPLACE	^=500  \\\\\$aRecord is based on b(?<a>ib.*) Reuse.*$	=588  1\$$aB${a}	2		1
 DELETE	506		0	False	False	False
 DELETE	510	ProQuest U.S. Serial Set Digital Collection	0	False	False	False

@@ -4,7 +4,6 @@ EDITFIELD	040	,$	0	$
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Alexander Street Press.	100
-ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-$nPerpetual access	100	
 SUBFIELD_REMOVE	856	z		|0
 REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?CTIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xCounseling and therapy in video	2
 REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?EDIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xEducation in video	2
@@ -17,3 +16,4 @@ DELETE	941		0	False	False	False
 DELETE	943		0	False	False	False
 DELETE	945		0	False	False	False
 DELETE	950		0	False	False	False
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

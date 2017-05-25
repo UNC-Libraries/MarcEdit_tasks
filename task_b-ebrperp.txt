@@ -2,7 +2,9 @@
 DELETE	922		0	False	False	False
 DELETE	980		0	False	False	False
 DELETE	982		0	False	False	False
+DELETE	949		0	False	False	False
 DELETE	710	ebrary, Inc.	1	False	False	False
 ADD	590	\\$aProvider: ebrary, Inc.	100	
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	773	0\$tEbrary perpetual access (online collection). UNL title-by-title	100	
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

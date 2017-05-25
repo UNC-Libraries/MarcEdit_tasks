@@ -1,5 +1,5 @@
+#
 REPLACE	^(?<a>=001  )(ocn|ocm|on)(?<b>\d.*)\\$	${a}EEuBO${b}	2
-ADD	949	\1$g1$lebnb$t11$rn$h0$u-	100	
 ADD	773	0\$tEarly European books online (online collection)	100	
 DELETE	994		0	False	False
 INDICATOR	856	4\		40
@@ -12,3 +12,4 @@ DELETE	007	^=007  h	2	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Proquest.	100	
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

@@ -9,7 +9,6 @@ ADD	590	\\$aProvider: Film Platform.	100
 ADD	590	\\$aVendor-supplied catalog record.	100	
 DELETE	691		0	False	False	False
 ADD	773	0\$tFilm Platform (online collection)	100	
-ADD	949	\1$g1$lestr$h0$rn$q0$t76$u-	100	
 SUBFIELD_REMOVE	856	y		107|1
 SUBFIELD_EDIT	856	y		Streaming video available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0

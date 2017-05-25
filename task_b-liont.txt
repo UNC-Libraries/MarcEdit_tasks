@@ -5,7 +5,6 @@ REPLACE	^=245  1	=245  0	2	=100.*\$eeditor	2
 REPLACE	^=100  (?<name>.*\$eeditor)	=700  ${name}	2		1
 ADD	300	\\$a1 online resource	101	
 ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	949	\1$g1$lebnb$h0$rn$t11$u-	100	
 DELETE	540		0	False	False	False
 SUBFIELD_REMOVE	856	y		107|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0

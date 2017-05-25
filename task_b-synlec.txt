@@ -2,7 +2,6 @@
 EDITFIELD	001	{dollar}	0		
 SUBFIELD_EDIT	001		^b	syn	0|0
 ADD	590	\\$aVendor-supplied catalog record.	100
-ADD	949	\1$g1$lebnb$t11$rn$h0$u-$nPerpetual access	100	
 DELETE	506		0	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 DELETE	510		0	False	False
@@ -18,3 +17,4 @@ DELETE	730	Synthesis digital library of engineering and computer science	1	False
 DELETE	830	Synthesis digital library of engineering and computer science.	0	False	False
 REPLACE	=337  \\$aelectronic$2isbdmedia	=337  \\$acomputer$bc$2rdamedia	0
 ADD	590	\\$aProvider: Morgan & Claypool.	100	
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
