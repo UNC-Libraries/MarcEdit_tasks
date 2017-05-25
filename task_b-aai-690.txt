@@ -1,6 +1,6 @@
 #
-REPLACE	(?i)^=690  \\\\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\\\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\\\\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\\\\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
 REPLACE	(?i)^=690  \\0\$aAfrican American artists\. *$	=650  \0$$aAfrican American artists.	2
 REPLACE	(?i)^=690  \\0\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
 REPLACE	(?i)^=690  \\0\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
@@ -60,8 +60,9 @@ REPLACE	(?i)^=690  \\4\$aWomen authors, American\$y19th century\$xAutobiography\
 REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
 REPLACE	(?i)^=690  \\4\$aWomen slaves\$zUnited States\$xAutobiography\. *$	=650  \0$$aWomen slaves$$zUnited States$$vBiography.	2
 REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  0\\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
-REPLACE	(?i)^=690  0\\$aWomen\. *$	=650  \0$$aWomen.	2
+REPLACE	(?i)^=690  0\\\$aWomen printers\. *$	=650  \0$$aWomen printers.	2
+REPLACE	(?i)^=690  0\\\$aWomen\. *$	=650  \0$$aWomen.	2
+
 DELETE	999	DELETE ME	0	False	False	False
 DELETE	650		1	True	False	False
 DELETE	651		1	True	False	False
