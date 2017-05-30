@@ -1,3 +1,4 @@
 *.bak
 *.lock
 *.zip
+*output.mrk
