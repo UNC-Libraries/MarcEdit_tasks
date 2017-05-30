@@ -105,4 +105,5 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
-m-008undef 008 undefined	task_m-008undef.txt	SHIFT+CONTROL+F10
+m-008undef 008 undefined	task_m-008undef.txt	
+m-008o 008 onlineness	task_m-008o.txt	SHIFT+CONTROL+F10
