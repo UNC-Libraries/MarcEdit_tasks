@@ -1,0 +1,12 @@
+#
+EDITFIELD	020	 *\p{Po}*\$c[^$]+(?= *\p{Po}*(\$|$))	2		
+DELETE	020	\$[az]	2	False	True	False
+REPLACE	^(?<a>=020.*) \( *(?<b>.*) *\) *	${a}$$q${b}	2
+REPLACE	^(=020.*) \$q	$1$$q	2
+EDITFIELD	020	\$q\(	2	$$q	
+EDITFIELD	020	(?<a>\$q.*)\)	2	${a}	
+REPLACE	(?<start>=020.*\$)z(?<finish>.*(([Ee]|[Oo])(-| |)([Bb]o?o?k|[Ii][Ss][Bb][Nn])|[Hh][Tt][Mm][Ll]|[Ee][Pp][Uu][Bb]|[Ee]?[Mm]obi|[Oo]nline|[Pp][Dd][Ff]|[Ee]lectronic|[Ee]b(:| ).*paper))	${start}a${finish}	2
+REPLACE	(=020.*\$)a(.*(?:(?:[Hh]ard|[Pp]aper)back|[Hh]ardcover|[Mm]icro(form|fiche)|[Pp]bk?|[Hh]bk?|[Cc]loth|(?:[Aa]lk\.?|[Tt]rade|[Aa]cid(?:-| )[Ff]ree) [Pp]aper|[Pp]rint))	$1z$2	2		1
+buildnewfield	=020  \\$z{776$z}$qprint	False	False	True	False
+DELETE	020	$z$qprint	0	False	False	False
+DELETE	020	\$[az][0-9Xx]+	2	True	False	False
