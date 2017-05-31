@@ -1,0 +1,2 @@
+EDITFIELD	264	,? *\$e[^$]*	2		
+REPLACE	^(=264  .4\$)a	$1c	2		1
