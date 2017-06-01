@@ -110,4 +110,8 @@ m-008o 008 onlineness	task_m-008o.txt
 m-008details 008 details	task_m-008details.txt	
 m-040fixes	task_m-040fixes.txt	
 m-26Xfixes	task_m-26Xfixes.txt	
-m-020fixes	task_m-020fixes.txt	SHIFT+CONTROL+F10
+m-020fixes	task_m-020fixes.txt	
+m-035fixes	task_m-035fixes.txt	
+m-33XRDA	task_m-33XRDA.txt	
+m-856fixes	task_m-856fixes.txt	
+m-field_deletes	task_m-field_deletes.txt	SHIFT+CONTROL+F10

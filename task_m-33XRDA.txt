@@ -1,0 +1,9 @@
+#
+REPLACE	^=33[678].*$	=999  \\$aDELETE ME	2		1
+RDAHELPER	1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+REPLACE	^=337  \\\\\$aaudio.*	=999  99$$aDELETE ME	2	=990  89\$aMU:.*	2
+REPLACE	^=337  \\\\\$avideo.*	=999  99$$aDELETE ME	2	=990  89\$aVM:.*	2
+REPLACE	^=337  \\\\\$aunmediated.*	=999  99$$aDELETE ME	2	=990  89\$aMP:.*	2
+REPLACE	^=338  \\\\\$aother.*	=999  99$$aDELETE ME	2	=990  89\$a(MU|VM):.*	2
+REPLACE	^=338  \\\\\$avolume.*	=999  99$$aDELETE ME	2	=990  89\$aMP:.*	2
+DELETE	999	DELETE ME	0	False	False	False

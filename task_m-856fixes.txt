@@ -1,0 +1,9 @@
+#
+SUBFIELD_REMOVE	856	y	Chapel Hill Libraries	107|1
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
+REPLACE	^(=856  .2.*)\$yFull text available via the UNC-Chapel Hill Libraries	$1	2		1
+REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yAvailable via the UNC-Chapel Hill Libraries	0	=990  89\$a(MP|CR:integrating resource|MU:score).*	2
+REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yStreaming audio available via the UNC-Chapel Hill Libraries	0	=990  89\$aMU.*	2
+REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yStreaming video available via the UNC-Chapel Hill Libraries	0	=990  89\$aVM.*	2
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+REPLACE	^(=856  .2.*\$u)http:\/\/libproxy\.lib\.unc\.edu\/login\?url=	$1	2		1
