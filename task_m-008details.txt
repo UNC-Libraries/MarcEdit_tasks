@@ -1,14 +1,20 @@
-#
+# Set various format-detail byte position in the 008 based on other parts of the record
+# BK: set 'a' in Illustrations bytes based on 300
 REPLACE	(=008  ..................)[^a-p]([^a]{3})(?=.*\n=300[^\n]*(ills?\.|illus).*\n=990  89\$aBK:)/m	$1a$2	2
 REPLACE	(=008  ..................[^a])[^a-p]([^a]{2})(?=.*\n=300[^\n]*(ills?\.|illus).*\n=990  89\$aBK:)/m	$1a$2	2
 REPLACE	(=008  ..................[^a]{2})[^a-p]([^a])(?=.*\n=300[^\n]*(ills?\.|illus).*\n=990  89\$aBK:)/m	$1a$2	2
 REPLACE	(=008  ..................[^a]{3})[^a-p](?=.*\n=300[^\n]*(ills?\.|illus).*\n=990  89\$aBK:)/m	$1a	2
+# BK: set Index byte based on 500 or 504 index note
 REPLACE	(?<a>=008  ...............................)[^1](?=.*\n=50[04][^\n]*index.*\n=990  89\$aBK:)/m	${a}1	2
+# BK: set 'b' in Nature of contents bytes based on 504
 REPLACE	(=008  ........................)[^a-gi-wyz256]([^b]{3})(?=.*\n=504[^\n]*[Bb]ibliograph(y|ical|ies).*\n=990  89\$aBK:)/m	$1b$2	2
 REPLACE	(=008  ........................[^b])[^a-gi-wyz256]([^b]{2})(?=.*\n=504[^\n]*[Bb]ibliograph(y|ical|ies).*\n=990  89\$aBK:)/m	$1b$2	2
 REPLACE	(=008  ........................[^b]{2})[^a-gi-wyz256]([^b])(?=.*\n=504[^\n]*[Bb]ibliograph(y|ical|ies).*\n=990  89\$aBK:)/m	$1b$2	2
 REPLACE	(=008  ........................[^b]{3})[^a-gi-wyz256](?=.*\n=504[^\n]*[Bb]ibliograph(y|ical|ies).*\n=990  89\$aBK:)/m	$1b	2
+# CR: set 'u' in Frequency based on 310
 REPLACE	(=008  ..................)[^a-kmqstuwz](?=.*\n=310[^\n]*[Uu]nknown.*\n=990  89\$aCR:)/m	$1u	2
+# CR: set 'q' in Frequency based on 310
 REPLACE	(=008  ..................)[^a-kmqstuwz](?=.*\n=310[^\n]*[Qq]uarter.*\n=990  89\$aCR:)/m	$1q	2
+# CR: set 'u' in Regularity if Frequency = u
 REPLACE	(=008  ..................u)[^nrux](?=.*\n=990  89\$aCR:)/m	$1u	2
 
