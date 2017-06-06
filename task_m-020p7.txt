@@ -1,3 +1,3 @@
-#Create 020$z from each 776$z
-buildnewfield	=020  \\$z{776$z}$qprint	False	False	True	False
+#DESCRIPTION#Create 020$z from each 776$z
+buildnewfield	=020  \\$z{776$z}$qprint	False	False	False	True
 DELETE	020	$z$qprint	0	False	False	False
