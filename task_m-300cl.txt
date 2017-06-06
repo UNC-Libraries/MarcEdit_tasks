@@ -1,27 +1,85 @@
-#
+#Clean up non-standard 300 coding as much as possible
+##Start initial format-agnostic cleanup of coding
+# $a comes before $b
+EDITFIELD	300	(\$b[^$]*)(\$a[^$]*)	2	$2$1	
+#Delete spaces after open and before close parentheses
 EDITFIELD	300	\( +	2	(	
 EDITFIELD	300	 +\)	2	)	
-EDITFIELD	300	 *\((pages|p\.) *(cm\.?|)\)	2		
+#Dimension data goes in $c, not $b, so we can delete it
 EDITFIELD	300	 *[;:]? *\$b *(\d+ cm)	2	 ;$$c$1
-EDITFIELD	300	 *; *c	2	 ;$$c	
-EDITFIELD	300	 *; *(\d+)	2	 ;$$c$1	
-EDITFIELD	300	 *;? *\$c[^$)]+	2		
-EDITFIELD	300	 *: *b	2	 :$$b	
-EDITFIELD	300	(\$b)([^$]*) *digital[\p{P}]* *([^$]*)	2	$1$2$3	
-EDITFIELD	300	(\$b)([^$]*) *files?[\p{P}]* *([^$]*)	2	$1$2$3	
-EDITFIELD	300	(\$b)([^$]*) *[Pp][Dd][Ff][\p{P}]* *([^$]*)	2	$1$2$3	
-EDITFIELD	300	(\$a\d+ )(electronic (text|document|resource)|PDF)	2	$1online resource	
+# Put a space after initial number in field
+EDITFIELD	300	(\$a\d+)([A-Za-z])	2	$1 $2	
+# online is not capitalized
 EDITFIELD	300	(\$a\d+ )Online	2	$1online	
+#So we can delete any dimensions data, provide missing subfield delimiters for c...
+#...If semicolon followed by c
+EDITFIELD	300	 *; *c	2	 ;$$c	
+#...If semicolon followed by digits
+EDITFIELD	300	 *; *(\d+)	2	 ;$$c$1	
+#Delete $c and any punctuation
+EDITFIELD	300	 *;? *\$c[^$)]+	2		
+#Provide subfield delimiter for $b...
+#...If colon is followed by b without delimiter
+EDITFIELD	300	 *: *b	2	 :$$b	
+# Provide b for delimiter if delimiter follows : (not earlier, since we've fixed preceding punctuation as best we can by now
+EDITFIELD	300	( :\$)([^b])	2	$1b$2	
+# Remove 'digital, preceding space(s), and succeeding punctuation/space(s) from $b
+EDITFIELD	300	(\$b)([^$]*) *(?:digital files?|digital)[\p{P}]* *([^$]*)	2	$1$2$3	
+# These terms shouldn't be followed by periods
+EDITFIELD	300	(pages?|illustrations?|plates?|color|maps?|silent)\.	2	$1	
+# BK ONLY
+# Delete info-free extent parentheticals
+REPLACE	(=300[^\n]*) *\((pages|p\.) *(cm\.?|)\)(?=.*\n=990  89\$aBK:)/m	$1	2
+# Delete some terms (and preceding spaces, succeeding punctuation/spaces) from $b
+REPLACE	(=300[^\n]*)(\$b)([^$]*) *files?[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2
+REPLACE	(=300[^\n]*)(\$b)([^$]*) *(?i)PDF(?-i) *[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2
+# Change some terms to 'online resource' -- applies to books, but won't mess up anything in other formats (?)
+EDITFIELD	300	(\$a\d+ )(electronic (text|document|resource)|PDF)	2	$1online resource	
+EDITFIELD	300	ill.	1	illustrations	
+# DURATION CLEANUP - relevant to MU, VM but shouldn't mess up anything in others
+EDITFIELD	300	 ea.	1	 each	
+EDITFIELD	300	minutes?	2	min.	
+EDITFIELD	300	(?i)(\d+ *)min([^.])	2	$1min. $2	
+# Provide spaces between values
+EDITFIELD	300	(\.,?)(\d)	2	$1 $2	
+# Provide commas between values
+EDITFIELD	300	\.([^,])( *\d)	2	.,$1$2	
+# uuu is not a duration
+#EDITFIELD	300	uuu *min\.	2		
+# SOUND & COLOR CLEANUP - relevant to VM, but shouldn't mess up anything in others
+EDITFIELD	300	sd.	1	sound	
+EDITFIELD	300	col.	1	color	
+EDITFIELD	300	color and sound	1	sound, color	
+EDITFIELD	300	b&w	1	black and white	
+EDITFIELD	300	black & white	1	black and white	
+EDITFIELD	300	no audio	1	silent	
+EDITFIELD	300	(\$b)([^$]*?) *\.?(?i)flv files?[\p{P}]* *([^$]*)	2	$1$2$3	
+EDITFIELD	300	(\$b)([^$]*) *(?i)stereo[\p{P}]* *([^$]*)	2	$1$2$3	
+# sound/silent comes before color
+EDITFIELD	300	(color|black and white|black and white and color)(.*)(silent|sound)	2	$3$2$1	
+# ALL FORMATS
+# Remove empty parens
+EDITFIELD	300	\( *\)	2		
+# Remove empty $b and preceding punctuation
 EDITFIELD	300	 *:? *\$b[ \p{P}^$]*(\$|$)	2	$1	
+# Move illustrative content after colon in $a to $b, preserving parens
 EDITFIELD	300	(\$a[^$]+) : ([^$]+)\)	2	$1) :$$b$2	
+# Deal with multiple spaces around : preceding $b
 EDITFIELD	300	 +: +\$b	2	 :$$b	
+#Punctuation preceding $b is a ':' not: .; or nothing
 EDITFIELD	300	 *[.;] *\$b	2	 :$$b	
 EDITFIELD	300	([^:])\$b	2	$1 :$$b	
-EDITFIELD	300	, *$	2		
+# Field doesn't end with these punctuation marks
+#EDITFIELD	300	, *$	2		
+EDITFIELD	300	 *[,:;] *$	2		
+# Provide preceding punctuation for $e if present
 EDITFIELD	300	\$e	2	 +$$e	
-EDITFIELD	300	 +\)	2	)	
-EDITFIELD	300	 *[:;] *$	2		
+#EDITFIELD	300	 +\)	2	)	
+# Empty parentheses go away
 EDITFIELD	300	\( *\)	2		
-EDITFIELD	300	(pages?|illustrations?|plates?|color|maps?)\.	2	$1	
+# Provide missing closing parens
 EDITFIELD	300	(\([^$)]*)$	2	$1)	
+# Delete any multiple spaces, some of which may have been introduced by this processing
 EDITFIELD	300	\s\s+	2	 	
+# Remove final period from field
+EDITFIELD	300	\s*\.\s*$	2		
