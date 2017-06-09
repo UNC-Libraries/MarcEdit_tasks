@@ -15,9 +15,9 @@
 =300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations
 =300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations
 =300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations
-=300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations +$e1 atlas (37 p., 19 leaves : color maps) 
-=300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations +$e1 atlas (37 p., 19 leaves : color maps) 
-=300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations +$e1 atlas (37 p., 19 leaves : color maps) 
+=300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations +$e1 atlas (37 p., 19 leaves : color maps)
+=300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations +$e1 atlas (37 p., 19 leaves : color maps)
+=300  \\$a1 online resource (ix, 234 p.) :$bcolor illustrations +$e1 atlas (37 p., 19 leaves : color maps)
 =300  \\$a1 online resource (x, 75 p.) :$billustrations
 =300  \\$a1 online resource (xvi, 93 p.) :$bcolor illustrations
 =300  \\$a1 online resource (v, 60 p.)
@@ -46,7 +46,7 @@
 =300  \\$a1 online resource (xxxiii, 526 pages, 26 unnumbered pages of plates)
 =300  \\$a1 online resource :$billustrations
 =300  \\$a1 online resource (xviii, 292 pages) :$billustrations (some color)
-=300  \\$a1 online resource (180 p.) 
+=300  \\$a1 online resource (180 p.)
 =300  \\$a1 online resource
 =300  \\$a1 online resource
 =300  \\$a1 online resource
@@ -66,7 +66,7 @@
 =300  \\$a1 online resource (video file (31 min.)) :$bsound
 =300  \\$a1 online resource (video file)
 =300  \\$a1 online resource (5 video files (approximately 26 min. each)) :$bsound, color
-=300  \\$a1 online resource (12 video files (67 min.)) :$bsound, color +$emanual
+=300  \\$a1 online resource (12 video files (67 min.)) :$bsound, color
 =300  \\$a1 online resource (1 video file (approximately 60 min.)) :$bsound
 =300  \\$a1 online resource (1 video file (52 min., 26 sec.)) :$bsound, color
 =300  \\$a1 online resource (1 video file (1 hr., 45 sec.)) :$bsound, color
@@ -89,3 +89,44 @@
 =300  \\$a1 online resource (video file (approximately 156 min.)) :$bsound, color
 =300  \\$a1 online resource (video file (74 min.)) :$bsound, black and white
 =990  89$aVM:streaming video
+
+=LDR  00000nam  2200000Ia 45e0
+=001  3
+=300  \\$a1 online resource (audio files (47 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (1 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (4 hr., 15 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (31 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (31 min., 25 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (34 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (34 min., 18 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (37 min., 19 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (38 min., 55 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (42 min., 52 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (47 min., 42 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (60 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (68 min., 06 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (69 min., 31 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files (129 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (144 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (60 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (approximately 31 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (approximately 41 min.)) :$bdigital
+=300  \\$a1 online resource (audio files (approximately 52 min., 32 sec.)) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (audio files) :$bdigital
+=300  \\$a1 online resource (9 audio files (2 hrs., 10 min.)) :$bdigital
+=300  \\$a1 online resource (15 audio files (3 hrs.)) :$bdigital
+=990  89$aMU:streaming audio
+
+
