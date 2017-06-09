@@ -1,0 +1,3 @@
+#DESCRIPTION# Clean up/standardization steps for 520 field
+DELETE	999		0	False	False	False
+EDITFIELD	520	\$aAnnotation *\$b	2	$$a	
