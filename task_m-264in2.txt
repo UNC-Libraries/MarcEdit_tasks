@@ -1,4 +1,0 @@
-#
-REPLACE	^(?<a>=264  .)[^2](?<b>.*\$b.*[Dd]istribut)	${a}2${b}	2		1
-REPLACE	^(?<a>=264  .)[^3](?<b>.*\$b.*(?:[Mm]anufact|[Pp]rinte))	${a}3${b}	2		1
-REPLACE	^(?<a>=264  .)[^4]\$c	${a}4$$c	2		1

@@ -1,0 +1,25 @@
+#DESCRIPTION# automated steps for all records, regardless of format
+#First run task lists that will delete lots of fields and reduce file size
+TASK_LIST	m-field_deletes	task_m-field_deletes.txt
+TASK_LIST	m-provider_neutral	task_m-provider_neutral.txt
+TASK_LIST	a-hdgsrc Delete headings from some sources	task_a-hdgsrc.txt
+TASK_LIST	m-form_cleanup	task_m-form_cleanup.txt
+#Then do field-specific cleanup task lists
+TASK_LIST	m-020fixes	task_m-020fixes.txt
+TASK_LIST	m-035fixes	task_m-035fixes.txt
+TASK_LIST	m-040fixes	task_m-040fixes.txt
+TASK_LIST	m-26Xfixes	task_m-26Xfixes.txt
+TASK_LIST	m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt
+TASK_LIST	m-33XRDA	task_m-33XRDA.txt
+TASK_LIST	m-505b Basic coding not enhanced	task_m-505b.txt
+TASK_LIST	m-520	task_m-520.txt
+TASK_LIST	m-588 fix	task_m-588.txt
+TASK_LIST	m-856fixes	task_m-856fixes.txt
+#008 task lists next -- some rely on steps done in earlier tasks
+TASK_LIST	m-008undef 008 undefined	task_m-008undef.txt
+TASK_LIST	m-008o 008 onlineness	task_m-008o.txt
+TASK_LIST	m-008details 008 details	task_m-008details.txt
+#Then conditional local field additions
+TASK_LIST	m-local	task_m-local.txt
+#Then final spacing/punctuation cleanup
+TASK_LIST	m-spacing	task_m-spacing.txt

@@ -1,0 +1,16 @@
+#DESCRIPTION#
+REPLACE	^(?<a>=006  m)[^\\]	${a}\	2		1
+REPLACE	^(?<a>=006  m.)[^\\]	${a}\	2		1
+REPLACE	^(?<a>=006  m..)[^\\]	${a}\	2		1
+REPLACE	^(?<a>=006  m...)[^\\]	${a}\	2		1
+REPLACE	^(?<a>=006  m....)[^abcdefgj\\|]	${a}|	2
+REPLACE	^(?<a>=006  m.....)[^o]	${a}o	2
+REPLACE	^(?<a>=006  m......)[^\\]{2}	${a}\\	2
+REPLACE	^(?<a>=006  m........)[^d]	${a}d	2	=990  89\$a(BK|CR)	2
+REPLACE	^(?<a>=006  m........)[^c]	${a}c	2	=990  89\$aMP	2
+REPLACE	^(?<a>=006  m........)[^h]	${a}h	2	=990  89\$aMU:(audiobook|non-music sound recording|streaming audio)	2
+REPLACE	^(?<a>=006  m........)[^z]	${a}z	2	=990  89\$aMU:score	2
+REPLACE	^(?<a>=006  m........)[^m]	${a}m	2	=990  89\$aVM:streaming video	2
+REPLACE	^(?<a>=006  m.........)[^\\]	${a}\	2
+REPLACE	^(?<a>=006  m..........)[^\\acfilmosuz|]	${a}|	2
+REPLACE	^(?<a>=006  m...........)[^\\]{6}	${a}\\\\\\	2

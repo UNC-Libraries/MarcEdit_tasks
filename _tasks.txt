@@ -1,4 +1,5 @@
-﻿a-ebfrmhdg Ebook form heading cleaner	task_a-ebfrmhdg.txt	SHIFT+F1
+﻿a-allrecs	task_a-allrecs.txt	SHIFT+CONTROL+F10
+a-ebfrmhdg Ebook form heading cleaner	task_a-ebfrmhdg.txt	SHIFT+F1
 a-ebooks General ebook edits	task_a-ebooks.txt	SHIFT+F10
 a-ecr General online cont resource edits	task_a-ecr.txt	
 a-generes General E-Res Tasks	task_a-generes.txt	SHIFT+F9
@@ -9,6 +10,8 @@ a-safrmhdg Streaming audio form heading cleaner	task_a-safrmhdg.txt
 a-spchar Clean diacritics and symbols	task_a-spchar.txt	
 a-sv Streaming video general tasks	task_a-sv.txt	
 a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt	
+b-EIO Editoria Italiana	task_b-eio.txt	
+b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
 b-aspcoll ASP collection specific edits	task_b-aspcoll.txt	
 b-aspeb ASP Ebook batch edits	task_b-aspeb.txt	
@@ -26,7 +29,6 @@ b-ebrac Ebrary Academic Complete	task_b-ebrac.txt
 b-ebrees elibro Escuelas Secundarias 300 fix	task_b-ebrees.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
 b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
-b-EIO Editoria Italiana	task_b-eio.txt	
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
 b-filmp Film Platform batch edits	task_b-filmp.txt	
@@ -49,7 +51,6 @@ b-obo Oxford Bibliographies Online batch edits	task_b-obo.txt
 b-ocap OCA print link add batch edit	task_b-ocap.txt	
 b-oclca OCLC Authority Control set	task_b-oclca.txt	
 b-oclcb OCLC batch edits	task_b-oclcb.txt	SHIFT+F8
-b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
 b-oro Oxford Ref Online Prem	task_b-oro.txt	
 b-oroCR OROP continuing resources	task_b-oroCR.txt	
 b-oropDP OROP Dictionary Plus	task_b-oropDP.txt	
@@ -70,6 +71,7 @@ b-tfcrcdda TFCRC Evidence Based DDA batch edits	task_b-tfcrcdda.txt
 b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
 b-wcmep WCM ebook main per-collection edits	task_b-wcmep.txt	
 h-hathitrust ingest marc prep	task_h-hathitrust.txt	
+m-006-m-fixes	task_m-006-m-fixes.txt	
 m-006eb 006 ebook fix	task_m-006eb.txt	SHIFT+F3
 m-006map 006 map fix	task_m-006map.txt	
 m-006sa 006 streaming audio fix	task_m-006sa.txt	
@@ -78,21 +80,36 @@ m-007delpres Delete preservation 007s	task_m-007delpres.txt
 m-007eber 007 ebook eresource fix	task_m-007eber.txt	SHIFT+F4
 m-007sa 007 streaming audio fix	task_m-007sa.txt	
 m-007sv 007 streaming video fix	task_m-007sv.txt	
+m-008details 008 details	task_m-008details.txt	
 m-008in Index indicator fix	task_m-008in.txt	
 m-008noc Code for nature of contents	task_m-008noc.txt	
+m-008o 008 onlineness	task_m-008o.txt	
+m-008undef 008 undefined	task_m-008undef.txt	
 m-020dc Delete cost data	task_m-020dc.txt	
+m-020fixes	task_m-020fixes.txt	
 m-020p7 Get print ISBN from 776	task_m-020p7.txt	
 m-020q Convert parenthetical qualifier to $q	task_m-020q.txt	
 m-020sf 020 subfield fix	task_m-020sf.txt	
+m-035fixes	task_m-035fixes.txt	
+m-040fixes	task_m-040fixes.txt	
+m-26Xfixes	task_m-26Xfixes.txt	
 m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt	SHIFT+CONTROL+F1
 m-300df Clean 300s containing digital file	task_m-300df.txt	
 m-300e Eresourcify 300s	task_m-300e.txt	SHIFT+F5
+m-33XRDA	task_m-33XRDA.txt	
 m-505b Basic coding not enhanced	task_m-505b.txt	
+m-520	task_m-520.txt	
 m-588 fix	task_m-588.txt	
+m-856fixes	task_m-856fixes.txt	
 m-949 Perpetual access note	task_m-949perp.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
+m-field_deletes	task_m-field_deletes.txt	
+m-form_cleanup	task_m-form_cleanup.txt	
+m-local	task_m-local.txt	
 m-notauth No Authority Control	task_m-notauth.txt	
+m-provider_neutral	task_m-provider_neutral.txt	
 m-rt Relator term cleanup	task_m-rt.txt	
+m-spacing	task_m-spacing.txt	
 o-ocam OCA mono prep	task_o-ocam.txt	
 o-ocas OCA serials prep	task_o-ocas.txt	
 o-skel OCA OCLC skeleton file prep	task_o-skel.txt	
@@ -102,20 +119,4 @@ s-del SerSol delete prep	task_s-del.txt	SHIFT+F7
 s-japanese	task_s-japanese.txt	
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
-s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
-m-008undef 008 undefined	task_m-008undef.txt	
-m-008o 008 onlineness	task_m-008o.txt	
-m-008details 008 details	task_m-008details.txt	
-m-040fixes	task_m-040fixes.txt	
-m-26Xfixes	task_m-26Xfixes.txt	
-m-020fixes	task_m-020fixes.txt	
-m-035fixes	task_m-035fixes.txt	
-m-33XRDA	task_m-33XRDA.txt	
-m-856fixes	task_m-856fixes.txt	
-m-field_deletes	task_m-field_deletes.txt	
-m-form_cleanup	task_m-form_cleanup.txt	
-m-provider_neutral	task_m-provider_neutral.txt	
-m-520	task_m-520.txt	
-m-local	task_m-local.txt	
-m-spacing	task_m-spacing.txt	
-a-allrecs	task_a-allrecs.txt	SHIFT+CONTROL+F10
+s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt		task_m-006-m-fixes.txt	SHIFT+CONTROL+F9
