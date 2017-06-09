@@ -84,8 +84,6 @@ m-020dc Delete cost data	task_m-020dc.txt
 m-020p7 Get print ISBN from 776	task_m-020p7.txt	
 m-020q Convert parenthetical qualifier to $q	task_m-020q.txt	
 m-020sf 020 subfield fix	task_m-020sf.txt	
-m-264crsf 264 2nd ind 4 copyright date subfield fix	task_m-264crsf.txt	
-m-264in2 Fix ind 2 per role	task_m-264in2.txt	
 m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt	SHIFT+CONTROL+F1
 m-300df Clean 300s containing digital file	task_m-300df.txt	
 m-300e Eresourcify 300s	task_m-300e.txt	SHIFT+F5
@@ -117,4 +115,7 @@ m-856fixes	task_m-856fixes.txt
 m-field_deletes	task_m-field_deletes.txt	
 m-form_cleanup	task_m-form_cleanup.txt	
 m-provider_neutral	task_m-provider_neutral.txt	
-m-520	task_m-520.txt	SHIFT+CONTROL+F10
+m-520	task_m-520.txt	
+m-local	task_m-local.txt	
+m-spacing	task_m-spacing.txt	
+a-allrecs	task_a-allrecs.txt	SHIFT+CONTROL+F10
