@@ -19,6 +19,12 @@ TASK_LIST	m-856fixes	task_m-856fixes.txt
 TASK_LIST	m-008undef 008 undefined	task_m-008undef.txt
 TASK_LIST	m-008o 008 onlineness	task_m-008o.txt
 TASK_LIST	m-008details 008 details	task_m-008details.txt
+#Do format-aware 006 fixes (only operates on 006 beginning with m)
+TASK_LIST	m-006-m-fixes	task_m-006-m-fixes.txt
+#Do 007 fixes -- each task list operates only on one 007 definition
+TASK_LIST	m-007eber 007 ebook eresource fix	task_m-007eber.txt
+TASK_LIST	m-007sa 007 streaming audio fix	task_m-007sa.txt
+TASK_LIST	m-007sv 007 streaming video fix	task_m-007sv.txt
 #Then conditional local field additions
 TASK_LIST	m-local	task_m-local.txt
 #Then final spacing/punctuation cleanup
