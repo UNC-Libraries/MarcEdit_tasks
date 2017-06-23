@@ -1,12 +1,22 @@
 #
+# Delete $c and preceding punctuation
 EDITFIELD	020	 *\p{Po}*\$c[^$]+(?= *\p{Po}*(\$|$))	2		
+# Delete 020s without $a or $z
 DELETE	020	\$[az]	2	False	True	False
+# Move qualifying information into $q
 REPLACE	^(?<a>=020.*) \( *(?<b>.*) *\) *	${a}$$q${b}	2
+# Removes space before $q
 REPLACE	^(=020.*) \$q	$1$$q	2
+# Removes parentheses from $q
 EDITFIELD	020	\$q\(	2	$$q	
 EDITFIELD	020	(?<a>\$q.*)\)	2	${a}	
+# Puts e/online ISBNs in $a
 REPLACE	(?<start>=020.*\$)z(?<finish>.*(([Ee]|[Oo])(-| |)([Bb]o?o?k|[Ii][Ss][Bb][Nn])|[Hh][Tt][Mm][Ll]|[Ee][Pp][Uu][Bb]|[Ee]?[Mm]obi|[Oo]nline|[Pp][Dd][Ff]|[Ee]lectronic|[Ee]b(:| ).*paper))	${start}a${finish}	2
+# Puts non-e/online ISBNs in $z
 REPLACE	(=020.*\$)a(.*(?:(?:[Hh]ard|[Pp]aper)back|[Hh]ardcover|[Mm]icro(form|fiche)|[Pp]bk?|[Hh]bk?|[Cc]loth|(?:[Aa]lk\.?|[Tt]rade|[Aa]cid(?:-| )[Ff]ree) [Pp]aper|[Pp]rint))	$1z$2	2		1
+# Creates new 020 with $qprint from 776z
 buildnewfield	=020  \\$z{776$z}$qprint	False	False	True	False
+# Deletes 020s with empty $z created by previous step when there is no 776$z
 DELETE	020	$z$qprint	0	False	False	False
+# Delete duplicate 020s (based on comparison of all $a values and comparison of all $z values)
 DELETE	020	\$[az][0-9Xx]+	2	True	False	False
