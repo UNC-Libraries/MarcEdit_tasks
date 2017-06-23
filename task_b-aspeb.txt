@@ -1,4 +1,4 @@
-#
+#DESCRIPTION#
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 DELETE	533		0	False	False
@@ -7,7 +7,6 @@ DELETE	583		0	False	False
 DELETE	710	Alexander Street Press	0	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Alexander Street Press.	100
-ADD	949	\1$g1$lebnb$h0$rn$q0$t11$u-$nPerpetual access	100	
 SUBFIELD_EDIT	008	23		o	0|0
 REPLACE	=500  \\$aTitle from	=588  \\$aTitle from	0
 REPLACE	=440  \0$aAmerican film scripts online.	=773  0\$tAmerican film scripts online (online collection)	0
@@ -76,3 +75,4 @@ DELETE	950		0	False	False	False
 DELETE	944		0	False	False	False
 DELETE	910		0	False	False	False
 DELETE	945		0	False	False
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
