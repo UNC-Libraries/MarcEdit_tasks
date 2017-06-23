@@ -1,7 +1,12 @@
-#
+# Any automated 505 fixes
+# Our ILS can't do anything useful with URLs in 505
 SUBFIELD_REMOVE	505	u		107|0
+# Our ILS also can't handle indexing enhanced 505s -- make them basic
+# 2nd indicator = \
 REPLACE	^=505  (?<i1>.)0	=505  ${i1}\	2		1
+# Begin with $a
 REPLACE	^(?<a>=505  ..\$)[^a]	${a}a	2		1
+# Remove any $g, $r, $t delimiters, keeping punctuation and spacing as nice as possible
 EDITFIELD	505	 /$r	0	 / 	
 EDITFIELD	505	 --$t	0	 -- 	
 EDITFIELD	505	$g	0	 	

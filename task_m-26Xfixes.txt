@@ -1,3 +1,6 @@
+#
+# Remove relator codes from 264 -- they are not defined for this field
 EDITFIELD	264	,? *\$e[^$]*	2		
+# Where 264 i2=4, change initial subfield to $c. $a is not defined when i2=4
 REPLACE	^(=264  .4\$)a	$1c	2		1
 REPLACE	^(=264  .4\$)[^c](©)	$1c$2	2		1

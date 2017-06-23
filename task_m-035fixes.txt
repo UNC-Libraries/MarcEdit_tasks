@@ -1,5 +1,9 @@
-#
+# 035 fixes/cleanup
+# Temporarily treat YBP 035 as OCLC in YBP DDA records only, so they don't get deleted
 REPLACE	^=035  \\\\\$a\(NhCcYBP\)	=035  \\$$a(OCoLC)(NhCcYBP)	2	=773.*DDA \(online collection\)	2
+# Delete non-OCLC 035s
 DELETE	035	(OCoLC)	0	False	True	False
+# Revert YBP 035s in DDA records
 REPLACE	^=035  \\\\\$a\(OCoLC\)\(NhCcYBP\)	=035  \\$$a(NhCcYBP)	2		1
+# Remove OCN prefixes from OCLC 035s
 REPLACE	^(?<start>=035.*\(OCoLC\))(oc[nm]|on)	${start}	2		1
