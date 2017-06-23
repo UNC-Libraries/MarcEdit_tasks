@@ -1,9 +1,15 @@
-#
+#DESCRIPTION#856 fixes, cleanup, local edits
+#Delete any 856$y for UNCLib provided in records--may not be format-specific or consistent w/current practice
 SUBFIELD_REMOVE	856	y	Chapel Hill Libraries	107|1
+#Add standard full text 856$y to all records
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
+#Remove $y from related resource URLs because they are not the full text resource
 REPLACE	^(=856  .2.*)\$yFull text available via the UNC-Chapel Hill Libraries	$1	2		1
+#Change $y text for some formats
 REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yAvailable via the UNC-Chapel Hill Libraries	0	=990  89\$a(MP|CR:integrating resource|MU:score).*	2
 REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yStreaming audio available via the UNC-Chapel Hill Libraries	0	=990  89\$aMU.*	2
 REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yStreaming video available via the UNC-Chapel Hill Libraries	0	=990  89\$aVM.*	2
+#Prepend proxy prefix to $u in all URLs
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+#Remove proxy prefix from "related resource" URLs where domain is likely to be unconfigured in proxy settings
 REPLACE	^(=856  .2.*\$u)http:\/\/libproxy\.lib\.unc\.edu\/login\?url=	$1	2		1
