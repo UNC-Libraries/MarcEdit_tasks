@@ -1,15 +1,11 @@
-#
+#DESCRIPTION#
 DELETE	506		0	False	False	False
 EDITFIELD	040	,$	0	$	
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Alexander Street Press.	100
 SUBFIELD_REMOVE	856	z		|0
-REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?CTIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xCounseling and therapy in video	2
-REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?EDIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xEducation in video	2
-REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?ANTH.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xEthnographic video online	2
-REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?FLON.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xFilmakers library online	2
-REPLACE	^(?<a>=856  40(\$3.*|)\$u)(?<b>http:\/\/www\.aspresolver\.com\/aspresolver\.asp\?OPIV.*)$	${a}http://libproxy.lib.unc.edu/login?url=${b}$$xOpera in video	2
+SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 REPLACE	^(?<a>=856  40)(?<b>\$u)	${a}$$yStreaming video available via the UNC-Chapel Hill Libraries${b}	2
 DELETE	910		0	False	False	False
 DELETE	941		0	False	False	False
