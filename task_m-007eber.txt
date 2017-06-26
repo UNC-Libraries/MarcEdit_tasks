@@ -10,7 +10,7 @@ REPLACE	^(?<a>=007  cr.......)[^amu|]	${a}|	2
 REPLACE	^(?<a>=007  cr........)[^anpu|]	${a}|	2
 REPLACE	^(?<a>=007  cr.........)[^abcdmnu|]	${a}|	2
 REPLACE	^(?<a>=007  cr..........)[^abdmu|]	${a}|	2
-REPLACE	^(?<a>=007  cr...........)[^anpru]	${a}a	2
+REPLACE	^(?<a>=007  cr...........)[^a]	${a}a	2
 #Add 007 beginning with cr if one isn't present in record
 #Copy all 007s to 002s
 SWAP	007				002			1	2	1		0	0	0
@@ -19,14 +19,14 @@ REPLACE	^=002  (?!cr).*	=999  \\$aDELETE ME	2		1
 #Truncate remaining 002s to distinguish them from the full ones we add next
 REPLACE	^(=002  cr).*	$1	2		1
 #Insert full 007 value in 002 if record has no 002
-ADD	002	cr\|n|||||||||	101	
-#Set color byte to n if audio format in 990
-REPLACE	=002  cr\|n	=002  cr.nn	1	=990  89\$aMU:(audiobook|non-music|streaming)	2
-#Change . to \ in 002 -- \n in replacement above was being interpreted as newline
-EDITFIELD	002	.	0	\	
+ADD	002	cr\|n||||||||a	101	
 #Mark truncted 002s for deletion
 REPLACE	^=002  cr$	=999  \\$$aDELETE ME	2		1
 #Change remaining 002s to 007s
 REPLACE	^=002	=007	2		1
 #Delete fields flagged for deletion
 DELETE	999	DELETE ME	0	False	False	False
+#Set color byte to n if audio format in 990
+REPLACE	=007  cr\|n	=007  cr.nn	1	=990  89\$aMU:(audiobook|non-music|streaming)	2
+#Change . to \ in 007 -- \n in replacement above was being interpreted as newline
+EDITFIELD	007	.	0	\	
