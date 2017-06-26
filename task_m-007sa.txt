@@ -1,8 +1,13 @@
-#
+#DESCRIPTION#Edit 007s beginning with s
+#01 = r
 EDITFIELD	007	^s[^r]	2	sr	
+#02 = undefined
 EDITFIELD	007	^(s.)[^\\]	2	$1\	
+#03 = n
 EDITFIELD	007	^(s..)[^n]	2	$1n	
+#04 = | if not mqsuz|
 EDITFIELD	007	^(s...)[^mqsuz|]	2	$1|	
+#05-11 = n
 EDITFIELD	007	^(s....)[^n]	2	$1n	
 EDITFIELD	007	^(s.....)[^n]	2	$1n	
 EDITFIELD	007	^(s......)[^n]	2	$1n	
@@ -10,5 +15,24 @@ EDITFIELD	007	^(s.......)[^n]	2	$1n
 EDITFIELD	007	^(s........)[^n]	2	$1n	
 EDITFIELD	007	^(s.........)[^n]	2	$1n	
 EDITFIELD	007	^(s..........)[^n]	2	$1n	
-EDITFIELD	007	^(s...........)[^abcdefghnuz|]	2	$1|	
-EDITFIELD	007	^(s............)[^abdeuz|]	2	$1|	
+#12 = e
+EDITFIELD	007	^(s...........)[^abcdefghnuz|]	2	$1e	
+#13 = d
+EDITFIELD	007	^(s............)[^abdeuz|]	2	$1d	
+#Add 007 beginning with sr if one isn't present in record
+#Copy all 007s to 002s
+SWAP	007				002			1	2	1		0	0	0
+#Mark 002s that don't begin with sr for deletion
+REPLACE	^=002  (?!sr).*	=999  \\$aDELETE ME	2		1
+#Truncate remaining 002s to distinguish them from the full ones we add next
+REPLACE	^(=002  sr).*	$1	2		1
+#Insert full 007 value in 002 if record has no 002 and is audio format
+ADD	002	sr\n|nnnnnnned	101	
+#Mark truncated 002s for deletion
+REPLACE	^=002  sr$	=999  \\$$aDELETE ME	2		1
+#Mark sr 002s added to non-audio records for deletion
+REPLACE	^=002  sr.*	=999  \\$$aDELETE ME	2	=990  89\$a(?!MU:(audiobook|non-music sound recording|streaming audio))	2
+#Change remaining 002s to 007s
+REPLACE	^=002	=007	2		1
+#Delete fields flagged for deletion
+DELETE	999	DELETE ME	0	False	False	False
