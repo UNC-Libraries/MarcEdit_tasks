@@ -1,8 +1,25 @@
 REPLACE	^(?<a>=007  v)[^z]	${a}z	2
 REPLACE	^(?<a>=007  vz)[^\\]	${a}\	2
-REPLACE	^(?<a>=007  vz.)[^abcgmnuz]	${a}|	2
+REPLACE	^(?<a>=007  vz.)[^abcgmnuz|]	${a}|	2
 REPLACE	^(?<a>=007  vz..)[^z]	${a}z	2
-REPLACE	^(?<a>=007  vz...)[^a]	${a}a	2
-REPLACE	^(?<a>=007  vz....)[^z]	${a}z	2
+REPLACE	^(?<a>=007  vz...)[^\\au|]	${a}|	2
+REPLACE	^(?<a>=007  vz....)[^\\au|]	${a}|	2
 REPLACE	^(?<a>=007  vz.....)[^z]	${a}z	2
-REPLACE	^(?<a>=007  vz......)[^kmnqsuz]	${a}|	2
+REPLACE	^(?<a>=007  vz......)[^kmnqsuz|]	${a}|	2
+#Add 007 beginning with vz if one isn't present in record
+#Copy all 007s to 002s
+SWAP	007				002			1	2	1		0	0	0
+#Mark 002s that don't begin with vz for deletion
+REPLACE	^=002  (?!vz).*	=999  \\$aDELETE ME	2		1
+#Truncate remaining 002s to distinguish them from the full ones we add next
+REPLACE	^(=002  vz).*	$1	2		1
+#Insert full 007 value in 002 if record has no 002 and is audio format
+ADD	002	vz\|z||z|	101	
+#Mark truncated 002s for deletion
+REPLACE	^=002  vz$	=999  \\$$aDELETE ME	2		1
+#Mark sr 002s added to non-audio records for deletion
+REPLACE	^=002  vz.*	=999  \\$$aDELETE ME	2	=990  89\$a(?!VM:streaming video)	2
+#Change remaining 002s to 007s
+REPLACE	^=002	=007	2		1
+#Delete fields flagged for deletion
+DELETE	999	DELETE ME	0	False	False	False
