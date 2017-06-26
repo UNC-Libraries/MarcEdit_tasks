@@ -1,5 +1,5 @@
-# tidy up spacing
+#DESCRIPTION# tidy up spacing
 REPLACE	: $b	:$b	0		
 REPLACE	, $e	,$e	0		
-REPLACE	  +	 	2		
+REPLACE	(?<!=(LDR|\d{3}))  +	 	2		1
 REPLACE	 +$		2		
