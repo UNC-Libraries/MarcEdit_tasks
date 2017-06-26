@@ -1,4 +1,20 @@
-#DESCRIPTION#
+#DESCRIPTION#Edit 006 beginning with m; provide if missing
+#Add 007 beginning with sr if one isn't present in record
+#Copy all 006s to 002s
+SWAP	006				002			1	2	1		0	0	0
+#Mark 002s that don't begin with m for deletion
+REPLACE	^=002  (?!m).*	=999  \\$aDELETE ME	2		1
+#Truncate remaining 002s to distinguish them from the full ones we add next
+REPLACE	^(=002  m).*	$1	2		1
+#Insert full 006 value in 002 if record has no 002
+ADD	002	m\\\\|o\\?\\\\\\\\	101	
+#Mark truncated 002s for deletion
+REPLACE	^=002  m$	=999  \\$$aDELETE ME	2		1
+#Change remaining 002s to 006s
+REPLACE	^=002	=006	2		1
+#Delete fields flagged for deletion
+DELETE	999	DELETE ME	0	False	False	False
+#Fix byte position values
 REPLACE	^(?<a>=006  m)[^\\]	${a}\	2		1
 REPLACE	^(?<a>=006  m.)[^\\]	${a}\	2		1
 REPLACE	^(?<a>=006  m..)[^\\]	${a}\	2		1
