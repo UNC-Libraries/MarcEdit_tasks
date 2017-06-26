@@ -15,7 +15,7 @@ REPLACE	^(?<a>=007  cr...........)[^anpru]	${a}a	2
 #Copy all 007s to 002s
 SWAP	007				002			1	2	1		0	0	0
 #Mark 002s that don't begin with cr for deletion
-REPLACE	^=002  [^c][^r].*	=999  \\$aDELETE ME	2		1
+REPLACE	^=002  (?!cr).*	=999  \\$aDELETE ME	2		1
 #Truncate remaining 002s to distinguish them from the full ones we add next
 REPLACE	^(=002  cr).*	$1	2		1
 #Insert full 007 value in 002 if record has no 002
