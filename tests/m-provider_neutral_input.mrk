@@ -14,11 +14,13 @@
 =710  \2$aLINK (Online service)
 =710  \2$aProQuest (Firm)
 =710  \2$aProject Muse
+=710  \2$aSafari Books Online (Firm)
 =710  \2$aSpringer (Firm)
 =710  \2$aSpringer Science+Business Media.
 =710  \2$aSpringerLink (Online service)
 =710  \2$ae-Duke
 =710  \2$aebrary, Inc.
+=730  0\$aSafari Books Online
 =740  0\$aAdam Matthew Digital.
 =740  0\$aebrary, Inc.
 =740  0\$aEbrary.
@@ -27,6 +29,7 @@
 =740  0\$aSpringer Science+Business Media.
 =740  0\$aSpringerLink (Online service)
 =740  0\$aSpringer (Firm)
+=740  0\$aSafari Books Online
 =740  0\$aEbook Library.
 =740  0\$aEbooks Corporation.
 =740  0\$aProQuest (Firm)
@@ -45,6 +48,7 @@
 =797  \\$aSpringer Science+Business Media.
 =797  \\$aSpringerLink (Online service)
 =797  \\$aSpringer (Firm)
+=797  \\$aSafari Books Online
 =797  \\$aEbook Library.
 =797  \\$aEbooks Corporation.
 =797  \\$aProQuest (Firm)
@@ -60,6 +64,7 @@
 =830  \0$aEbrary.
 =830  \0$aGale Group
 =830  \0$aGale (Firm)
+=830  \0$aSafari Books Online
 =830  \0$aSpringer Science+Business Media.
 =830  \0$aSpringerLink (Online service)
 =830  \0$aSpringer (Firm)
