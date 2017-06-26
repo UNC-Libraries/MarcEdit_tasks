@@ -6,10 +6,7 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: National Bureau of Economic Research (NBER).	100	
 ADD	773	0\$tNational Bureau of Economic Research (NBER) working papers (online collection)	100	
-DELETE	530	Hardcopy	0	False	False
 REPLACE	^=001  	=001  NBER	2
-SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	x		NBER electronic working paper	101|0
 REPLACE	^=856  ..	=856  40	2
 REPLACE	 &bull; 	 -- 	0
