@@ -100,6 +100,7 @@ m-33XRDA	task_m-33XRDA.txt
 m-505b Basic coding not enhanced	task_m-505b.txt	
 m-520	task_m-520.txt	
 m-588 fix	task_m-588.txt	
+m-856 delete proxy	task_m-856deleteproxy.txt	
 m-856fixes	task_m-856fixes.txt	
 m-949 Perpetual access note	task_m-949perp.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
@@ -119,4 +120,5 @@ s-del SerSol delete prep	task_s-del.txt	SHIFT+F7
 s-japanese	task_s-japanese.txt	
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
-s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt		task_m-006-m-fixes.txt	SHIFT+CONTROL+F9
+s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
+
