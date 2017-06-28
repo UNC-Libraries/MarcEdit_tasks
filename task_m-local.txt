@@ -1,2 +1,4 @@
 #DESCRIPTION# local field additions
 ADD	919	\\$afilmfinder	106	=990  89$aVM:streaming video
+#Remove any fields with $5 not for our institution
+DELETE	xxx	\$5(?!NcU)	2	False	False	False
