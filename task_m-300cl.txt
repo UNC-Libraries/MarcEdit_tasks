@@ -1,4 +1,4 @@
-#Clean up non-standard 300 coding as much as possible
+#DESCRIPTION#Clean up non-standard 300 coding as much as possible
 ##Start initial format-agnostic cleanup of coding
 # $a comes before $b
 EDITFIELD	300	(\$b[^$]*)(\$a[^$]*)	2	$2$1	
@@ -35,7 +35,10 @@ REPLACE	(=300[^\n]*)(\$b)([^$]*) *files?[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$
 REPLACE	(=300[^\n]*)(\$b)([^$]*) *(?i)PDF(?-i) *[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2
 # Change some terms to 'online resource' -- applies to books, but won't mess up anything in other formats (?)
 EDITFIELD	300	(\$a\d+ )(electronic (text|document|resource)|PDF)	2	$1online resource	
+#Expand some abbreviations
 EDITFIELD	300	ill.	1	illustrations	
+EDITFIELD	300	(?<!\d)1 p.	2	1 page	
+EDITFIELD	300	 p.	1	 pages	
 # DURATION CLEANUP - relevant to MU, VM but shouldn't mess up anything in others
 EDITFIELD	300	 ea.	1	 each	
 EDITFIELD	300	minutes?	2	min.	
