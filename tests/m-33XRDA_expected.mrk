@@ -208,3 +208,20 @@
 =337  \\$acomputer$bc$2rdamedia
 =338  \\$aonline resource$bcr$2rdacarrier
 =990  89$aMU:score
+
+=LDR  01683ccm  2200349Ia 4500
+=001  NCCO001903
+=003  MiFhGG
+=005  20130207132950.0
+=006  m\\\\|o\\d\|\\\\\\
+=007  cr\|n||||||||n
+=008  911115s1886\\\\enksg\\\o\\\\\\n\\\\eng\d
+=035  \\$a(OCoLC)830943419
+=040  \\$aMIGCL$cUtOrBLW
+=043  \\$ae-uk---
+=100  1\$aCarpenter, Edward,$d1844-1929.
+=245  10$aEngland arise$h[electronic resource] :$bsocialist marching song /$cwords and music by Edward Carpenter.
+=336  \\$anotated music$bntm$2rdacontent
+=337  \\$acomputer$bc$2rdamedia
+=338  \\$aonline resource$bcr$2rdacarrier
+=990  89$aMU:score
