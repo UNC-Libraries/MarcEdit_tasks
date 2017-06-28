@@ -1,8 +1,11 @@
-# Provide/fix RDA 336, 337, 338
+#DESCRIPTION# Provide/fix RDA 336, 337, 338
 # Get rid of existing 33X, which may use wrong terms, lack either terms or codes, etc.
 REPLACE	^=33[678].*$	=999  \\$aDELETE ME	2		1
 # Generate fresh fields using RDA terms and codes
 RDAHELPER	1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0
+#Remove duplicate 336 and 337 added due to multiple 007 or whatever
+DELETE	337		0	True	False	False
+DELETE	338		0	True	False	False
 # You have no material/media objects in your hands and you need no device other than computer to use
 REPLACE	^=337  \\\\\$aaudio.*	=999  99$$aDELETE ME	2	=990  89\$aMU:.*	2
 REPLACE	^=337  \\\\\$avideo.*	=999  99$$aDELETE ME	2	=990  89\$aVM:.*	2
