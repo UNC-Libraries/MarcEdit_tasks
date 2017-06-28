@@ -1,5 +1,5 @@
 #DESCRIPTION# Delete fields naming specific e-content providers
-REPLACE	^=(710|730|740|797|830)  ..\$a(?i)(ACLS Humanities e-?book|Adam Matthew Digital|Alexander Street Press|Ebook Library|Ebooks Corporation|Ebrary|Films Media Group|Films for the Humanities & Sciences|Gale (\(Firm|Group)|Kanopy \(Firm\)|LINK \(Online|ProQuest \(Firm|Project Muse|Safari Books Online|Springer( \(Firm| Science\+Business|Link)|e-?Duke).*$	=999  99$aDELETE ME	2		1
+REPLACE	^=(710|730|740|797|830)  ..\$a(?i)(ACLS Humanities e-?book|Adam Matthew Digital|Alexander Street Press|e-?Duke|e-libro|Ebook Library|Ebooks Corporation|Ebrary|Films Media Group|Films for the Humanities & Sciences|Gale (\(Firm|Group)|Kanopy \(Firm\)|LINK \(Online|ProQuest \(Firm|Project Muse|Safari Books Online|Springer( \(Firm| Science\+Business|Link)|Synthesis digital library).*$	=999  99$aDELETE ME	2		1
 REPLACE	^=773  ..\$t(?i)ACLS Humanities E-?Books?.*$	=999  99$aDELETE ME	2		1
 REPLACE	^=773  ..\$t(?i)(EBL|Springer e-?books)[ .]*$	=999  99$aDELETE ME	2		1
 DELETE	999	DELETE ME	0	False	False	False

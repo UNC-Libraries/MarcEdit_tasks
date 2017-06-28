@@ -19,8 +19,12 @@
 =710  \2$aSpringer Science+Business Media.
 =710  \2$aSpringerLink (Online service)
 =710  \2$ae-Duke
+=710  \2$ae-libro
+=710  \2$aSynthesis digital library of engineering and computer science
 =710  \2$aebrary, Inc.
 =730  0\$aSafari Books Online
+=730  0\$ae-libro
+=730  0\$aSynthesis digital library of engineering and computer science
 =740  0\$aAdam Matthew Digital.
 =740  0\$aebrary, Inc.
 =740  0\$aEbrary.
@@ -40,6 +44,8 @@
 =740  0\$aFilms for the Humanities & Sciences
 =740  0\$aKanopy (Firm)
 =740  0\$aACLS Humanities E-Book
+=740  0\$ae-libro
+=740  0\$aSynthesis digital library of engineering and computer science
 =797  \\$aAdam Matthew Digital.
 =797  \\$aebrary, Inc.
 =797  \\$aEbrary.
@@ -59,6 +65,8 @@
 =797  \\$aFilms for the Humanities & Sciences
 =797  \\$aKanopy (Firm)
 =797  \\$aACLS Humanities E-Book
+=797  \\$ae-libro
+=797  \\$aSynthesis digital library of engineering and computer science
 =830  \0$aAdam Matthew Digital.
 =830  \0$aebrary, Inc.
 =830  \0$aEbrary.
@@ -78,9 +86,12 @@
 =830  \0$aFilms for the Humanities & Sciences
 =830  \0$aKanopy (Firm)
 =830  \0$aACLS Humanities E-Book
+=830  \0$ae-libro
+=830  \0$aSynthesis digital library of engineering and computer science
 =773  0\$tACLS Humanities E-Book
 =773  0\$tEBL
 =773  0\$tSpringer eBooks
 =773  0\$tSpringer e-Books
 =773  0\$tSpringer e-books (online collection)
 =773  0\$tEBL eBook Library DDA (online collection). Discovery
+
