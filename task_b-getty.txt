@@ -1,0 +1,14 @@
+#DESCRIPTION#
+SUBFIELD_EDIT	001		^b	GPVL	0|1
+ADD	003	CMalG	100	
+SUBFIELD_EDIT	019	a	^e	gpvl	0|0
+SUBFIELD_EDIT	035	a	^e	gpvl	0|0
+DELETE	506		0	False	False	False
+ADD	506	0\$aFreely available resource.$fUnlimited simultaneous users	100	
+ADD	773	0\$tGetty publications virtual library (online collection)	100	
+DELETE	830	Getty Publications virtual library	0	False	False	False
+EDITFIELD	856	\$u\s+	2	$$u	
+TASK_LIST	m-856 delete proxy	task_m-856deleteproxy.txt
+DELETE	856	\$uhttp.*?getty\.edu\/	2	False	True	False
+EDITFIELD	856	(?i)\$3Getty Publications Virtual Library( version|)\s*\$u(?-i)	2	$$u	
+DELETE	994		0	False	False	False

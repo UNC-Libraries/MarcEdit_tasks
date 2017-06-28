@@ -31,6 +31,7 @@ b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt
 b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
+b-getty Getty Publications Virtual Library batch edits 	task_b-getty.txt	
 b-filmp Film Platform batch edits	task_b-filmp.txt	
 b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
 b-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt	
