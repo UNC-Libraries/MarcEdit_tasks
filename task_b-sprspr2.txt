@@ -8,8 +8,6 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: SpringerLink.	100	
 ADD	773	0\$tSpringer e-books (online collection)	100	
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
-SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 DELETE	912		0	False	False	False
 EDITFIELD	100	.$e	0	,$e	
 EDITFIELD	700	.$e	1	,$e	
