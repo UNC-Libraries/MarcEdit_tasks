@@ -7,14 +7,9 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 DELETE	510		0	False	False
 DELETE	653		0	False	False
 DELETE	690		0	False	False
-SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_REMOVE	856	3	[^$]*(?![vV]ol)	|2
 DELETE	500	Series from website	0	False	False
 DELETE	500	Part of:	0	False	False
 REPLACE	^=856  ..	=856  40	2
-DELETE	730	Synthesis digital library of engineering and computer science	1	False	False	False
-DELETE	830	Synthesis digital library of engineering and computer science.	0	False	False
-REPLACE	=337  \\$aelectronic$2isbdmedia	=337  \\$acomputer$bc$2rdamedia	0
 ADD	590	\\$aProvider: Morgan & Claypool.	100	
 TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
