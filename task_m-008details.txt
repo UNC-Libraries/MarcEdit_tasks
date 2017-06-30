@@ -17,4 +17,6 @@ REPLACE	(=008  ..................)[^a-kmqstuwz](?=.*\n=310[^\n]*[Uu]nknown.*\n=9
 REPLACE	(=008  ..................)[^a-kmqstuwz](?=.*\n=310[^\n]*[Qq]uarter.*\n=990  89\$aCR:)/m	$1q	2
 # CR: set 'u' in Regularity if Frequency = u
 REPLACE	(=008  ..................u)[^nrux](?=.*\n=990  89\$aCR:)/m	$1u	2
+# MP: \s in 22-23 is not a valid projection code
+REPLACE	(=008  ......................)\\s(?=.*\n=990  89\$aMP:)/m	$1||	2
 
