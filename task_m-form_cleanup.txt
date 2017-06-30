@@ -1,10 +1,12 @@
 #DESCRIPTION# Delete over-broad form headings and do other form related corrections
 #Steps below apply to all formats
-REPLACE	^(?i)=(590|655)  ..\$a(Electronic (book|reference source|reproduction)s?|e-?books?|(Downloadable |)Audio ?books?).*	=999  99$aDELETE ME	2		1
-REPLACE	^(?i)=(590|655)  ..\$a(Internet|Streaming) ?videos?.*	=999  99$aDELETE ME	2		1
-REPLACE	^(?i)=(590|655)  ..\$a(Compact discs?|Sound recordings?).*	=999  99$aDELETE ME	2		1
-REPLACE	^(?i)=(590|655)  ..\$aVideo ?recording.*	=999  99$aDELETE ME	2		1
+REPLACE	^(?i)=(380|590|655)  ..\$a(Electronic (book|reference source|reproduction)s?|e-?books?|(Downloadable |)Audio ?books?).*	=999  99$aDELETE ME	2		1
+REPLACE	^(?i)=(380|590|655)  ..\$a(Internet|Streaming) ?videos?.*	=999  99$aDELETE ME	2		1
+REPLACE	^(?i)=(380|590|655)  ..\$a(Compact discs?|Sound recordings?).*	=999  99$aDELETE ME	2		1
+REPLACE	^(?i)=(380|590|655)  ..\$aVideo ?recording.*	=999  99$aDELETE ME	2		1
 DELETE	999	DELETE ME	0	False	False	False
+#No standard vocabularies starting with tlc are listed in code lists
+DELETE	3xx	$2tlc	0	False	False	False
 #Steps below apply to VM only
 REPLACE	=655  \0$aDocumentary.	=655  \0$aDocumentary films.	0	=990  89$aVM	1
 REPLACE	=655  \0$aEducational.	=655  \0$aEducational films.	0	=990  89$aVM	1
