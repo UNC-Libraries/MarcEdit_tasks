@@ -13,10 +13,7 @@ a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt
 b-EIO Editoria Italiana	task_b-eio.txt	
 b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
-b-aspcoll ASP collection specific edits	task_b-aspcoll.txt	
-b-aspeb ASP Ebook batch edits	task_b-aspeb.txt	
-b-aspsa ASP Streaming audio batch edits	task_b-aspsa.txt	
-b-aspsv ASP Streaming video batch edits	task_b-aspsv.txt	
+b-asp ASP batch edits	task_b-asp.txt	
 b-bep Business Expert Press batch edits	task_b-bep.txt	
 b-cbo Cambridge Books Online	task_b-cbo.txt	
 b-codgh Criterion on Demand subject genre headings fixes	task_b-codgh.txt	
@@ -44,6 +41,7 @@ b-kanpda Kanopy Streaming PDA edits	task_b-kanpda.txt
 b-lionaud LION audio	task_b-lionaud.txt	
 b-liont LION texts	task_b-liont.txt	
 b-llt Library of Latin Texts batch edits	task_b-llt.txt	
+b-loeb Loeb Classical Library batch edits	task_b-loeb.txt	
 b-mef MEF Digital batch edits	task_b-mef.txt	
 b-momw Making of the Modern World batch edits	task_b-momw.txt	
 b-nber NBER batch edits	task_b-nber.txt	
@@ -121,4 +119,3 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
-

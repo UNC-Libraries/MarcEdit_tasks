@@ -1,0 +1,48 @@
+#DESCRIPTION#
+#Reduce 001 to just the digits
+REPLACE	^(=001  )ASP(\d+)\/.*$	$1$2	2		1
+#Add ASP prefix and collection suffix from 999 to 001
+buildnewfield	=001  ASP{001}/{999$a}	False	True	False	False
+EDITFIELD	040	,$	0	$	
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	\\$aProvider: Alexander Street Press.	100
+INDICATOR	740	.1		.2
+ADD	773	\0$tAmerican Civil War: letters and diaries (online collection)	106	=999  \\$acwld
+ADD	773	\0$tAmerican film scripts online (online collection)	106	=999  \\$aafso
+ADD	773	\0$tAsian American drama (online collection)	106	=999  \\$aaadr
+ADD	773	\0$tBlack drama: African, African American, and Diaspora, 1850 to present (online collection). 2nd ed.	106	=999  \\$abldr
+ADD	773	\0$tBlack thought and culture (online collection)	106	=999  \\$abltc
+ADD	773	\0$tCounseling and psychotherapy transcripts, client narratives, and reference works (online collection)	106	=999  \\$apsyc
+ADD	773	\0$tCounseling and therapy in video (online collection). v. 1	106	=999  \\$activ
+ADD	773	\0$tCounseling and therapy in video (online collection). v. 2	106	=999  \\$actv2
+ADD	773	\0$tCounseling and therapy in video (online collection). v. 3	106	=999  \\$actv3
+ADD	773	\0$tEarly encounters in North America: peoples, cultures, and the environment (online collection)	106	=999  \\$aeena
+ADD	773	\0$tEducation in video (online collection)	106	=999  \\$aediv
+ADD	773	\0$tEthnographic video online (online collection)	106	=999  \\$aanth
+ADD	773	\0$tFilmakers library online (online collection)	106	=999  \\$aflon
+ADD	773	\0$tLatino literature (online collection)	106	=999  \\$alali
+ADD	773	\0$tAmerican music (online collection)	106	=999  \\$aamso
+ADD	773	\0$tClassical music library (online collection)	106	=999  \\$aclmu
+ADD	773	\0$tContemporary world music (online collection)	106	=999  \\$awomu
+ADD	773	\0$tJazz music library (online collection)	106	=999  \\$ajazz
+ADD	773	\0$tOpera in video (online collection)	106	=999  \\$aopiv
+ADD	773	\0$tSmithsonian global sound for libraries (online collection)	106	=999  \\$aglmu
+ADD	773	\0$tNorth American immigrant letters, diaries and oral histories (online collection)	106	=999  \\$aimld
+ADD	773	\0$tNorth American Indian drama (online collection)	106	=999  \\$aindr
+ADD	773	\0$tNorth American theatre online (online collection)	106	=999  \\$aatho
+ADD	773	\0$tNorth American women's drama (online collection)	106	=999  \\$awodr
+ADD	773	\0$tNorth American women's letters and diaries (online collection)	106	=999  \\$anwld
+ADD	773	\0$tScottish women poets of the Romantic period (online collection)	106	=999  \\$aswrp
+ADD	773	\0$tTwentieth century North American drama (online collection)	106	=999  \\$anadr
+ADD	773	\0$tUnderground and independent comics, comix, and graphic novels (online collection)	106	=999  \\$acomx
+ADD	773	\0$tWomen and social movements in the United States, 1600-2000 (online collection). Basic ed.	106	=999  \\$awasm
+REPLACE	(?<=.*\n=990  89\$aBK:.*\n=999  \\\\\$acomx.*\n)(=773.*\(online collection\)[^\n]*?)/m	$1. Ebooks	2
+REPLACE	(?<=.*\n=990  89\$aCR:ejournal.*\n=999  \\\\\$acomx.*\n)(=773.*\(online collection\)[^\n]*?)/m	$1. Ejournals	2
+SUBFIELD_REMOVE	856	z		|0
+REPLACE	^(=9(?!(19.*filmfinder|90  89|99)).*)	$1$$5ASP	2		1
+REPLACE	=999  \\$aanth	=999  \\$aediv\n=919  \\$aASPSVANTH	0		1
+REPLACE	=999  \\$aflon	=999  \\$aediv\n=919  \\$aASPSVFLON	0		1
+TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
+DELETE	999		0	False	False	False
