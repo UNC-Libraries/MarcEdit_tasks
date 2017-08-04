@@ -1,5 +1,11 @@
 #DESCRIPTION# tidy up spacing
 REPLACE	: $b	:$b	0		
 REPLACE	, $e	,$e	0		
+#Protect spaces in LDR
+EDITFIELD	LDR	 	0	%	
+#Collapse spaces except those between field tag and data
 REPLACE	(?<!=(LDR|\d{3}))  +	 	2		1
+#Put spaces back in LDR
+EDITFIELD	LDR	%	0	 	
+#Remove any spaces at end of field
 REPLACE	 +$		2		
