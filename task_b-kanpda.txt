@@ -1,4 +1,4 @@
-#
+#DESCRIPTION#
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	\\$aVendor-supplied catalog record.	100	
@@ -11,3 +11,4 @@ SUBFIELD_REMOVE	856	z	A Kanopy streaming video	107|0
 DELETE	793	Kanopy	0	False	False	False
 DELETE	971	Kanopy	0	False	False	False
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+SUBFIELD_REMOVE	856	u	http://libproxy.lib.unc.edu/login?url=	0|0
