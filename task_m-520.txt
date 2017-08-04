@@ -1,5 +1,4 @@
 #DESCRIPTION# Clean up/standardization steps for 520 field
-# Not sure why we start off deleting a 999... Can probably remove this?
-DELETE	999		0	False	False	False
 # The summary isn't an annotation and should itself go in the $a
 EDITFIELD	520	\$aAnnotation *\$b	2	$$a	
+DELETE	5xx	Bibliographic Level Mode of Issuance	1	False	False	False
