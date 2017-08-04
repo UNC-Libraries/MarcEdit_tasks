@@ -1,27 +1,9 @@
-#
-REPLACE	^=710  (..\$aAmerican Chemical Society[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tACS symposium series \(online collection\)	2
-REPLACE	^=710  ..\$aAmerican Mathematical Society\. *$	=999  $1	2	=773  0\\\$tAmerican Mathematical Society ebooks \(online collection\)	2
-REPLACE	^=(490|500|830)  (.*AMS [Bb]ooks [Oo]n-?line[\s\p{P}]*)$	=999  $2	2	=773  0\\\$tAmerican Mathematical Society ebooks \(online collection\).*	2
-REPLACE	^=710  ..\$aCambridge University Press.*$	=999  $1	2	=773  0\\\$tCambridge histories online \(online collection\)	2
-REPLACE	^=(490|500|830)  (.*Cambridge [Hh]istories [Oo]n-?line[\s\p{P}]*)$	=999  $2	2	=773  0\\\$tCambridge histories online \(online collection\).*	2
-REPLACE	^=710  ..\$aCambridge University Press.*$	=999  $1	2	=773  0\\\$tCambridge University Press ebooks \(online collection\)	2
-REPLACE	^=710  (..\$aCIAO.*)$	=999  $1	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
-REPLACE	^=710  (..\$aColumbia [Un]niversity( |\.\$b)Press.*)$	=999  $1	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
-REPLACE	^=(490|830)  (..\$aColumbia [Uu]niversity [Pp]ress on-?line[\s\p{P}]*)$	=999  $2	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
-REPLACE	^=(440|490|500|730|740|830)  (.*Columbia [Ii]nternational [Aa]ffairs [Oo]nline.*)$	=999  $2	2	=773  0\\\$tCIAO \(Columbia international affairs online\) \(online collection\)	2
-REPLACE	^=710  (..\$aEuropean Mathematical Society[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tEuropean Mathematical Society ebooks \(online collection\)	2
-REPLACE	^(?<a>=949.*)\$nPerpetual access	$1	2	=773  0\\\$tEuropean Mathematical Society ebooks \(online collection\)\. 2004-2013	2
-REPLACE	^=710  (.*GeoScienceWorld.*)	=999  $1	2	=773  0\\\$tGeoScienceWorld ebooks \(online collection\)	2
-REPLACE	^=710  (..\$aWiley InterScience \(Online service\)[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tJournal issues as monographs \(online collection\)\. Wiley\.	2
-REPLACE	^=710  (..\$a(Royal Society of Chemistry|Chemical Society) \(Great Britain\)[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tRoyal Society of Chemistry ebooks \(online collection\)	2
-REPLACE	^=710  (..\$a(ScienceDirect|Elsevier).*)$	=999  $1	2	=773  0\\\$tScienceDirect ebooks \(online collection\)	2
-REPLACE	^=710  (..\$aSociety of Photo-optical Instrumentation Engineers[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSPIE ebooks \(online collection\)	2
-REPLACE	^=500(.*SPIE [Dd]igital [Ll]ibrary)	=999  $1	2	=773  0\\\$tSPIE ebooks \(online collection\)	2
-REPLACE	^=710  (..\$aSpringerLink[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSpringer e-books \(online collection\)	2
-REPLACE	^=710  (..\$aSpringerLink[\s\p{P}]*)$	=999  $1	2	=773  0\\\$tSpringer major series e-books \(online collection\)	2
+#DESCRIPTION#
+DELETE	049		0	False	False	False
+DELETE	090		0	False	False	False
+DELETE	598	Reason for updated record	0	False	False	False
+DELETE	653	(?i)multi-?user	2	False	False	False
+DELETE	891		0	False	False	False
+DELETE	994	$bNOC	0	False	False	False
 DELETE	999		0	False	False	False
-DELETE	773		0	True	False	False
-DELETE	590		0	True	False	False
-DELETE	506		0	True	False	False
-DELETE	949		0	True	False	False
-DELETE	999	77$aRecord status	0	False	False	False
+EDITFIELD	856	http://libproxy.lib.unc.edu/login?url=http://libproxy.lib.unc.edu/login?url=	0	http://libproxy.lib.unc.edu/login?url=	
