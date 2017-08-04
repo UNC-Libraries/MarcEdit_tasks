@@ -1,8 +1,14 @@
 =LDR  00000nam  2200000Ia 45e0
 =001  1
+=028  01$aEB00639816$bRecorded Books
+=037  \\$a22573/ctt272c3g$bJSTOR
+=037  \\$a9ADA7664-FC46-4DAA-B4CF-3680643F1D7B$bOverDrive, Inc.$nhttp://www.overdrive.com
+=500  \\$aOffered as part of Columbia international affairs online.
 =710  \2$aACLS Humanities E-Book
 =710  \2$aAdam Matthew Digital.
 =710  \2$aAlexander Street Press
+=710  \2$aCIAO
+=710  \2$aColumbia international affairs online
 =710  \2$aEbook Library.
 =710  \2$aEbooks Corporation.
 =710  \2$aEbrary.
@@ -94,4 +100,9 @@
 =773  0\$tSpringer e-Books
 =773  0\$tSpringer e-books (online collection)
 =773  0\$tEBL eBook Library DDA (online collection). Discovery
-
+=773  0\$tOhioLINK electronic book center (Online)$w(OCoLC)180989150
+=773  0\$tSpringer (LINK) Books.
+=773  0\$tSpringer - LINK.
+=773  0\$tSpringerLink$w(OCoLC)43927870
+=773  0\$tSpringerLink
+=773  0\$tSpringerLink ebooks - Medicine (Contemporary) (online collection)
