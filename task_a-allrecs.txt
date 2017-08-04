@@ -8,9 +8,9 @@ TASK_LIST	m-form_cleanup	task_m-form_cleanup.txt
 TASK_LIST	m-020fixes	task_m-020fixes.txt
 TASK_LIST	m-035fixes	task_m-035fixes.txt
 TASK_LIST	m-040fixes	task_m-040fixes.txt
+TASK_LIST	m-callnumbers	task_m-callnumbers.txt
 TASK_LIST	m-26Xfixes	task_m-26Xfixes.txt
 TASK_LIST	m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt
-TASK_LIST	m-33XRDA	task_m-33XRDA.txt
 TASK_LIST	m-505b Basic coding not enhanced	task_m-505b.txt
 TASK_LIST	m-520	task_m-520.txt
 TASK_LIST	m-588 fix	task_m-588.txt
@@ -25,6 +25,8 @@ TASK_LIST	m-006-m-fixes	task_m-006-m-fixes.txt
 TASK_LIST	m-007eber 007 ebook eresource fix	task_m-007eber.txt
 TASK_LIST	m-007sa 007 streaming audio fix	task_m-007sa.txt
 TASK_LIST	m-007sv 007 streaming video fix	task_m-007sv.txt
+#Since RDAHelper relies on 007s, RDA 33X cleanup needs to happen after 007s are fixed
+TASK_LIST	m-33XRDA	task_m-33XRDA.txt
 #Then conditional local field additions
 TASK_LIST	m-local	task_m-local.txt
 #Then final spacing/punctuation cleanup
