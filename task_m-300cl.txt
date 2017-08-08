@@ -1,5 +1,7 @@
 #DESCRIPTION#Clean up non-standard 300 coding as much as possible
 ##Start initial format-agnostic cleanup of coding
+# Fix typical e-CIP 300
+REPLACE	^=300  \\\\\$ap\.? ?[;:]? *\$?c.*	=300  \\$$a1 online resource	2
 # $a comes before $b
 EDITFIELD	300	(\$b[^$]*)(\$a[^$]*)	2	$2$1	
 #Delete spaces after open and before close parentheses
@@ -86,3 +88,6 @@ EDITFIELD	300	(\([^$)]*)$	2	$1)
 EDITFIELD	300	\s\s+	2	 	
 # Remove final period from field
 EDITFIELD	300	\s*\.\s*$	2		
+# E-resourcify 
+REPLACE	^=300  \\\\\$a(?!\d+ online resources?)(?<a>.*?)(?<b>$| [:;])	=300  \\$$a1 online resource (${a})${b}	2
+

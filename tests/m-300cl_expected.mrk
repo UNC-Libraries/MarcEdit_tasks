@@ -1,8 +1,8 @@
 =LDR  00000nam  2200000Ia 45e0
 =001  1
 =300  \\$a1 online resource (x, 265 pages)
-=300  \\$a1 page
-=300  \\$a11 pages
+=300  \\$a1 online resource (1 page)
+=300  \\$a1 online resource (11 pages)
 =300  \\$a1 online resource (ix, 234 pages) :$bcolor illustrations
 =300  \\$a1 online resource (ix, 234 pages) :$bcolor illustrations
 =300  \\$a1 online resource (ix, 234 pages) :$bcolor illustrations
@@ -54,6 +54,7 @@
 =300  \\$a1 online resource
 =300  \\$a1 online resource
 =300  \\$a876462534 online resources
+=300  \\$a1 online resource
 =990  89$aBK:ebook
 
 =LDR  00000nam  2200000Ia 45e0
@@ -131,5 +132,6 @@
 =300  \\$a1 online resource (9 audio files (2 hrs., 10 min.)) :$bdigital
 =300  \\$a1 online resource (15 audio files (3 hrs.)) :$bdigital
 =990  89$aMU:streaming audio
+
 
 
