@@ -1,9 +1,11 @@
 #DESCRIPTION#Clean up call number fields
+#050 i2 can only be 0 or 4. If other, default to 4
+REPLACE	^=050  (?<a>.)[^04](?<b>.*)$	=050  ${a}4${b}	2		1
+#060 - Delete if starts with online
+DELETE	060	$aOnline	1	False	False	False
 #070 i2 is undefined
 REPLACE	^(=070  .)[^\\]	$1\	2		1
 #082 i1 can only be 0, 1, or 7. If other, default to 0
 REPLACE	^=082  [^017]	=082  0	2		1
-#050 i2 can only be 0 or 4. If other, default to 4
-REPLACE	^=050  (?<a>.)[^04](?<b>.*)$	=050  ${a}4${b}	2		1
 #Delete 090 with STREAMING
 DELETE	090	STREAMING	0	False	False	False
