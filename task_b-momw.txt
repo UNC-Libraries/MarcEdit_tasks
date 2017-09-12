@@ -11,8 +11,6 @@ ADD	773	0\$tMaking of the modern world (online collection). {{REPLACE PART}}	100
 INDICATOR	856	4\		40
 SUBFIELD_REMOVE	856	z	Available to subscribing institutions	|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
-SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	x		Making of the Modern World	101|0
 ADD	915	\\$9NOTAUTHO$1[YYYYMMDD]$3initials	100	
 ADD	949	\\$a*b3=x	100	
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

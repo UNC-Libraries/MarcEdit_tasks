@@ -9,4 +9,3 @@ SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	102|0
 SUBFIELD_EDIT	856	x		Editoria Italiana Online	102|0
 DELETE	900		0	False	False	False
 DELETE	910		0	False	False	False
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

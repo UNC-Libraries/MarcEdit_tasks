@@ -23,4 +23,3 @@ SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_REMOVE	856	3	[^$]*(?![vV]ol)	|2
 SUBFIELD_EDIT	008	23		o	0|0
 REPLACE	=337  \\$aelectronic$2isbdmedia	=337  \\$acomputer$bc$2rdamedia	0
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

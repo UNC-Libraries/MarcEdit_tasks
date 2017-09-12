@@ -12,4 +12,3 @@ DELETE	500	Series from website	0	False	False
 DELETE	500	Part of:	0	False	False
 REPLACE	^=856  ..	=856  40	2
 ADD	590	\\$aProvider: Morgan & Claypool.	100	
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

@@ -8,4 +8,3 @@ SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	x		Oxford Scholarly Editions Online	101|0
 SUBFIELD_REMOVE	856	3	Oxford scholarly editions online	107|0
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

@@ -7,7 +7,6 @@ ADD	590	\\$aProvider: Brepolis & Centre Traditio Litterarum Occidentalium.	100
 ADD	590	\\$aVendor-supplied catalog record.	100	
 DELETE	538		0	False	False
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
-SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries 	101|0
 SUBFIELD_EDIT	856	x		Library of Latin Texts	101|0
 SUBFIELD_REMOVE	245	h		107|0
 SUBFIELD_EDIT	245	[a,n,p,^c,^b]	:/=	$h[electronic resource]	0|0
@@ -18,4 +17,3 @@ REPLACE	^(?<a>=260.*[^,])\$c	${a},$$c	2		1
 REPLACE	^=100  (?<a>.)0	=100  ${a}\	2
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fLimited to three (3) concurrent users	100	
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

@@ -5,4 +5,3 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Harvard University Press.	100	
 ADD	773	0\$tLoeb classical library (online collection)	100	
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

@@ -3,6 +3,5 @@ REPLACE	(^=001  )(.)	$1iop$2	2		1
 DELETE	545		0	False	False	False
 DELETE	710	\$e(publisher|distributor)	2	False	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	590	\\$aProvider: IOP	100	
+ADD	590	\\$aProvider: IOP.	100	
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

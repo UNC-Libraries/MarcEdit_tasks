@@ -12,4 +12,3 @@ DELETE	007	^=007  h	2	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Proquest.	100	
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

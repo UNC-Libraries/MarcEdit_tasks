@@ -44,5 +44,4 @@ SUBFIELD_REMOVE	856	z		|0
 REPLACE	^(=9(?!(19.*filmfinder|90  89|99)).*)	$1$$5ASP	2		1
 REPLACE	=999  \\$aanth	=999  \\$aediv\n=919  \\$aASPSVANTH	0		1
 REPLACE	=999  \\$aflon	=999  \\$aediv\n=919  \\$aASPSVFLON	0		1
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
 DELETE	999		0	False	False	False

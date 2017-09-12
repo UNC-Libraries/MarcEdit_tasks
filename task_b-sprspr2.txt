@@ -21,4 +21,3 @@ REPLACE	®		0		1
 REPLACE	“	"	0		1
 REPLACE	”	"	0		1
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

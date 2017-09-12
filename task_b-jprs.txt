@@ -9,5 +9,4 @@ ADD	773	0\$tJoint Publications Research Service reports (online collection)	100
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	x		Joint Publications Research Service Reports	101|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

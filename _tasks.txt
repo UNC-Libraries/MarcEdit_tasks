@@ -100,7 +100,6 @@ m-588 fix	task_m-588.txt
 m-856 delete proxy	task_m-856deleteproxy.txt	
 m-856fixes	task_m-856fixes.txt	
 m-880s	task_m-880s.txt	
-m-949 Perpetual access note	task_m-949perp.txt	
 m-callnumbers	task_m-callnumbers.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
 m-field_deletes	task_m-field_deletes.txt	

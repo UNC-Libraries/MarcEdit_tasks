@@ -8,4 +8,3 @@ ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	773	0\$tEbrary perpetual access (online collection). UNL title-by-title	100	
 EDITFIELD	856	$uhttp://libproxy.lib.unc.edu/login?url=	0	$u	
 SUBFIELD_REMOVE	856	z		107|0
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt

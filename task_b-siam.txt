@@ -8,4 +8,3 @@ SUBFIELD_EDIT	856	x		SIAM ebook	101|0
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Society for Industrial and Applied Mathematics (SIAM).	100	
 DELETE	710	$aSociety for Industrial and Applied Mathematics	0	False	False	False
-TASK_LIST	m-949 Perpetual access note	task_m-949perp.txt
