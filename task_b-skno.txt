@@ -5,6 +5,6 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: SAGE.	100	
 ADD	773	0\$tSAGE knowledge (online collection)	100	
-REPLACE	=856  40$3SAGE knowledge$	=856  40$	0		1
 SUBFIELD_EDIT	856	x		SAGE knowledge	102|0
 TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
+REPLACE	=856  40$3SAGE Knowledge	=856  40	0		1
