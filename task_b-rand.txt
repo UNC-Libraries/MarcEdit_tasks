@@ -1,5 +1,4 @@
-#
-DELETE	037		0	False	False
+#DESCRIPTION#
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	773	0\$tRAND electronic books (online collection)	100	
 SUBFIELD_EDIT	245	[a,p,n,^c,b]	=:/.	$h[electronic resource] 	101|0

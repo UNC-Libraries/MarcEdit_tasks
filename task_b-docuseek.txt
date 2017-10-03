@@ -1,11 +1,9 @@
-#
+#DESCRIPTION#
 SUBFIELD_EDIT	001		^b	docsk	0|0
 DELETE	049		0	False	False	False
 EDITFIELD	856	http://www.docuseek2.com	0	http://docuseek2.com	
 SUBFIELD_REMOVE	856	z	Connect to electronic video	107|0
 SUBFIELD_REMOVE	856	y	View film	107|0
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
-SUBFIELD_EDIT	856	y		Streaming video available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	x		Docuseek2	101|0
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Docuseek.	100	
