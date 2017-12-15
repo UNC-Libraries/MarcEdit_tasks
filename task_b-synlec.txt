@@ -1,4 +1,4 @@
-#
+#DESCRIPTION#
 EDITFIELD	001	{dollar}	0		
 SUBFIELD_EDIT	001		^b	syn	0|0
 ADD	590	\\$aVendor-supplied catalog record.	100
@@ -7,6 +7,7 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 DELETE	510		0	False	False
 DELETE	653		0	False	False
 DELETE	690		0	False	False
+DELETE	856	ieeexplore.ieee.org/servlet/opac?bknumber	0	False	False	False
 SUBFIELD_REMOVE	856	3	[^$]*(?![vV]ol)	|2
 DELETE	500	Series from website	0	False	False
 DELETE	500	Part of:	0	False	False
