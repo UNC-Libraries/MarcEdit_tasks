@@ -1,0 +1,6 @@
+#DESCRIPTION#
+EDITFIELD	001	(on|ocn|ocm)(.*)	2	$2swank	
+ADD	590	\\$aProvider: Swank Motion Pictures, Inc.	100	
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	773	0\$tSwank motion pictures (online collection)	100	
+REPLACE	http://libproxy.lib.unc.edu/login?url=http://libproxy.lib.unc.edu/login?url=	http://libproxy.lib.unc.edu/login?url=	0		1

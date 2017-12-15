@@ -1,0 +1,2 @@
+#DESCRIPTION#deletes garbage chars btwn ind2 and first subfield delimiter
+REPLACE	(?<=^=(0[1-9].|[1-9]..)....)[^\$]+(?=\$)		2		1

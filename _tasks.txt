@@ -18,10 +18,11 @@ b-bep Business Expert Press batch edits	task_b-bep.txt
 b-cbo Cambridge Books Online	task_b-cbo.txt	
 b-codgh Criterion on Demand subject genre headings fixes	task_b-codgh.txt	
 b-colldl Colloquium Digital Library batch edits	task_b-colldl.txt	
-b-cwmo Contemporary World Music batch edits	task_b-cwmo.txt	
 b-docuseek Docuseek2 batch edits	task_b-docuseek.txt	
 b-dup Duke University Press batch edits	task_b-dup.txt	
 b-eai1 Early American Imprints, first series	task_b-eai1.txt	
+b-ebcdda YBP-Proquest Ebook Central DDA Discovery batch edits	task_b-ebcdda.txt	
+b-ebcsub Ebook Central subscriptions	task_b-ebcsub.txt	
 b-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
 b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
@@ -34,7 +35,6 @@ b-hathipi HathiTrust ingest prep	task_b-hathipi.txt
 b-hvd Harvard Univ Press ebooks batch	task_b-hvd.txt	
 b-hvd001 Harvard Univ Press 001-024 fix	task_b-hvd001.txt	
 b-iop IOP ebooks	task_b-iop.txt	
-b-jml Jazz Music Library batch edits	task_b-jml.txt	
 b-jprs Joint Publications Research Service batch edits	task_b-jprs.txt	
 b-kanpda Kanopy Streaming PDA edits	task_b-kanpda.txt	
 b-lionaud LION audio	task_b-lionaud.txt	
@@ -64,7 +64,7 @@ b-sprspr2 Springer from Springer 2	task_b-sprspr2.txt
 b-srmo Sage Research Methods	task_b-srmo.txt	
 b-srmoPRE SAGE research methods pre-edit	task_b-srmoPRE.txt	
 b-synlec Synthesis Lectures batch edits	task_b-synlec.txt	
-b-tfcrcdda TFCRC Evidence Based DDA batch edits	task_b-tfcrcdda.txt	
+b-swank	task_b-swank.txt	
 b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
 b-wcmep WCM ebook main per-collection edits	task_b-wcmep.txt	
 h-hathitrust ingest marc prep	task_h-hathitrust.txt	
@@ -103,6 +103,7 @@ m-880s	task_m-880s.txt
 m-callnumbers	task_m-callnumbers.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
 m-field_deletes	task_m-field_deletes.txt	
+m-fix_unicode_before_first_subfield_delim	task_m-fix_unicode_before_first_subfield_delim.txt	
 m-form_cleanup	task_m-form_cleanup.txt	
 m-local	task_m-local.txt	
 m-notauth No Authority Control	task_m-notauth.txt	
