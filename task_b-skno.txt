@@ -7,4 +7,4 @@ ADD	590	\\$aProvider: SAGE.	100
 ADD	773	0\$tSAGE knowledge (online collection)	100	
 SUBFIELD_EDIT	856	x		SAGE knowledge	102|0
 TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
-REPLACE	=856  40$3SAGE Knowledge	=856  40	0		1
+SUBFIELD_REMOVE	856	3	SAGE knowledge	107|0
