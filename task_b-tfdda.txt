@@ -1,20 +1,31 @@
-#
+#DESCRIPTION#
 REPLACE	^=001  	=001  TFDDATF	2		1
 TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
 DELETE	010		1	False	False	False
 DELETE	025		1	False	False	False
 DELETE	037		1	False	False	False
 DELETE	066		1	False	False	False
+DELETE	850		1	False	False	False
+DELETE	852		1	False	False	False
+DELETE	853		1	False	False	False
+DELETE	863		1	False	False	False
 DELETE	911		1	False	False	False
 DELETE	912		1	False	False	False
 DELETE	913		1	False	False	False
-DELETE	995		1	False	False	False
+DELETE	952		1	False	False	False
 DELETE	975		1	False	False	False
+DELETE	979		1	False	False	False
+DELETE	995		1	False	False	False
+DELETE	999		1	False	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	590		1	False	False	False
 ADD	590	\\$aVendor-supplied catalog record.	100	
 ADD	590	\\$aProvider: Taylor & Francis.	100	
 ADD	773	0\$tTaylor & Francis e-books (online collection). Evidence-based DDA. T&F. Discovery	100	
+DELETE	856	crcnetbase.com	0	False	False	False
+DELETE	856	tandfebooks.com	0	False	False	False
+SUBFIELD_REMOVE	856	q		107|1
 SUBFIELD_REMOVE	856	z		107|1
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|1
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|1
