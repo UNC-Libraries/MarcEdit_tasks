@@ -1,4 +1,4 @@
-#
+#DESCRIPTION#
 REPLACE	=949  \1$aINTERNET: SerSol E-book$z099 9	=949  \1	0
 DELETE	500	Project Muse	1	False	False	False
 DELETE	710	ebrary, Inc.	0	False	False	False
@@ -7,7 +7,6 @@ DELETE	830	Project Muse	1	False	False	False
 SUBFIELD_EDIT	008	15:3	|||	xx\	0|0
 SUBFIELD_EDIT	008	33	2	0	0|0
 SUBFIELD_EDIT	008	35:3	|||	\\\	0|0
-EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file) \((?<a>.*?)\)\.?\)	2	1 online resource (${a})	
 REPLACE	^=700  2	=700  1	2		1
 DELETE	773		0	True	False	False
 DELETE	506		0	True	False	False
@@ -19,3 +18,4 @@ DELETE	960		0	False	False	False
 DELETE	963		0	False	True	False
 DELETE	985		0	False	True	False
 DELETE	998		0	False	False	False
+TASK_LIST	m-300cl Clean 300s for batch eresourcification	task_m-300cl.txt
