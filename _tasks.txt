@@ -20,7 +20,7 @@ b-docuseek Docuseek2 batch edits	task_b-docuseek.txt
 b-dup Duke University Press batch edits	task_b-dup.txt	
 b-eai1 Early American Imprints, first series	task_b-eai1.txt	
 b-ebcdda YBP-Proquest Ebook Central DDA Discovery batch edits	task_b-ebcdda.txt	
-b-ebcDELdda YBP-Proquest Ebook Central DDA deletes	tasksfile-2017_12_22_075053121.txt	
+b-ebcDELdda YBP-Proquest Ebook Central DDA deletes	task_b-ebcDELdda.txt	
 b-ebcsub Ebook Central subscriptions	task_b-ebcsub.txt	
 b-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	

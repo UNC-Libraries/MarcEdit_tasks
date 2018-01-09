@@ -1,0 +1,4 @@
+#DESCRIPTION#remove everything but 001 values from PQEBC deletes
+REPLACE	^=(?!001).*		2		1
+REPLACE	^=001  (.*)$	$1dda	2		1
+REMOVEBLANKLINES
