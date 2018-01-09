@@ -10,8 +10,6 @@ a-safrmhdg Streaming audio form heading cleaner	task_a-safrmhdg.txt
 a-spchar Clean diacritics and symbols	task_a-spchar.txt	
 a-sv Streaming video general tasks	task_a-sv.txt	
 a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt	
-b-EIO Editoria Italiana	task_b-eio.txt	
-b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
 b-asp ASP batch edits	task_b-asp.txt	
 b-bep Business Expert Press batch edits	task_b-bep.txt	
@@ -22,12 +20,14 @@ b-docuseek Docuseek2 batch edits	task_b-docuseek.txt
 b-dup Duke University Press batch edits	task_b-dup.txt	
 b-eai1 Early American Imprints, first series	task_b-eai1.txt	
 b-ebcdda YBP-Proquest Ebook Central DDA Discovery batch edits	task_b-ebcdda.txt	
+b-ebcDELdda YBP-Proquest Ebook Central DDA deletes	tasksfile-2017_12_22_075053121.txt	
 b-ebcsub Ebook Central subscriptions	task_b-ebcsub.txt	
 b-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
 b-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
 b-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
 b-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
 b-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
+b-EIO Editoria Italiana	task_b-eio.txt	
 b-getty Getty Publications Virtual Library batch edits 	task_b-getty.txt	
 b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
 b-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt	
@@ -48,6 +48,7 @@ b-obo Oxford Bibliographies Online batch edits	task_b-obo.txt
 b-ocap OCA print link add batch edit	task_b-ocap.txt	
 b-oclca OCLC Authority Control set	task_b-oclca.txt	
 b-oclcb OCLC batch edits	task_b-oclcb.txt	SHIFT+F8
+b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
 b-oro Oxford Ref Online Prem	task_b-oro.txt	
 b-oroCR OROP continuing resources	task_b-oroCR.txt	
 b-oropDP OROP Dictionary Plus	task_b-oropDP.txt	
