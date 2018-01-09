@@ -25,8 +25,8 @@ EDITFIELD	300	 *;? *\$c[^$)]+	2
 EDITFIELD	300	 *: *b	2	 :$$b	
 # Provide b for delimiter if delimiter follows : (not earlier, since we've fixed preceding punctuation as best we can by now
 EDITFIELD	300	( :\$)([^b])	2	$1b$2	
-# Remove 'digital, preceding space(s), and succeeding punctuation/space(s) from $b
-EDITFIELD	300	(\$b)([^$]*) *(?:digital files?|digital)[\p{P}]* *([^$]*)	2	$1$2$3	
+# Remove 'digital and online resource, preceding space(s), and succeeding punctuation/space(s) from $b
+EDITFIELD	300	(\$b)([^$]*) *(?:digital files?|digital|online resource)[\p{P}]* *([^$]*)	2	$1$2$3	
 # These terms shouldn't be followed by periods
 EDITFIELD	300	(pages?|illustrations?|plates?|color|maps?|silent)\.	2	$1	
 # BK ONLY
@@ -37,6 +37,9 @@ REPLACE	(=300[^\n]*)(\$b)([^$]*) *files?[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$
 REPLACE	(=300[^\n]*)(\$b)([^$]*) *(?i)PDF(?-i) *[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2
 # Change some terms to 'online resource' -- applies to books, but won't mess up anything in other formats (?)
 EDITFIELD	300	(\$a\d+ )(electronic (text|document|resource)|PDF)	2	$1online resource	
+# Remove duplicate 'online resource'
+EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file) \((?<a>.*?)\)\.?\)	2	1 online resource (${a})	
+EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file).?\)	2	1 online resource	
 #Expand some abbreviations
 EDITFIELD	300	ill.	1	illustrations	
 EDITFIELD	300	(?<!\d)1 p.	2	1 page	
