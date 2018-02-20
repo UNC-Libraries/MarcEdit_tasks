@@ -3,7 +3,6 @@ REPLACE	^=001  	=001  TFDDATF	2		1
 TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
 DELETE	010		1	False	False	False
 DELETE	025		1	False	False	False
-DELETE	037		1	False	False	False
 DELETE	066		1	False	False	False
 DELETE	850		1	False	False	False
 DELETE	852		1	False	False	False

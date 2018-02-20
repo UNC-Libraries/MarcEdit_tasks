@@ -17,6 +17,5 @@ SUBFIELD_EDIT	008	23		o	0|0
 DELETE	949		0	False	False
 DELETE	538		0	False	False
 DELETE	856		0	True	False
-DELETE	037		0	False	False
 DELETE	029		0	False	False
 DELETE	653		0	False	False
