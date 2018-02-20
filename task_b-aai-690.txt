@@ -1,22 +1,29 @@
 #
-REPLACE	(?i)^=690  \\0\$aAfro-American soldiers\$xCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
-REPLACE	(?i)^=690  \\0\$aWomen booksellers\. *$	=650  \0$$aWomen booksellers.	2
-REPLACE	(?i)^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
-REPLACE	(?i)^=690  \\4\$aActors\$xAutobiography\. *$	=650  \0$$aActors$$vBiography.	2
-REPLACE	(?i)^=690  \\4\$aAfro-American soldiers\$xCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
-REPLACE	(?i)^=690  \\4\$aAfro-American soldiers\$yCivil War, 1861-1865\. *$	=650  \0$$aAfrican American soldiers$$yCivil War, 1861-1865.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAnti-slavery literature\$zUnited States\$xPeriodicals\. *$	=655  \7$$aAntislavery literature$$zUnited States$$vPeriodicals.$$2rbgenr	2
-REPLACE	(?i)^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
-REPLACE	(?i)^=690  \\4\$aBlacks\$xMedical conditions\. *$	=650  \0$$aBlacks$$xDiseases.\n=650  \0$$aBlacks$$xHealth and hygiene.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xAnti-slavery movements\$zUnited States\$xPeriodicals\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr\n=655  \7$$aPeriodicals.$$2lcgft	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zMaryland\. *$	=650  \0$$aSlavery$$zMaryland$$xJustification.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
-REPLACE	(?i)^=690  \\4\$aSlaves\$xReligious education\$zUnited States\. *$	=650  \0$$aSlaves$$xReligious life$$zUnited States.\n=650  \0$$aReligious education.	2
-REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
 REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern States\. *$	=651  \0$$aSouthern States$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aSlaves\$xReligious education\$zUnited States\. *$	=650  \0$$aSlaves$$xReligious life$$zUnited States.\n=650  \0$$aReligious education.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
+REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
+REPLACE	(?i)^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\0\$aEducation\. *$	=650  \0$$aEducation.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
+
 
 
 DELETE	999	DELETE ME	0	False	False	False
