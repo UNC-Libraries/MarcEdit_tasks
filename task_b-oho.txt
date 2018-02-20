@@ -10,10 +10,22 @@ ADD	773	0\$tOxford handbooks online (online collection)	100
 DELETE	830	Oxford handbooks online	1	False	False	False
 SUBFIELD_REMOVE	856	3	Oxford handbooks online	107|1
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
-buildnewfield	=999  30$a{245$a}	False	False	True	False
-REPLACE	^=999(.*Oxford handbook)	=998$1	2		1
-DELETE	999		0	False	False	False
-EDITFIELD	998	\$a.*Oxford handbook	2	$$aHandbook	
-EDITFIELD	998	 [:/] *$	2		
-REPLACE	^=998	=246	2		1
+#Standardize 246 ind coding so eventual 246 dedupe works -- assumes all are for partial titles, which appears to be true so far
+REPLACE	^=246  3\\	=246  30	2		1
+#Copy 245$a to a new 999 field for further processing
+buildnewfield	=999  30$a{245$a}	False	False	False	True
+#Change 999$a beginning w/(something?)Oxford handbooks to 997s
+#This leaves the titles that don't need 246s as 999s to be deleted.
+REPLACE	^=999(.*Oxford [Hh]andbook)	=997$1	2		1
+DELETE	999	30$a	0	False	False	False
+#Create variant title starting with Handbook
+EDITFIELD	997	\$a.*Oxford handbook	2	$$aHandbook	
+#Delete end of field punctuation originally from 245$a
+EDITFIELD	997	 [:/] *$	2		
+#Convert 997 to 246
+REPLACE	^=997	=246	2		1
+#Deduplicate 246s--the variant created above is sometimes provided in original file
 DELETE	246		0	True	False	False
+#All OHO records are loaded as Dynamic Ebooks
+DELETE	990		0	False	False	False
+ADD	990	89$aCR:dynamic ebook	100	
