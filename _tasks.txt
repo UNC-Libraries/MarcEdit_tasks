@@ -58,8 +58,6 @@ b-rand RAND ebook batch edits	task_b-rand.txt
 b-sabo Sabin americana batch edits	task_b-sabo.txt	
 b-siam SIAM ebooks batch edits	task_b-siam.txt	
 b-skno SAGE knowledge online	task_b-skno.txt	
-b-spro1 Springer OCLC batch edit 1	task_b-spro1.txt	
-b-spro2 Springer OCLC batch edits 2	task_b-spro2.txt	
 b-sprspr1 Springer from Springer 1	task_b-sprspr1.txt	
 b-sprspr2 Springer from Springer 2	task_b-sprspr2.txt	
 b-srmo Sage Research Methods	task_b-srmo.txt	
