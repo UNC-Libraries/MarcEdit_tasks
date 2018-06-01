@@ -120,11 +120,11 @@ s-japanese	task_s-japanese.txt
 s-korean	task_s-korean.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
-law-set-format949	tasksfile-2018_05_22_175725738.txt	
-law-hein	tasksfile-2018_05_25_103241252.txt	
-law-lexis	tasksfile-2018_05_25_105145875.txt	
-law-westlawNext	tasksfile-2018_05_25_105259384.txt	
-law-westAcademic	tasksfile-2018_05_25_10542947.txt	
-law-bloomberg	tasksfile-2018_05_25_105519878.txt	
-law-practisingLawInstitute	tasksfile-2018_05_25_105612673.txt	
-law-woltersKluwerCCH	tasksfile-2018_05_25_105706146.txt	
+law-set-format949	task_law-set-format949.txt	
+law-hein	task_law-hein.txt	
+law-lexis	task_law-lexis.txt	
+law-westlawNext	task_law-westlawNext.txt	
+law-westAcademic	task_law-westAcademic.txt	
+law-bloomberg	task_law-bloomberg.txt	
+law-practisingLawInstitute	task_law-practisingLawInstitute.txt	
+law-woltersKluwerCCH	task_law-woltersKluwerCCH.txt	

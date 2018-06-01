@@ -1,0 +1,5 @@
+#DESCRIPTION#Creates 949  \\$m based on LDR/06 value
+#If LDR/06 is a or m, set 949  \\$m to z
+REPLACE	^(=856.*)	$1\n=949  \\$$mz	2	=LDR  .......[am]	2
+#If LDR/06 is b, i, or s, set 949  \\$m to s
+REPLACE	^(=856.*)	$1\n=949  \\$$ms	2	=LDR  .......[bis]	2
