@@ -5,6 +5,7 @@ DELETE	598	Reason for updated record	0	False	False	False
 DELETE	653	(?i)multi-?user	2	False	False	False
 DELETE	891		0	False	False	False
 DELETE	994	$bNOC	0	False	False	False
+REPLACE	=010  	=999  Delete	0	OCLC WorldShare Collection Manager managed collection. Credo	1
 DELETE	999		0	False	False	False
 EDITFIELD	856	http://libproxy.lib.unc.edu/login?url=http://libproxy.lib.unc.edu/login?url=	0	http://libproxy.lib.unc.edu/login?url=	
 REPLACE	990  89$aBK:ebook	990  89$aCR:dynamic ebook	0	OCLC WorldShare Collection Manager managed collection. CHO	1
