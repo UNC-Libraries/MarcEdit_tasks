@@ -128,11 +128,3 @@ law-westAcademic	tasksfile-2018_05_25_10542947.txt
 law-bloomberg	tasksfile-2018_05_25_105519878.txt	
 law-practisingLawInstitute	tasksfile-2018_05_25_105612673.txt	
 law-woltersKluwerCCH	tasksfile-2018_05_25_105706146.txt	
-law-bloomberg	tasksfile-428626f305bf4b68a31a2cd25a94ed92.txt	
-law-hein	tasksfile-8a3f2e1795b84951a009eac82c7c51d6.txt	
-law-lexis	tasksfile-3ce93f1a9c9f46e88152661a3cfe6ebd.txt	
-law-practisingLawInstitute	tasksfile-8a8266ddf6fd4139b5ea2080139be5e7.txt	
-law-set-format949	tasksfile-0e46a88220bb4a1b8f1178a9b7245b8f.txt	
-law-westAcademic	tasksfile-8ac72a6317714b5a8b54e86abf1534bb.txt	
-law-westlawNext	tasksfile-45650953625744a698ebdfc2f9d0cd61.txt	
-law-woltersKluwerCCH	tasksfile-e5653c28ba3b4a98b5b89aa3b970d71f.txt	
