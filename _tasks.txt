@@ -10,6 +10,7 @@ a-safrmhdg Streaming audio form heading cleaner	task_a-safrmhdg.txt
 a-spchar Clean diacritics and symbols	task_a-spchar.txt	
 a-sv Streaming video general tasks	task_a-sv.txt	
 a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt	
+b-aai Afro-American Imprint batch edits	task_b-aai.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
 b-asp ASP batch edits	task_b-asp.txt	
 b-bep Business Expert Press batch edits	task_b-bep.txt	
@@ -117,7 +118,6 @@ s-cn Fix SerSol call number	task_s-cn.txt	SHIFT+F6
 s-del SerSol delete prep	task_s-del.txt	SHIFT+F7
 s-japanese	task_s-japanese.txt	
 s-korean	task_s-korean.txt	
-b-aai Afro-American Imprint batch edits	tasksfile-2018_04_27_101011828.txt	
 s-ssjloc Change ssj ssib to local	task_s-ssjloc.txt	
 s-to_ssj Go back to ssj and ssib	task_s-to_ssj.txt	
 law-set-format949	tasksfile-2018_05_22_175725738.txt	

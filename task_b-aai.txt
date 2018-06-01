@@ -1,0 +1,26 @@
+#DESCRIPTION#
+REPLACE	^=(049|079|09[02]|533|85[029]|876|95[05]|99[458])	=999	2		1
+DELETE	999		0	False	False	False
+REPLACE	^=001  	=001  afami	2		1
+REPLACE	=010  \\$a	=010  \\$z	1		1
+REPLACE	=050  0	=050  \	0		1
+EDITFIELD	245	/ :$c	0	/ $c	
+REPLACE	^=510  \\	=510  4\	2		1
+REPLACE	^=510  [^4](?<a>.*\$c)	=510  4${a}	2		1
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	590	AR 19	0	False	False	False
+DELETE	590	funded by	0	False	False	False
+DELETE	590	Digitized by	0	False	False	False
+DELETE	590	LCP AR	0	False	False	False
+DELETE	590	NEH-Readex	0	False	False	False
+DELETE	590	Recon	0	False	False	False
+DELETE	590	Retrospective	0	False	False	False
+REPLACE	^=590  ..\$a	=534  \\$$pOriginal version:$$n	2		1
+ADD	590	\\$aProvider: Readex.	100	
+ADD	590	\\$aVendor-supplied catalog record.	100	
+DELETE	690	$9SP	0	False	False	False
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
+SUBFIELD_EDIT	856	x		Afro-Americana Imprints	101|0
+DELETE	796	$9Imprint	0	False	False	False
+DELETE	797	$9Imprint	0	False	False	False
