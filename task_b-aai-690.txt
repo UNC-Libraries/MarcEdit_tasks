@@ -1,28 +1,29 @@
 #
 REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern States\. *$	=651  \0$$aSouthern States$$xRace relations.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aSlaves\$xReligious education\$zUnited States\. *$	=650  \0$$aSlaves$$xReligious life$$zUnited States.\n=650  \0$$aReligious education.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
-REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
-REPLACE	(?i)^=690  \\4\$aAnti-slavery literature\$zUnited States\. *$	=655  \7$$aAntislavery literature$$zUnited States.$$2rbgenr	2
 REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
 REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
 REPLACE	(?i)^=690  \\0\$aEducation\. *$	=650  \0$$aEducation.	2
 REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
 REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
+REPLACE	(?i)^=690  \\4\$aWomen abolitionists\$xAutobiography\. *$	=650  \0$$aWomen abolitionists$$vBiography.	2
+REPLACE	(?i)^=690  \\4\$aActors\$xAutobiography\. *$	=650  \0$$aActors$$vBiography.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
+REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+
 
 
 
