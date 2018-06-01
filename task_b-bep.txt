@@ -1,4 +1,5 @@
 #DESCRIPTION#
+EDITFIELD	001	^	2	bep	
 ADD	590	\\$aVendor-supplied catalog record.	100
 ADD	590	\\$aProvider: Business Expert Press.	100	
 DELETE	530	Also available in print	0	False	False
