@@ -1,3 +1,3 @@
-#
-DELETE	6xx	\$2(bicssc|bidex|bisacsh|blml?sh|cct|eclas|eflch|fmesh|gnd|gtt|hilcc|idsbb|larpcal|local|nal|nasat|migfg|ram|rasuqam|sears|sigle|swd)	2	False	False	False
+#DESCRIPTION#
+DELETE	6xx	\$2(bicssc|bidex|bisacsh|blml?sh|cct|eclas|eflch|fmesh|gnd|gtt|hilcc|idsbb|larpcal|local|nal|nasat|migfg|ram|rasuqam|sao|sears|sigle|swd)	2	False	False	False
 DELETE	6xx	^=(600|610|611|630|650|651|655)  .[4568]	2	False	False	False
