@@ -1,2 +1,2 @@
-#DESCRIPTION#
-EDITFIELD	001	$	2	dda	
+#DESCRIPTION#appends dda suffix to 001 if not present
+EDITFIELD	001	(?<!dda)$	2	dda	
