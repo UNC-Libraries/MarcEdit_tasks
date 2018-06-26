@@ -1,4 +1,6 @@
+#DESCRIPTION#
 DELETE	6xx	  ....(Electronic (books?|reference sources?)|e-?book|(Downloadable|)[Aa]udio ?books?|Drama\.)	2	False	False	False
+DELETE	655	  ....(Aufsatzsammlung|CD-ROMs|Floppy disks|Livres électroniques|Ressources Internet)	2	False	False	False
 DELETE	655	.*\$2(gtt|swd)	2	False	False
 REPLACE	^(=6.*\$)x([Bb]ibliography)	$1v$2	2
 REPLACE	^(=6.*\$)x([Bb]iography)	$1v$2	2
