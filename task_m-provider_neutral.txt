@@ -2,12 +2,13 @@
 REPLACE	^=028.*(?i)\$bRecorded Books.*	=999  99$aDELETE ME	2		1
 REPLACE	^=500.*(?i)Columbia international affairs online.*	=999  99$aDELETE ME	2		1
 REPLACE	^=(653)  ..\$a(?i)(Springer).*$	=999  99$aDELETE ME	2		1
-REPLACE	^=(710|730|740|797|830)  ..\$a(?i)(ACLS Humanities e-?book|Adam Matthew Digital|Alexander Street Press|Cambridge histories online|CIAO|Columbia international affairs online|Counseling and therapy in video|e-?Duke|e-libro|Ebook Library|Ebooks Corporation|Ebrary|European Mathematical Society|Films Media Group|Films for the Humanities & Sciences|Gale (\(Firm|Group)|Hein *online|Kanopy \(Firm\)|LINK \(Online|North American women's letters and diaries|ProQuest \(Firm|Project Muse|PsychotherapistResources\.com|Psychotherapy\.net|Safari Books Online|SEG digital library|Springer( \(Firm| Science\+Business|Link)|Synthesis digital library|Wiley InterScience).*$	=999  99$aDELETE ME	2		1
-REPLACE	^=710  ..\$t(?i)\$aRoyal Society of Chemistry \(Great Britain\)[ .]*$	=999  99$aDELETE ME	2		1
+REPLACE	^=(710|730|740|797|830)  ..\$a(?i)(ACLS Humanities e-?book|Adam Matthew Digital|Alexander Street Press|.*book collections on Project MUSE|Cambridge histories online|CIAO|Columbia international affairs online|Counseling and therapy in video|e-?Duke|e-libro|Ebook Library|Ebooks Corporation|Ebrary|European Mathematical Society|Films Media Group|Films for the Humanities & Sciences|Gale (\(Firm|Group)|Hein *online|Kanopy \(Firm\)|LINK \(Online|North American women's letters and diaries|ProQuest \(Firm|Project Muse|PsychotherapistResources\.com|Psychotherapy\.net|Safari Books Online|SEG digital library|Springer( \(Firm| Science\+Business|Link)|Synthesis digital library|Wiley InterScience).*$	=999  99$aDELETE ME	2		1
+REPLACE	^=710  ..(?i)\$aRoyal Society of Chemistry \(Great Britain\)[ .]*$	=999  99$aDELETE ME	2		1
 #Case insensitive, partial field match 773
-REPLACE	^=773  ..\$t(?i)(ACLS Humanities E-?Books?|OhioLINK|Springer.+LINK|Springer Biomedical and Life Sciences Collection|SpringerLink\$).*$	=999  99$aDELETE ME	2		1
+REPLACE	^=773  ..\$t(?i)(ACLS Humanities E-?Books?|OhioLINK|Springer.+LINK|Springer Biomedical and Life Sciences Collection|SpringerLink\$|Wiley InterScience|Wiley[- ]Blackwell Online).*$	=999  99$aDELETE ME	2		1
 #Case insensitive, whole field match 773
-REPLACE	^=773  ..\$t(?i)(EBL|Springer e-?books|SpringerLink)[ .]*$	=999  99$aDELETE ME	2		1
+REPLACE	^=773  ..\$t(?i)(ABC-CLIO|Blackwell Reference Online|CLEANTECHnetBASE|EBL|Ebook Library|Springer e-?books|SpringerLink|e?Wiley Online Library)[ .]*$	=999  99$aDELETE ME	2		1
+REPLACE	^=773.*(\$iDruckausg|\$iErscheint|\$iTitle is part of the collection:\$dDe Gruyter)	=999  99$aDELETE ME	2		1
 DELETE	830	Online access	1	False	False	False
 DELETE	887	\$aProductForm.*\$2onix	2	False	False	False
 DELETE	999	DELETE ME	0	False	False	False

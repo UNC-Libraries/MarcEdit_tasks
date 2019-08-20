@@ -3,3 +3,4 @@ EDITFIELD	856	dx.doi.org	0	link.springer.com
 SUBFIELD_EDIT	001		^b	Spr	0|0
 SUBFIELD_EDIT	001		-		0|0
 SUBFIELD_REMOVE	300	b	online resource	107|1
+SUBFIELD_EDIT	856	u	doi.org	link.springer.com	0|0

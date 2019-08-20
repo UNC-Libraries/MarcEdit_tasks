@@ -7,5 +7,5 @@ INDICATOR	856			40
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	x		Oxford Scholarly Editions Online	101|0
 SUBFIELD_REMOVE	856	3	Oxford scholarly editions online	107|0
-ADD	590	\\$aProvider: Oxford University Press.	100	
-ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Oxford University Press.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	

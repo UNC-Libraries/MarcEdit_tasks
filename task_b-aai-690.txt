@@ -1,28 +1,22 @@
 #
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
 REPLACE	(?i)^=690  \\0\$aEducation\. *$	=650  \0$$aEducation.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aWomen abolitionists\$xAutobiography\. *$	=650  \0$$aWomen abolitionists$$vBiography.	2
-REPLACE	(?i)^=690  \\4\$aActors\$xAutobiography\. *$	=650  \0$$aActors$$vBiography.	2
+REPLACE	(?i)^=690  \\0\$aWomen booksellers\. *$	=650  \0$$aWomen booksellers.	2
+REPLACE	(?i)^=690  \\0\$aWomen\. *$	=650  \0$$aWomen.	2
+REPLACE	(?i)^=690  \\4\$aAfrican Americans\$xRelations with Quakers\. *$	=650  \0$$aAfrican Americans.\n=650  \0$$aQuakers.	2
+REPLACE	(?i)^=690  \\4\$aAfro-American publishers\. *$	=650  \0$$aAfrican American press.	2
 REPLACE	(?i)^=690  \\4\$aAfro-American writers\. *$	=650  \0$$aAfrican American authors.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+REPLACE	(?i)^=690  \\4\$aAfro-Americans\$xSatire\. *$	=650  \0$$aAfrican Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aGerman Americans\$xSatire\. *$	=650  \0$$aGerman Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aIrish Americans\$xSatire\. *$	=650  \0$$aIrish Americans$$vHumor.\n=655  \7$$aSatires.$$2rbgenr	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zLouisiana\. *$	=651  \0$$aLouisiana$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aRace relations\$zSouthern States\. *$	=651  \0$$aSouthern States$$xRace relations.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xConstitutional law\. *$	=650  \0$$aSlavery$$xLaw and legislation.	2
+REPLACE	(?i)^=690  \\4\$aSlavery\$xJustification\$zUnited States\. *$	=650  \0$$aSlavery$$zUnited States$$xJustification.	2
+REPLACE	(?i)^=690  \\4\$aWomen former owners\. *$	=999  \\$$aDELETE ME	2
 REPLACE	(?i)^=690  \\4\$aWomen writers\. *$	=650  \0$$aWomen authors.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
-REPLACE	(?i)^=690  \\4\$aAfro-Americana\. *$	=650  \0$$aAfrican Americans.	2
+
+
 
 
 

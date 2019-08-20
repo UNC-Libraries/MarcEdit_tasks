@@ -7,6 +7,7 @@ DELETE	830	Project Muse	1	False	False	False
 SUBFIELD_EDIT	008	15:3	|||	xx\	0|0
 SUBFIELD_EDIT	008	33	2	0	0|0
 SUBFIELD_EDIT	008	35:3	|||	\\\	0|0
+REPLACE	^=69[0-9]  \\\\	=650  \4	2		1
 REPLACE	^=700  2	=700  1	2		1
 DELETE	773		0	True	False	False
 DELETE	506		0	True	False	False

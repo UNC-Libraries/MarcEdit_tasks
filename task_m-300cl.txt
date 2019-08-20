@@ -33,7 +33,7 @@ EDITFIELD	300	(pages?|illustrations?|plates?|color|maps?|silent)\.	2	$1
 # Delete info-free extent parentheticals
 REPLACE	(=300[^\n]*) *\((pages|p\.) *(cm\.?|)\)(?=.*\n=990  89\$aBK:)/m	$1	2
 # Delete some terms (and preceding spaces, succeeding punctuation/spaces) from $b
-REPLACE	(=300[^\n]*)(\$b)([^$]*) *files?[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2
+REPLACE	(=300[^\n]*)(\$b)([^$]*) *file\(?s?\)?[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2		1
 REPLACE	(=300[^\n]*)(\$b)([^$]*) *(?i)PDF(?-i) *[\p{P}]* *(?=.*\n=990  89\$aBK:)/m	$1$2$3	2
 # Change some terms to 'online resource' -- applies to books, but won't mess up anything in other formats (?)
 EDITFIELD	300	(\$a\d+ )(electronic (text|document|resource)|PDF)	2	$1online resource	
@@ -42,7 +42,7 @@ EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file) \
 EDITFIELD	300	1 online resource \(1 (online resource|electronic text|PDF file).?\)	2	1 online resource	
 #Expand some abbreviations
 EDITFIELD	300	ill.	1	illustrations	
-EDITFIELD	300	(?<!\d)1 p.	2	1 page	
+EDITFIELD	300	(?<!\d)1 p\.	2	1 page	
 EDITFIELD	300	 p.	1	 pages	
 # DURATION CLEANUP - relevant to MU, VM but shouldn't mess up anything in others
 EDITFIELD	300	 ea.	1	 each	
@@ -93,4 +93,3 @@ EDITFIELD	300	\s\s+	2
 EDITFIELD	300	\s*\.\s*$	2		
 # E-resourcify 
 REPLACE	^=300  \\\\\$a(?!\d+ online resources?)(?<a>.*?)(?<b>$| [:;])	=300  \\$$a1 online resource (${a})${b}	2
-

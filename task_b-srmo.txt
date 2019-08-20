@@ -4,8 +4,8 @@ DELETE	500	SAGE research methods online	0	False	False	False
 DELETE	500	Online video	0	False	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-ADD	590	\\$aProvider: SAGE.	100	
-ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: SAGE.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	730	SAGE research methods online	1	False	False	False
 DELETE	830	SAGE research methods	1	False	False	False
 EDITFIELD	856	$3SAGE research methods$	0	$	

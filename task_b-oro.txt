@@ -3,8 +3,8 @@ REPLACE	^=001  (?<a>\d)	=001  OXO${a}	2
 DELETE	490	$aOxford quick reference	0	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-ADD	590	\\$aVendor-supplied catalog record.	100
-ADD	590	\\$aProvider: Oxford University Press.	100
+ADD	590	0\$aContent provider: Oxford University Press.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	710	Oxford University Press	0	False	False
 DELETE	730	$aOxford reference online premium.	0	False	False
 ADD	773	0\$tOxford reference online premium (online collection)	100

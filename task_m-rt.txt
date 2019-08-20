@@ -1,3 +1,4 @@
+#DESCRIPTION#
 REPLACE	^(=[17].*\$e)([A-Z])	$1lcase($2)	2
 REPLACE	^(=[17].*\$e)binders(\W|$)	$1binder	2
 REPLACE	^(=[17].*\$e)booksellers?(\W|$)	$1seller	2
@@ -11,5 +12,5 @@ REPLACE	^(=[17].*\$e)printers(\W|$)	$1printer	2
 REPLACE	^(=[17].*\$e)supposed author(\W|$)	$1dubious author	2
 REPLACE	^(=[17].*\$e)tr(\W|$)	$1translator	2
 REPLACE	^(=[17].*\$e)wood-engraver(\W|$)	$1wood engraver	2
+REPLACE	^(=[17].*\$e)writer of foreword\.?(\W|$)	$1author of introduction, etc.	2		1
 REPLACE	^(=[17].*[^\-,])(\$e)	$1,$2	2
-REPLACE	^(=[17].*\$e.*[^.])$	$1.	2

@@ -5,8 +5,8 @@ SUBFIELD_EDIT	019	a	^e	gpvl	0|0
 SUBFIELD_EDIT	035	a	^e	gpvl	0|0
 DELETE	506		0	False	False	False
 ADD	506	0\$fUnlimited simultaneous users	100	
-ADD	590	\\$aVendor-supplied catalog record.	108	
-ADD	590	\\$aProvider: J. Paul Getty Museum.	108	
+ADD	590	0\$aContent provider: J. Paul Getty Museum.	108	
+ADD	590	1\$aVendor-supplied catalog record.	108	
 ADD	773	0\$tGetty publications virtual library (online collection)	100	
 DELETE	830	Getty Publications virtual library	0	False	False	False
 EDITFIELD	856	\$u\s+	2	$$u	

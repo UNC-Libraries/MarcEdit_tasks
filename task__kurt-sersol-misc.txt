@@ -1,0 +1,4 @@
+#DESCRIPTION#fix LDR/09 and double-dagger delimiters
+EDITFIELD	LDR	 	0	a	9:1
+REPLACE	(?<=\$)a ?‡(.) ?	$1	2		1
+REPLACE	 ?‡(.) ?	$$$1	2		1

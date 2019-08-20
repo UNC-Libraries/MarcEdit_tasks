@@ -1,5 +1,6 @@
 #DESCRIPTION#
-ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Rand.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 ADD	773	0\$tRAND electronic books (online collection)	100	
 SUBFIELD_EDIT	245	[a,p,n,^c,b]	=:/.	$h[electronic resource] 	101|0
 REPLACE	 $h[electronic resource]	$h[electronic resource]	0

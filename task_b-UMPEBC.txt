@@ -1,0 +1,13 @@
+#DESCRIPTION#
+ADD	773	0\$tUniversity of Michigan Press ebooks (online collection). 2019	100	
+SUBFIELD_REMOVE	856	z		107|0
+REPLACE	=001  on	=035  \\$a(OCoLC)	0		1
+COPY	856	001	false			false
+REPLACE	=001  40$uhttps://doi.org/10.3998/mpub.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttp://dx.doi.org/10.3998/mpub.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttp://doi.org/10.3998/mpub.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://dx.doi.org/10.3998/mpub.	=001  UMPEBC	0		1
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	1\$aVendor-supplied catalog record	100	
+ADD	590	0\$aContent provider: University of Michigan.	100	
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

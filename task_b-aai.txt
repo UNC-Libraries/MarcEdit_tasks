@@ -17,8 +17,8 @@ DELETE	590	NEH-Readex	0	False	False	False
 DELETE	590	Recon	0	False	False	False
 DELETE	590	Retrospective	0	False	False	False
 REPLACE	^=590  ..\$a	=534  \\$$pOriginal version:$$n	2		1
-ADD	590	\\$aProvider: Readex.	100	
-ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Readex.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	690	$9SP	0	False	False	False
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0
 SUBFIELD_EDIT	856	x		Afro-Americana Imprints	101|0

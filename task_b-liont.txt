@@ -1,11 +1,15 @@
-#
+#DESCRIPTION#
 REPLACE	^=001  	=001  LION	2		1
 EDITFIELD	100	$eed.	0	$eeditor.	
 REPLACE	^=245  1	=245  0	2	=100.*\$eeditor	2
 REPLACE	^=100  (?<name>.*\$eeditor)	=700  ${name}	2		1
 ADD	300	\\$a1 online resource	101	
-ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: ProQuest.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 DELETE	540		0	False	False	False
+REPLACE	(?<=^=773.*?t *Literature Online.*?)( *?/ *?)(Literature Online.*)	\n=773  0\$t$2	2		1
+REPLACE	(?<=^=773.*)\$t +	$t	2		1
 SUBFIELD_REMOVE	856	y		107|0
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0

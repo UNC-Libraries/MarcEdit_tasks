@@ -1,8 +1,8 @@
-#
+#DESCRIPTION#
 EDITFIELD	300	, digital, PDF file.	0		
 EDITFIELD	300	 :\$bdigital, PDF file\.$	2		
 EDITFIELD	300	(?<a>\$b[^$]*),* *digital file(s|)	2	${a}	
-EDITFIELD	300	(?<a>\$b[^$]*?),* *[Pp][Dd][Ff]s?( files?)?	2	${a}	
+EDITFIELD	300	(?<a>\$b[^$]*?),* *[Pp][Dd][Ff]s?( file\(?s?\)?)?	2	${a}	
 EDITFIELD	300	(?<a>\$b[^$]*),* *online resource(s|)	2	${a}	
 EDITFIELD	300	\s\s+	2	 	
 EDITFIELD	300	(?<a>(ill|port)s?)\.	2	${a}zzz	

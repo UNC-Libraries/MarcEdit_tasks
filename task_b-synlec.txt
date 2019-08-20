@@ -1,7 +1,8 @@
 #DESCRIPTION#
 EDITFIELD	001	{dollar}	0		
 SUBFIELD_EDIT	001		^b	syn	0|0
-ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	0\$aContent provider: Morgan & Claypool.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	506		0	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 DELETE	510		0	False	False
@@ -12,4 +13,3 @@ SUBFIELD_REMOVE	856	3	[^$]*(?![vV]ol)	|2
 DELETE	500	Series from website	0	False	False
 DELETE	500	Part of:	0	False	False
 REPLACE	^=856  ..	=856  40	2
-ADD	590	\\$aProvider: Morgan & Claypool.	100	

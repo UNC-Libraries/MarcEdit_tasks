@@ -3,8 +3,8 @@ TASK_LIST	m-020p7 Get print ISBN from 776	task_m-020p7.txt
 DELETE	490	Oxford handbooks online	1	False	False	False
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	590	\\$aProvider: Oxford University Press.	100	
+ADD	590	0\$aContent provider: Oxford University Press.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	730	Oxford handbooks online	1	False	False	False
 ADD	773	0\$tOxford handbooks online (online collection)	100	
 DELETE	830	Oxford handbooks online	1	False	False	False
@@ -29,3 +29,4 @@ DELETE	246		0	True	False	False
 #All OHO records are loaded as Dynamic Ebooks
 DELETE	990		0	False	False	False
 ADD	990	89$aCR:dynamic ebook	100	
+SUBFIELD_EDIT	856	y	Available via the UNC-Chapel Hill Libraries	Full text available via the UNC-Chapel Hill Libraries	0|0

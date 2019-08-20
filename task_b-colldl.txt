@@ -1,5 +1,6 @@
 #DESCRIPTION#
-ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	0\$aContent provider: Morgan & Claypool.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 ADD	773	0\$tColloquium digital library of life sciences (online collection). Collection !!NUMBER!!	100	
 DELETE	506		0	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	

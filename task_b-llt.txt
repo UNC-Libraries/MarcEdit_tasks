@@ -1,10 +1,10 @@
-#
+#DESCRIPTION#
 DELETE	830	Brepolis Latin	0	False	False
 DELETE	830	Library of Latin Texts	0	False	False
 DELETE	710	Centre Traditio Litterarum Occidentalium	0	False	False
 ADD	773	0\$tLibrary of Latin texts (online collection). !!SERIES!!	100	
-ADD	590	\\$aProvider: Brepolis & Centre Traditio Litterarum Occidentalium.	100	
-ADD	590	\\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Brepolis & Centre Traditio Litterarum Occidentalium.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	538		0	False	False
 SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_EDIT	856	x		Library of Latin Texts	101|0

@@ -18,5 +18,5 @@ SUBFIELD_EDIT	956	y		Available via the UNC-Chapel Hill Libraries	101|0
 REPLACE	=830  \0$aOxford bibliographies online. 	=773  0\$tOxford bibliographies online (online collection). 	0
 REPLACE	=830  \0$aOxford bibliographies. 	=773  0\$tOxford bibliographies online (online collection). 	0
 REPLACE	(?<all>=773.*)\. ?$	${all}	2
-ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	590	\\$aProvider: Oxford University Press.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Oxford University Press.	100	

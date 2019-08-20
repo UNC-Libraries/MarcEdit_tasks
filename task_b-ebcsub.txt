@@ -3,8 +3,8 @@ EDITFIELD	001	$	2	sub
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 DELETE	590	electronic	1	False	False	False
-ADD	590	\\$aVendor-supplied catalog record.	100	
-ADD	590	\\$aProvider: ProQuest Ebook Central.	100	
+ADD	590	0\$aContent provider: ProQuest Ebook Central.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 EDITFIELD	856	$uhttp://libproxy.lib.unc.edu/login?url=http://libproxy.lib.unc.edu/login?url=	1	$uhttp://libproxy.lib.unc.edu/login?url=	
 ADD	773	0\$tProQuest Ebook Central (online collection). NCLIVE subscription ebooks	100	
 SUBFIELD_REMOVE	856	x		107|1

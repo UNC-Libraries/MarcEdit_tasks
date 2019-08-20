@@ -2,8 +2,8 @@
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100
 DELETE	710	Kanopy (Firm)	0	False	False	False
-ADD	590	\\$aProvider: Kanopy (Firm).	100
-ADD	590	\\$aVendor-supplied catalog record.	100
+ADD	590	0\$aContent provider: Kanopy (Firm).	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	773		0	False	False	False
 ADD	773	0\$tMEF digital (online collection)	100
 SUBFIELD_REMOVE	856	u	http://libproxy.lib.unc.edu/login?url=	0|0

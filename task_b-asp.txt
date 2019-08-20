@@ -6,8 +6,8 @@ buildnewfield	=001  ASP{001}/{999$a}	False	True	False	False
 EDITFIELD	040	,$	0	$	
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
-ADD	590	\\$aVendor-supplied catalog record.	100
-ADD	590	\\$aProvider: Alexander Street Press.	100
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Alexander Street Press.	100	
 INDICATOR	740	.1		.2
 ADD	773	0\$tAmerican Civil War: letters and diaries (online collection)	106	=999  \\$acwld
 ADD	773	0\$tFilm scripts online (online collection). Vol. 1	106	=999  \\$aafso
