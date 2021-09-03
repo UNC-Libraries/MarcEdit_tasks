@@ -1,0 +1,8 @@
+#DESCRIPTION#batch edits
+SUBFIELD_EDIT	001		asp	brs	0|0
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: BiblioRossica.	100	
+ADD	773	0\$tBiblioRossica (online collection)	100	
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+ADD	546	\\$aIn Russian.	100	

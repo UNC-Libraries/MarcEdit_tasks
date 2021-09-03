@@ -1,0 +1,12 @@
+#DESCRIPTION#
+SUBFIELD_EDIT	001		^b	nchg	0|0
+DELETE	099	Web Access	1	False	False	False
+DELETE	773	$aNC LIVE Home Grown eBook Collection	0	False	False	False
+DELETE	830	$aNC LIVE module	0	False	False	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	773	0\$tNC Live homegrown ebooks (online collection)	100	
+ADD	590	0\$aContent provider: NC LIVE.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+SUBFIELD_REMOVE	856	z		107|0
+SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|0

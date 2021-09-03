@@ -1,0 +1,21 @@
+#DESCRIPTION#Aristoteles Latinus Database
+DELETE	506		0	False	False	False
+DELETE	710	$aCentre Traditio Litterarum Occidentalium	0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fLimited to three (3) concurrent users	100	
+ADD	590	0\$aProvider: Brepolis.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tAristoteles Latinus Database (online collection)	100	
+DELETE	538		0	False	False	False
+REPLACE	^=100  (?<a>.)0	=100  ${a}\	2		1
+SUBFIELD_REMOVE	245	h	[electronic resource]	107|0
+SUBFIELD_EDIT	245	[a,n,p,^c,^b]	:/=	$h[electronic resource]	0|0
+REPLACE	^(?<a>=245.*[^:])\$b	${a} :$$b	2		1
+REPLACE	^(?<a>=245.*[^\\])\$c	${a} /$$c	2		1
+REPLACE	^(?<a>=260.*[^:])\$b	${a} :$$b	2		1
+REPLACE	^(?<a>=260.*[^,])\$c	${a},$$c	2		1
+DELETE	710	$aCentre Traditio Litterarum Occidentalium	0	False	False	False
+DELETE	830	$aBrepolis Latin	0	False	False	False
+DELETE	830	$aAristoteles Latinus Database	0	False	False	False
+DELETE	506	Access restricted to subscribers	0	False	False	False
+SUBFIELD_EDIT	856	x		Aristoteles Latinus Database	101|0
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

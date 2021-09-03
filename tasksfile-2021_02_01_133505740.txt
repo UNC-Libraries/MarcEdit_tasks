@@ -1,0 +1,10 @@
+#DESCRIPTION#Brepols ebook batch edits
+SUBFIELD_REMOVE	245	h		107|0
+SUBFIELD_EDIT	245	[a,n,p,^c,^b]	:/=	$h[electronic resource] 	0|2
+REPLACE	^=260(?<a>.*[^:])\$b	=260${a} :$$b	3		1
+REPLACE	^=260(?<a>.*[^,])\$c	=260${a},$$c	2		1
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	0\$aContent provider: Brepols.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+SUBFIELD_EDIT	856	x		Brepols Miscellanea Online	101|0

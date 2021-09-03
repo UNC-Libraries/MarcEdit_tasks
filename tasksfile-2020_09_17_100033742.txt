@@ -1,0 +1,8 @@
+#DESCRIPTION#
+SUBFIELD_EDIT	001		^b	AIR	0|0
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fLimited to one (?) concurrent users	100	
+ADD	590	0\$aContent provider: Airiti Books.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+DELETE	773	0\$tAiriti ebooks (online collection). Update X	0	False	False	False
+DELETE	999	66$aWARNING$bNo 040 field, so language of cataloging cannot be checked.	0	False	False	False

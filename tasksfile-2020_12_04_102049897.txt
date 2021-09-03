@@ -1,0 +1,31 @@
+#DESCRIPTION#Replacing diacrital codes
+REPLACE	&#147;	"	0		1
+REPLACE	&#160;	 	0		1
+REPLACE	&#232;	è	0		1
+REPLACE	&#233;	é	0		1
+REPLACE	&#237;	í	0		1
+REPLACE	&#239;	ï	0		1
+REPLACE	&#243	ó	0		1
+REPLACE	&#252;	ü	0		1
+REPLACE	&#8212;	—	0		1
+REPLACE	&#8211;	-	0		1
+REPLACE	&#8217;	'	0		1
+REPLACE	&#8220;	"	0		1
+REPLACE	&#8221;	"	0		1
+REPLACE	&#8226;	•	0		1
+REPLACE	&#9733;	★	0		1
+REPLACE	&aacute;	á	0		1
+REPLACE	&amp;	&	0		1
+REPLACE	&auml;	ä	0		1
+REPLACE	&bull;	•	0		1
+REPLACE	&eacute;	é	0		1
+REPLACE	&euml;	ë	0		1
+REPLACE	&hellip;	...	0		1
+REPLACE	&iuml;	ï	0		1
+REPLACE	&ldquo;	"	0		1
+REPLACE	&lsquo;	'	0		1
+REPLACE	&mdash;	—	0		1
+REPLACE	&rdquo;	"	0		1
+REPLACE	&ndash;	-	0		1
+REPLACE	&rsquo;	'	0		1
+REPLACE	&#9679;	•	0		1

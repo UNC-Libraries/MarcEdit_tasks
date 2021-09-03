@@ -1,0 +1,13 @@
+#DESCRIPTION#
+DELETE	066		0	False	False	False
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Brill.	100	
+ADD	773	0\$tMiras Maktoob (online collection)	100	
+INDICATOR	856	4\		40
+SUBFIELD_REMOVE	856	z	DOI:	107|0
+SUBFIELD_EDIT	856	x		Miras Maktoob	101|0
+EDITFIELD	490	Miras Maktoob, ISBN: 9789004365452	0	Miras Maktoob	
+EDITFIELD	830	Miras Maktoob, ISBN: 9789004365452.	1	Miras Maktoob.	
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

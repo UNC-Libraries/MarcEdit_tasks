@@ -1,0 +1,10 @@
+#DESCRIPTION#NC Live PBS video batch edits
+SUBFIELD_EDIT	001		^b	nclpbs	0|0
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	0\$aContent provider: Films Media Group.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tNC Live PBS Video Collection (online collection)	100	
+SUBFIELD_REMOVE	856	z		107|0
+SUBFIELD_EDIT	856	u	256695	102632	0|0
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

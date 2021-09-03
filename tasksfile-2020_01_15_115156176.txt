@@ -1,0 +1,8 @@
+#DESCRIPTION#
+ADD	590	0\$aContent provider: Adam Matthew Digital.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	099		0	False	False	False
+SUBFIELD_EDIT	300	a	1 online resource (online resource)	1 online resource	0|0
+ADD	300	\\$a1 online resource	101	
+REPLACE	=856  4\	=856  40	0		1

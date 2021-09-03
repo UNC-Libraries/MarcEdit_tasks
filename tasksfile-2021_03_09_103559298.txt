@@ -1,0 +1,8 @@
+#DESCRIPTION#Batch edits for East View Russian ebooks
+EDITFIELD	001	(on|ocn|BO)(.*)	2	$2evr	
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	0\$aContent provider: East View.	0	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tEast View Russian e-books (online collection)	100	
+SUBFIELD_REMOVE	856	3	East View	107|0
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

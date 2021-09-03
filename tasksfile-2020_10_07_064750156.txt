@@ -1,0 +1,12 @@
+#DESCRIPTION#Audio/E-book batch edits
+REPLACE	.$c	 /$c	0		1
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fLimited to one (1) concurrent user	100	
+ADD	590	0\$aContent provider: OverDrive	100	
+ADD	590	1\$aVendor-supplied catalog record.	108	
+DELETE	521		0	False	False	False
+DELETE	856	$3Excerpt	0	False	False	False
+DELETE	856	$3Image	0	False	False	False
+DELETE	856	$3Thumbnail	0	False	False	False
+SUBFIELD_REMOVE	856	z	Click to	107|0
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+SUBFIELD_REMOVE	856	u	http://libproxy.lib.unc.edu/login?url=	0|0

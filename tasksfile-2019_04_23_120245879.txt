@@ -1,0 +1,8 @@
+#DESCRIPTION#
+EDITFIELD	490	astronomy\.? *\[[Rr]elease \d+\],\$x	2	astronomy,$$x	
+EDITFIELD	830	\$aAAS-IOP astronomy\.?\$p[Rr]elease \d+\.?	2	$$aAAS-IOP astronomy.	
+DELETE	490	[Rr]elease \d	2	False	False	False
+DELETE	830	[Rr]elease \d	2	False	False	False
+DELETE	490	$aAAS-IOP Astronomy	0	False	False	False
+DELETE	830	\$aIOP astronomy\.? *$	2	False	False	False
+EDITFIELD	490	$aIOP astronomy,$x2514-3433	1	$aAAS-IOP astronomy,$x2514-3433	

@@ -1,0 +1,14 @@
+#DESCRIPTION#
+SUBFIELD_EDIT	001		^e	AAe	0|0
+DELETE	506		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+DELETE	590		0	False	False	False
+ADD	590	0\$aContent provider: Art & Architecture ePortal	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tArt & Architecture ePortal (online collection)	100	
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+REPLACE	$3A&AePortal (Yale University Press), 	$3	0		1
+SUBFIELD_REMOVE	856	3	A&AePortal (Yale University Press)	107|0
+DELETE	946		0	False	False	False
+DELETE	953		0	False	False	False
+SUBFIELD_REMOVE	856	u	https://yale.idm.oclc.org/login?URL=	0|0

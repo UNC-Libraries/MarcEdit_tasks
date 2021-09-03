@@ -1,0 +1,22 @@
+#DESCRIPTION#
+#Remove ocm, ocn, on prefix from 001
+EDITFIELD	001	o(cm|cn|n)	2		
+#Remove proxy prefix from URLs
+EDITFIELD	856	$uhttp://libproxy.lib.unc.edu/login?url=	0	$u	
+#Delete 856$y
+SUBFIELD_REMOVE	856	y		107|0
+#Delete 856s with $z containing no longer available or not available
+DELETE	856	\$z.*([Nn]o( longer|t) available|[[Aa]ddress at time of PURL creation)	2	False	False	False
+#Change some 856z to 3
+EDITFIELD	856	\$z *([Aa]rchived|[Cc]ollection page seed list|([Cc]urrent|[Ll]atest).*only|[Hh]ome page)	2	$$3$1	
+EDITFIELD	856	\$z([^$]*(PDF|[Tt]ext) [Vv]ersion)	2	$$3$1	
+#Change some 856z to y
+EDITFIELD	856	\$z *([Cc]lick on|[Ss]croll|[Ss]elect|[Tt]o access)	2	$$y$1	
+DELETE	951	dwsgpo	0	False	False	False
+DELETE	990		0	False	False	False
+DELETE	856	Withdrawn from the Federal Depository Library Program	0	False	False	False
+DELETE	856	\$z.*([Nn]o( longer|t) valid|PURL no longer applies|Link no longer valid|Not valid as of)	2	False	False	False
+EDITFIELD	856	\$z *([Cc]onnect to|PURL leads)	2	$$y$1	
+SUBFIELD_REMOVE	856	z	*(Adobe Acrobat Reader [Rr]equired)	107|0
+EDITFIELD	856	\$z *([Pp]art|pt|Phase|Issues for)	2	$$3$1	
+SUBFIELD_REMOVE	856	z	Adobe Acrobat	107|0

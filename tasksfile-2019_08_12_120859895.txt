@@ -1,0 +1,8 @@
+#DESCRIPTION#
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	773	0\$tTugg edu (online collection)	100	
+ADD	856	40$uhttps://unc.tugg.com	100	
+ADD	590	0\$aContent provider: Tugg Edu.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+SUBFIELD_EDIT	001		\		0|0
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

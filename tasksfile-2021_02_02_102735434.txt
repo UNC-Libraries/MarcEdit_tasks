@@ -1,0 +1,6 @@
+#DESCRIPTION#Needs to be done before the wrangler
+COPY	020	001	false			false
+DELETE	001	\\\\	0	False	False	False
+SUBFIELD_EDIT	001		^e	-1	0|0
+REPLACE	001  \\$a	001  IS-	0		1
+DELETE	001	-1-1	0	False	False	False

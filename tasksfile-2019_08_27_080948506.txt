@@ -1,0 +1,9 @@
+#DESCRIPTION#Poets on Screen
+SUBFIELD_EDIT	001		ON	lion	0|0
+DELETE	773		0	False	False	False
+ADD	300	\\$a1 online resource	100	
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tLiterature online (online collection). Poets on screen	100	
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+ADD	590	0\$aContent provider: Proquest.	100	

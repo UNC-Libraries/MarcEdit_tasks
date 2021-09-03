@@ -1,0 +1,2 @@
+#DESCRIPTION#
+REPLACE	(?<=^=773.*?t *Literature Online.*?)( *?/ *?)(Literature Online.*)	\n=773  0\$t$2	2		1
