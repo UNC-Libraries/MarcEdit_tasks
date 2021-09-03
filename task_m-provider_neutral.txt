@@ -8,7 +8,9 @@ REPLACE	^=710  ..(?i)\$aRoyal Society of Chemistry \(Great Britain\)[ .]*$	=999 
 REPLACE	^=773  ..\$t(?i)(ACLS Humanities E-?Books?|OhioLINK|Springer.+LINK|Springer Biomedical and Life Sciences Collection|SpringerLink\$|Wiley InterScience|Wiley[- ]Blackwell Online).*$	=999  99$aDELETE ME	2		1
 #Case insensitive, whole field match 773
 REPLACE	^=773  ..\$t(?i)(ABC-CLIO|Blackwell Reference Online|CLEANTECHnetBASE|EBL|Ebook Library|Springer e-?books|SpringerLink|e?Wiley Online Library)[ .]*$	=999  99$aDELETE ME	2		1
-REPLACE	^=773.*(\$iDruckausg|\$iErscheint|\$iTitle is part of the collection:\$dDe Gruyter)	=999  99$aDELETE ME	2		1
+REPLACE	^=773.*(\$iDruckausg|\$iErscheint|\$iTitle is part of the collection:\$dDe Gruyter|\$dDeGruyter)	=999  99$aDELETE ME	2		1
+REPLACE	^=773.*(\$iDruckausg|\$iErscheint|\$iTitle is part of eBook package:\$dDe Gruyter|\$dDeGruyter)	=999  99$aDELETE ME	2		1
+REPLACE	^=773.*(\$iDruckausg|\$iErscheint|\$iTitle is part of the package:\$dDe Gruyter|\$dDeGruyter)	=999  99$aDELETE ME	2		1
 DELETE	830	Online access	1	False	False	False
 DELETE	887	\$aProductForm.*\$2onix	2	False	False	False
 DELETE	999	DELETE ME	0	False	False	False

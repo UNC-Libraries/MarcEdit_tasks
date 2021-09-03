@@ -5,6 +5,7 @@ DELETE	999		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 SUBFIELD_REMOVE	856	3	SIAM	107|0
 SUBFIELD_EDIT	856	x		SIAM ebook	101|0
+SUBFIELD_REMOVE	856	3	Abstract with links to full text	107|0
 ADD	590	0\$aContent provider: Society for Industrial and Applied Mathematics (SIAM).	100	
 ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	710	$aSociety for Industrial and Applied Mathematics	0	False	False	False

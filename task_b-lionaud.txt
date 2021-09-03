@@ -3,8 +3,6 @@ SUBFIELD_EDIT	001		^b	LION	0|0
 DELETE	773	Literature Online	0	False	False	False
 DELETE	440		0	False	False	False
 DELETE	540		0	False	False	False
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
-SUBFIELD_EDIT	856	y		Streaming audio available via the UNC-Chapel Hill Libraries	102|0
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	1\$aVendor-supplied catalog record.	100	
 ADD	590	0\$aContent provider: ProQuest.	100	

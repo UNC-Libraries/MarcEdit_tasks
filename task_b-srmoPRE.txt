@@ -1,3 +1,3 @@
-#
+#DESCRIPTION#
 SUBFIELD_EDIT	001		^e	srmo	0|0
-DELETE	856	\$uhttp:\/\/(methods|SRMO)\.sagepub\.com	2	False	True	False
+DELETE	856	\$uhttps:\/\/(methods|SRMO)\.sagepub\.com	2	False	True	False

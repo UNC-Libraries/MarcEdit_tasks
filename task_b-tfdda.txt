@@ -21,14 +21,12 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 DELETE	590		1	False	False	False
 ADD	590	1\$aVendor-supplied catalog record.	100	
 ADD	590	0\$aContent provider: Taylor & Francis.	100	
-ADD	773	0\$tTaylor & Francis e-books (online collection). Evidence-based DDA. T&F. Discovery	100	
 DELETE	856	crcnetbase.com	0	False	False	False
 DELETE	856	tandfebooks.com	0	False	False	False
 DELETE	856	oclc.org	0	False	False	False
 SUBFIELD_REMOVE	856	3	Taylor and Francis	107|0
 SUBFIELD_REMOVE	856	q		107|1
 SUBFIELD_REMOVE	856	z		107|1
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|1
 SUBFIELD_EDIT	856	y		Full text available via the UNC-Chapel Hill Libraries	101|1
 EDITFIELD	880	\/({dollar}1|\([3BNS2])	2	
 SUBFIELD_REMOVE	856	3	Taylor & Francis	107|0

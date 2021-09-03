@@ -38,6 +38,12 @@ ADD	773	0\$tScottish women poets of the Romantic period (online collection)	106	
 ADD	773	0\$tTwentieth century North American drama (online collection)	106	=999  \\$anadr
 ADD	773	0\$tUnderground and independent comics, comix, and graphic novels (online collection)	106	=999  \\$acomx
 ADD	773	0\$tWomen and social movements in the United States, 1600-2000 (online collection). Basic ed.	106	=999  \\$awasm
+ADD	773	0\$tNorth American Indian thought and culture (online collection)	106	=999  \\$aibio
+ADD	773	0\$tAcademic video online (online collection)	106	=999  \\$aavo
+ADD	773	0\$tClassical scores library (online collection). v. I	106	=999  \\$ashmu
+ADD	773	0\$tClassical scores library (online collection). v. II	106	=999  \\$ashm2
+ADD	773	0\$tClassical scores library (online collection). v. III	106	=999  \\$ashm3
+ADD	773	0\$tClassical scores library (online collection). v. IV	106	=999  \\$ashm4
 REPLACE	(?<=.*\n=990  89\$aBK:.*\n=999  \\\\\$acomx.*\n)(=773.*\(online collection\)[^\n]*?)/m	$1. Ebooks	2
 REPLACE	(?<=.*\n=990  89\$aCR:ejournal.*\n=999  \\\\\$acomx.*\n)(=773.*\(online collection\)[^\n]*?)/m	$1. Ejournals	2
 SUBFIELD_REMOVE	856	z		|0

@@ -8,3 +8,4 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	590	0\$aContent provider: Duke University Press.	100	
 ADD	590	1\$aVendor-supplied catalog record.	100	
 SUBFIELD_EDIT	856	x		Duke University Press ebooks	101|0
+SUBFIELD_EDIT	856	3		Select Duke University Press on the next page	101|0

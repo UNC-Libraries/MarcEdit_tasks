@@ -11,12 +11,23 @@ a-safrmhdg Streaming audio form heading cleaner	task_a-safrmhdg.txt
 a-spchar Clean diacritics and symbols	task_a-spchar.txt	
 a-sv Streaming video general tasks	task_a-sv.txt	
 a-svfrmhdg Streaming video form heading cleaner	task_a-svfrmhdg.txt	
+b-AAe Portal batch edits	tasksfile-2020_11_06_094834806.txt	
 b-aai Afro-American Imprint batch edits	task_b-aai.txt	
 b-aai-690 Fix 690s in Afro Americana Imprints	task_b-aai-690.txt	
+b-air  Airiti batch edits	tasksfile-2020_09_17_100033742.txt	
+b-amd Adam Matthew digital batch edits	tasksfile-2020_01_15_115156176.txt	
+b-Aristoteles Latinus Database batch edits	tasksfile-2019_11_08_110740362.txt	
 b-asp ASP batch edits	task_b-asp.txt	
+b-brs BiblioRossica	tasksfile-2021_08_02_090412160.txt	
+b-brep	tasksfile-2021_02_01_133505740.txt	
+b-brep1 Brepols pre-edits	tasksfile-2021_02_02_102735434.txt	
+b-CAE Cambridge Archive Editions	tasksfile-2021_03_15_084032803.txt	
+b-cas Casalini ebooks	tasksfile-2021_08_04_072622424.txt	
 b-docuseek Docuseek2 batch edits	task_b-docuseek.txt	
+b-dsl streaming video	tasksfile-2021_03_11_065658623.txt	
 b-dup Duke University Press batch edits	task_b-dup.txt	
 b-dws-Marcive Docs without Shelves	tasksfile-2018_09_20_163648366.txt	
+b-East View Russian ebooks	tasksfile-2021_03_09_103559298.txt	
 b-ebcdda YBP-Proquest Ebook Central DDA Discovery batch edits	task_b-ebcdda.txt	
 b-ebcDELdda YBP-Proquest Ebook Central DDA deletes	task_b-ebcDELdda.txt	
 b-ebcsub Ebook Central subscriptions	task_b-ebcsub.txt	
@@ -28,8 +39,11 @@ b-iopsd IOP series field deletes	tasksfile-2019_04_23_120245879.txt
 b-kanpda Kanopy Streaming PDA edits	task_b-kanpda.txt	
 b-lionaud LION audio	task_b-lionaud.txt	
 b-liont LION texts	task_b-liont.txt	
+b-liont_773 Split combined LION 773s	tasksfile-2019_08_21_151148235.txt	
+b-lionvideo LION video	tasksfile-2019_08_27_080948506.txt	
 b-llt Library of Latin Texts batch edits	task_b-llt.txt	
 b-loeb Loeb Classical Library batch edits	task_b-loeb.txt	
+b-MM Miras Maktoob e-book batch edits	tasksfile-2020_06_10_063429582.txt	
 b-mef MEF Digital batch edits	task_b-mef.txt	
 b-momw Making of the Modern World batch edits	task_b-momw.txt	
 b-nber NBER batch edits	task_b-nber.txt	
@@ -38,6 +52,9 @@ b-obo Oxford Bibliographies Online batch edits	task_b-obo.txt
 b-ocap OCA print link add batch edit	task_b-ocap.txt	
 b-oclca OCLC Authority Control set	task_b-oclca.txt	
 b-oclcb OCLC batch edits	task_b-oclcb.txt	SHIFT+F8
+b-OD Overdrive Audio/E-book edits	tasksfile-2020_10_07_064750156.txt	
+b-OD Overdrive diacritics	tasksfile-2020_12_04_102049897.txt	
+b-oenc Open Education North Caroline e-book collection	tasksfile-2019_11_14_113945690.txt	
 b-OHO Oxford Handbooks Online batch edits	task_b-oho.txt	
 b-oro Oxford Ref Online Prem	task_b-oro.txt	
 b-oroCR OROP continuing resources	task_b-oroCR.txt	
@@ -45,6 +62,7 @@ b-oropDP OROP Dictionary Plus	task_b-oropDP.txt
 b-ose Oxford Scholarly Editions batch edits	task_b-ose.txt	
 b-pqss Serial Set batch workflow	task_b-pqss.txt	
 b-rand RAND ebook batch edits	task_b-rand.txt	
+b-RKMA batch edits	tasksfile-2019_08_15_09073594.txt	
 b-sabo Sabin americana batch edits	task_b-sabo.txt	
 b-siam SIAM ebooks batch edits	task_b-siam.txt	
 b-skno SAGE knowledge online	task_b-skno.txt	
@@ -55,8 +73,8 @@ b-srmoPRE SAGE research methods pre-edit	task_b-srmoPRE.txt
 b-synlec Synthesis Lectures batch edits	task_b-synlec.txt	
 b-swank	task_b-swank.txt	
 b-tfdda TF Evidence Based DDA batch edits	task_b-tfdda.txt	
-b-Tugg Edu streaming video batch edits	tasksfile-2019_08_12_120859895.txt	
 b-UMPEBC Univ of Michigan batch edits	task_b-UMPEBC.txt	
+b-Vimeo batch edits - movies	tasksfile-2020_08_11_092129534.txt	
 b-wcmep WCM ebook main per-collection edits	task_b-wcmep.txt	
 m-006-m-fixes	task_m-006-m-fixes.txt	
 m-006eb 006 ebook fix	task_m-006eb.txt	SHIFT+F3
@@ -92,6 +110,7 @@ m-856fixes	task_m-856fixes.txt
 m-880s	task_m-880s.txt	
 m-callnumbers	task_m-callnumbers.txt	
 m-decimal_subs	task_m-decimal_subs.txt	
+m-delayedauth Delayed Authority Control	tasksfile-2021_08_09_090918832.txt	
 m-field_deletes	task_m-field_deletes.txt	
 m-fix_unicode_before_first_subfield_delim	task_m-fix_unicode_before_first_subfield_delim.txt	
 m-form_cleanup	task_m-form_cleanup.txt	
@@ -117,20 +136,21 @@ law-westlawNext	task_law-westlawNext.txt
 law-westAcademic	task_law-westAcademic.txt	
 law-bloomberg	task_law-bloomberg.txt	
 law-practisingLawInstitute	task_law-practisingLawInstitute.txt	
-xb-colldl Colloquium Digital Library batch edits	task_b-colldl.txt	
+xb-bep Business Expert Press (pre-2018) batch edits	task_b-bep.txt	
 xb-cbo Cambridge Books Online	task_b-cbo.txt	
-xb-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
+xb-codgh Criterion on Demand subject genre headings fixes	task_b-codgh.txt	
+xb-colldl Colloquium Digital Library batch edits	task_b-colldl.txt	
 xb-eai1 Early American Imprints, first series	task_b-eai1.txt	
 xb-ebrac Ebrary Academic Complete	task_b-ebrac.txt	
-xb-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt	
+xb-ebrperp Ebrary perp batch edits	task_b-ebrperp.txt	
 xb-ebrsubCR Ebrary subscription continuing resources	task_b-ebrsubCR.txt	
+xb-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
+xb-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
+xb-ftnow Foundations and Trends in X batch edits	task_b-ftnow.txt	
 xb-hathi prep ingest	tasksfile-53803da27b744d4dbd063481027ad2cd.txt	
+xh-hathitrust ingest marc prep	task_h-hathitrust.txt	
 xb-hvd Harvard Univ Press ebooks batch	task_b-hvd.txt	
-xb-bep Business Expert Press (pre-2018) batch edits	task_b-bep.txt	
 xb-hvd001 Harvard Univ Press 001-024 fix	task_b-hvd001.txt	
 xb-jprs Joint Publications Research Service batch edits	task_b-jprs.txt	
-xb-ehraf EHRAF world cultures batch edits	task_b-ehraf.txt	
-xb-eeubo Early Euro Books Online batch edits	task_b-eeubo.txt	
-xb-codgh Criterion on Demand subject genre headings fixes	task_b-codgh.txt	
-xh-hathitrust ingest marc prep	task_h-hathitrust.txt	
-b-RKMA batch edits	tasksfile-2019_08_15_09073594.txt	
+xb-NC Live PBS	tasksfile-2020_11_17_131658235.txt	
+xb-Tugg Edu streaming video edits	tasksfile-2019_08_12_120859895.txt	

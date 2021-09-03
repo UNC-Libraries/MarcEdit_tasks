@@ -13,3 +13,4 @@ SUBFIELD_REMOVE	856	3	[^$]*(?![vV]ol)	|2
 DELETE	500	Series from website	0	False	False
 DELETE	500	Part of:	0	False	False
 REPLACE	^=856  ..	=856  40	2
+SUBFIELD_REMOVE	856	3	Abstract with links to full text	107|0

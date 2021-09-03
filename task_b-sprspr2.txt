@@ -21,3 +21,4 @@ REPLACE	®		0		1
 REPLACE	“	"	0		1
 REPLACE	”	"	0		1
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+SUBFIELD_REMOVE	020	9		107|0
