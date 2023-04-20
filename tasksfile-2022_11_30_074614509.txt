@@ -1,16 +1,13 @@
-#DESCRIPTION# Delete over-broad form headings and do other form related corrections
+#DESCRIPTION# clone-Delete over-broad form headings and do other form related corrections
 #Steps below apply to all formats
 DELETE	096		0	False	False	False
 REPLACE	^(?i)=(380|590|653|655)  ..\$a(Electronic (book|reference source|reproduction)s?|e-?books?|(Downloadable |)Audio ?books?|ER\$aInternet|Livres? électroniques?|Ressources? Internet).*	=999  99$aDELETE ME	2		1
 REPLACE	^(?i)=(380|590|655)  ..\$a(Internet|Streaming) ?videos?.*	=999  99$aDELETE ME	2		1
-REPLACE	^(?i)=(380|590|655)  ..\$a(Internet|Streaming) ?audio?.*	=999  99$aDELETE ME	2		1
 REPLACE	^(?i)=(380|590|655)  ..\$a(Compact discs?|Sound recordings?).*	=999  99$aDELETE ME	2		1
 REPLACE	^(?i)=(380|590|655)  ..\$a(CD-?ROMs?|Floppy disks?).*	=999  99$aDELETE ME	2		1
 REPLACE	^(?i)=(380|590|655)  ..\$aAufsatzsammlung.*	=999  99$aDELETE ME	2		1
 REPLACE	^(?i)=(380|590|655)  ..\$aVideo ?recording.*	=999  99$aDELETE ME	2		1
 REPLACE	^(?i)=(380|590|655)  ..\$aAlexander Street.*	=999  99$aDELETE ME	2		1
-REPLACE	^(?i)=(380|590|655)  ..\$aOnline resource.*	=999  99$aDELETE ME	2		1
-REPLACE	^(?i)=(380|590|655)  ..\$adownloadable.*	=999  99$aDELETE ME	2		1
 DELETE	999	DELETE ME	0	False	False	False
 #No standard vocabularies starting with tlc are listed in code lists
 DELETE	3xx	$2tlc	0	False	False	False

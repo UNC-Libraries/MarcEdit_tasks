@@ -5,5 +5,5 @@ DELETE	506	Access restricted to subscribers	0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	506	1\$aThe library does not have permanent access to this title. For details on when access will expire, contact the MRC (919-962-2559 or mrc@unc.edu).	100	
 ADD	773	0\$tSwank motion pictures (online collection)	100	
-SUBFIELD_REMOVE	856	u	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_REMOVE	856	u	https://login.libproxy.lib.unc.edu/login?url=	0|0
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt

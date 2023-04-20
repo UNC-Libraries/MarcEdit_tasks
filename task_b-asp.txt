@@ -10,6 +10,7 @@ ADD	590	1\$aVendor-supplied catalog record.	100
 ADD	590	0\$aContent provider: Alexander Street Press.	100	
 INDICATOR	740	.1		.2
 ADD	773	0\$tAmerican Civil War: letters and diaries (online collection)	106	=999  \\$acwld
+ADD	773	0\$tAlexander Street Press (online collection). HSL Nursing education in video	106	=999  \\$amcom
 ADD	773	0\$tFilm scripts online (online collection). Vol. 1	106	=999  \\$aafso
 ADD	773	0\$tAsian American drama (online collection)	106	=999  \\$aaadr
 ADD	773	0\$tBlack drama: African, African American, and Diaspora, 1850 to present (online collection). 2nd ed.	106	=999  \\$abldr

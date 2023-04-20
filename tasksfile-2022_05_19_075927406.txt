@@ -1,0 +1,11 @@
+#DESCRIPTION#
+SUBFIELD_EDIT	001		ocn	hslebs	0|0
+SUBFIELD_EDIT	001		on	hslebs	0|0
+DELETE	506		0	False	False	False
+DELETE	590		0	False	False	False
+DELETE	773		0	False	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fLimited to one (1) concurrent user	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: EBSCOhost.	100	
+ADD	773	0\$tHSL EBSCOhost custom e-books (online collection). May 2022	100	
+SUBFIELD_REMOVE	856	3	EBSCOhost	107|0

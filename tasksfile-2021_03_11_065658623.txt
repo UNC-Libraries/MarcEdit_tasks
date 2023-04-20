@@ -1,9 +1,13 @@
 #DESCRIPTION#DSL batch edits
 COPY	035	001	false			false
 REPLACE	=001  \\$a(OCoLC)	=001  	0		1
-SUBFIELD_EDIT	001		^e	dsl	0|0
+SUBFIELD_EDIT	001		^b	dsl	0|0
 DELETE	506		0	False	False	False
+DELETE	773	Media Education Foundation Collection	1	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	590	0\$aContent provider: Media Education Foundation.	100	
 ADD	773	0\$tDSL Streaming Video (online collection)	100	
 SUBFIELD_REMOVE	856	y		107|0
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
+DELETE	773	mediaed.org	0	False	False	False

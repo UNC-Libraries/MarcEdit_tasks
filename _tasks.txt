@@ -31,6 +31,7 @@ b-East View Russian ebooks	tasksfile-2021_03_09_103559298.txt
 b-ebcdda YBP-Proquest Ebook Central DDA Discovery batch edits	task_b-ebcdda.txt	
 b-ebcDELdda YBP-Proquest Ebook Central DDA deletes	task_b-ebcDELdda.txt	
 b-ebcsub Ebook Central subscriptions	task_b-ebcsub.txt	
+b-eeubo Early Euro Books Online batch edits	tasksfile-2022_01_25_073927408.txt	
 b-EIO Editoria Italiana	task_b-eio.txt	
 b-fmgfod FMG films on demand batch edits	task_b-fmgfod.txt	
 b-getty Getty Publications Virtual Library batch edits 	task_b-getty.txt	
@@ -47,7 +48,8 @@ b-MM Miras Maktoob e-book batch edits	tasksfile-2020_06_10_063429582.txt
 b-mef MEF Digital batch edits	task_b-mef.txt	
 b-momw Making of the Modern World batch edits	task_b-momw.txt	
 b-nber NBER batch edits	task_b-nber.txt	
-b-NC Live Nc Live homegrown ebooks batch edits	tasksfile-2019_05_28_103719537.txt	
+b-NC Live homegrown ebooks batch edits	tasksfile-2022_03_31_072421133.txt	
+b-NC Live hoopla audio books batch edits	tasksfile-2022_03_31_07214539.txt	
 b-obo Oxford Bibliographies Online batch edits	task_b-obo.txt	
 b-ocap OCA print link add batch edit	task_b-ocap.txt	
 b-oclca OCLC Authority Control set	task_b-oclca.txt	
@@ -61,6 +63,7 @@ b-oroCR OROP continuing resources	task_b-oroCR.txt
 b-oropDP OROP Dictionary Plus	task_b-oropDP.txt	
 b-ose Oxford Scholarly Editions batch edits	task_b-ose.txt	
 b-pqss Serial Set batch workflow	task_b-pqss.txt	
+b-pjtr Projectr streaming batch edits	tasksfile-2022_04_27_081643144.txt	
 b-rand RAND ebook batch edits	task_b-rand.txt	
 b-RKMA batch edits	tasksfile-2019_08_15_09073594.txt	
 b-sabo Sabin americana batch edits	task_b-sabo.txt	
@@ -154,3 +157,5 @@ xb-hvd001 Harvard Univ Press 001-024 fix	task_b-hvd001.txt
 xb-jprs Joint Publications Research Service batch edits	task_b-jprs.txt	
 xb-NC Live PBS	tasksfile-2020_11_17_131658235.txt	
 xb-Tugg Edu streaming video edits	tasksfile-2019_08_12_120859895.txt	
+b-HSL EBSCOhost  batch edits	tasksfile-2022_05_19_075927406.txt	
+m-form_cleanup	tasksfile-2022_11_30_074614509.txt	

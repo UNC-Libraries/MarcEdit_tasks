@@ -4,7 +4,7 @@ ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited si
 ADD	506	1\$aThe library does not have permanent access to this title. For details on when access will expire, contact the MRC (919-962-2559 or mrc@unc.edu).	100	
 ADD	590	1\$aVendor-supplied catalog record.	100	
 ADD	590	0\$aContent provider: Kanopy (Firm).	100	
-REPLACE	=710  ..\$aKanopy \(Firm\)	=590  \\$$aProvider: Kanopy (Firm).	2		1
+REPLACE	=710  ..\$aKanopy \(Firm\).,$4dst	=590  \\$$aContent provider: Kanopy (Firm).	2		1
 DELETE	773	^=773  (?!0\\\$tKanopy streaming video PDA collections)	2	False	False	False
 ADD	773	0\$tKanopy streaming video (online collection). UNL. Title-by-title	100	
 EDITFIELD	856	http://www.kanopy	0	http://unc.kanopy	
@@ -12,4 +12,4 @@ SUBFIELD_REMOVE	856	z	A Kanopy streaming video	107|0
 DELETE	793	Kanopy	0	False	False	False
 DELETE	971	Kanopy	0	False	False	False
 TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
-SUBFIELD_REMOVE	856	u	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_REMOVE	856	u	https://login.libproxy.lib.unc.edu/login?url=	0|0

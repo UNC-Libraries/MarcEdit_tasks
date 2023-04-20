@@ -10,6 +10,18 @@ REPLACE	=001  40$uhttps://doi.org/10.3998/mpub.	=001  UMPEBC	0		1
 REPLACE	=001  40$uhttp://dx.doi.org/10.3998/mpub.	=001  UMPEBC	0		1
 REPLACE	=001  40$uhttp://doi.org/10.3998/mpub.	=001  UMPEBC	0		1
 REPLACE	=001  40$uhttps://dx.doi.org/10.3998/mpub.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/dh.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/nmw.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/tfcp.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/dcbooks.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/lvg.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/bot.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttp://dx.doi.org/10.3998/dcbooks.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/nps.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/toi.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/ump.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/drc.	=001  UMPEBC	0		1
+REPLACE	=001  40$uhttps://doi.org/10.3998/etlc.	=001  UMPEBC	0		1
 DELETE	506		0	False	False	False
 ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
 ADD	590	1\$aVendor-supplied catalog record	100	

@@ -6,6 +6,6 @@ ADD	590	0\$aContent provider: Kanopy (Firm).	100
 ADD	590	1\$aVendor-supplied catalog record.	100	
 DELETE	773		0	False	False	False
 ADD	773	0\$tMEF digital (online collection)	100
-SUBFIELD_REMOVE	856	u	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_REMOVE	856	u	https://login.libproxy.lib.unc.edu/login?url=	0|0
 SUBFIELD_REMOVE	856	z	A Kanopy streaming video	107|0
 SUBFIELD_EDIT	856	x		MEF Digital	101|0

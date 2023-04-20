@@ -10,6 +10,6 @@ REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yAvailable via 
 REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yStreaming audio available via the UNC-Chapel Hill Libraries	0	=990  89\$aMU.*	2
 REPLACE	$yFull text available via the UNC-Chapel Hill Libraries	$yStreaming video available via the UNC-Chapel Hill Libraries	0	=990  89\$aVM.*	2
 #Prepend proxy prefix to $u in all URLs
-SUBFIELD_EDIT	856	u	^b	http://libproxy.lib.unc.edu/login?url=	0|0
+SUBFIELD_EDIT	856	u	^b	https://login.libproxy.lib.unc.edu/login?url=	0|0
 #Remove proxy prefix from "related resource" URLs where domain is likely to be unconfigured in proxy settings
-REPLACE	^(=856  .2.*\$u)http:\/\/libproxy\.lib\.unc\.edu\/login\?url=	$1	2		1
+REPLACE	^(=856  .2.*\$u)https:\/\/login.libproxy.lib.unc.edu/login?url=	$1	3		1

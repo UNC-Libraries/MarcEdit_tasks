@@ -1,0 +1,12 @@
+#DESCRIPTION#
+SUBFIELD_EDIT	001		^b	EEuBO	0|0
+DELETE	007	^=007  h	2	False	False
+ADD	506	1\$aAccess limited to UNC Chapel Hill-authenticated users.$fUnlimited simultaneous users	100	
+ADD	590	0\$aContent provider: Proquest.	100	
+ADD	590	1\$aVendor-supplied catalog record.	100	
+ADD	773	0\$tEarly European books online (online collection). Collection XX	100	
+DELETE	830	Early European books	1	False	False	False
+INDICATOR	856	4\		40
+SUBFIELD_REMOVE	856	z		|0
+DELETE	994		0	False	False
+TASK_LIST	m-notauth No Authority Control	task_m-notauth.txt
